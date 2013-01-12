@@ -7,13 +7,31 @@
     <div class="leftpane">
 
         <ul style="list-style: none outside none;">
-            <li><a href="admin.aspx?opt=1">option1</a>
+            <li><a href="admin.aspx?type=active">Active</a>
             </li>
-            <li><a href="admin.aspx?opt=2">option2</a>
+            <li><a href="admin.aspx?type=deactive">Deactive</a>
             </li>
-            <li><a href="admin.aspx?opt=3">option3</a>
+            <li><a href="admin.aspx?type=search">Search</a>
             </li>
-            <li><a href="admin.aspx?opt=3">option3</a>
+            <li><a href="admin.aspx?type=expiring">Expiring</a>
+            </li>
+            <li><a href="admin.aspx?type=expired">Expired</a>
+            </li>
+            <li><a href="admin.aspx?type=paid">Paid</a>
+            </li>
+            <li><a href="admin.aspx?type=manage">Manage Packages/Rates</a>
+            </li>
+            <li><a href="admin.aspx?type=email">Send E-mail to all</a>
+            </li>
+            <li><a href="admin.aspx?type=approved">Approved Users</a>
+            </li>
+            <li><a href="admin.aspx?type=unapproved">Unapproved Users</a>
+            </li>
+            <li><a href="admin.aspx?type=newusers">New Users</a>
+            </li>
+            <li><a href="admin.aspx?type=banners">Change Banners</a>
+            </li>
+            <li><a href="admin.aspx?type=ads">Manage Ads</a>
             </li>
         </ul>
 
@@ -21,6 +39,10 @@
     <div class="content">
         <asp:ListView ID="lvprofiles" runat="server">
             <EmptyDataTemplate>
+            
+                            <div>
+                                No Records available in this category
+                            </div>
             </EmptyDataTemplate>
             <ItemTemplate>
                 <li>
