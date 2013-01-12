@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<complexion>
+  <option Value="1" Text="Very Fair"></option>
+  <option Value="2" Text="Fair"></option>
+  <option Value="3" Text="Wheatish"></option>
+  <option Value="4" Text="Dark"></option>
+  
+</complexion>

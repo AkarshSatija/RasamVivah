@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<country>
+  <option Value="0" code="0" Text="Please Select"></option>
+  <option Value="AF" code="4" Text="Afghanistan"></option>
+  <option Value="AL" code="8" Text="Albania"></option>
+  <option Value="DZ" code="12" Text="Algeria"></option>
+  <option Value="AS" code="16" Text="American Samoa"></option>
+  <option Value="AD" code="20" Text="Andorra"></option>
+  <option Value="AO" code="24" Text="Angola"></option>
+  <option Value="AI" code="660" Text="Anguilla"></option>
+  <option Value="AQ" code="10" Text="Antarctica"></option>
+  <option Value="AG" code="28" Text="Antigua And Barbuda"></option>
+  <option Value="AR" code="32" Text="Argentina"></option>
+  <option Value="AM" code="51" Text="Armenia"></option>
+  <option Value="AW" code="533" Text="Aruba"></option>
+  <option Value="AU" code="36" Text="Australia"></option>
+  <option Value="AT" code="40" Text="Austria"></option>
+  <option Value="AZ" code="31" Text="Azerbaijan"></option>
+  <option Value="BS" code="44" Text="Bahamas"></option>
+  <option Value="BH" code="48" Text="Bahrain"></option>
+  <option Value="BD" code="50" Text="Bangladesh"></option>
+  <option Value="BB" code="52" Text="Barbados"></option>
+  <option Value="BY" code="112" Text="Belarus"></option>
+  <option Value="BE" code="56" Text="Belgium"></option>
+  <option Value="BZ" code="84" Text="Belize"></option>
+  <option Value="BJ" code="204" Text="Benin"></option>
+  <option Value="BM" code="60" Text="Bermuda"></option>
+  <option Value="BT" code="64" Text="Bhutan"></option>
+  <option Value="BO" code="68" Text="Bolivia"></option>
+  <option Value="BA" code="70" Text="Bosnia And Herzegovina"></option>
+  <option Value="BW" code="72" Text="Botswana"></option>
+  <option Value="BV" code="74" Text="Bouvet Island"></option>
+  <option Value="BR" code="76" Text="Brazil"></option>
+  <option Value="IO" code="86" Text="British Indian Ocean Territory"></option>
+  <option Value="BN" code="96" Text="Brunei Darussalam"></option>
+  <option Value="BG" code="100" Text="Bulgaria"></option>
+  <option Value="BF" code="854" Text="Burkina Faso"></option>
+  <option Value="BI" code="108" Text="Burundi"></option>
+  <option Value="KH" code="116" Text="Cambodia"></option>
+  <option Value="CM" code="120" Text="Cameroon"></option>
+  <option Value="CA" code="124" Text="Canada"></option>
+  <option Value="CV" code="132" Text="Cape Verde"></option>
+  <option Value="KY" code="136" Text="Cayman Islands"></option>
+  <option Value="CF" code="140" Text="Central African Republic"></option>
+  <option Value="TD" code="148" Text="Chad"></option>
+  <option Value="CL" code="152" Text="Chile"></option>
+  <option Value="CN" code="156" Text="China"></option>
+  <option Value="CX" code="162" Text="Christmas Island"></option>
+  <option Value="CC" code="166" Text="Cocos (Keeling) Islands"></option>
+  <option Value="CO" code="170" Text="Colombia"></option>
+  <option Value="KM" code="174" Text="Comoros"></option>
+  <option Value="CG" code="178" Text="Congo"></option>
+  <option Value="CK" code="184" Text="Cook Islands"></option>
+  <option Value="CR" code="188" Text="Costa Rica"></option>
+  <option Value="CI" code="384" Text="Cote D'Ivoire"></option>
+  <option Value="HR" code="191" Text="Croatia (Local Name: Hrvatska)"></option>
+  <option Value="CU" code="192" Text="Cuba"></option>
+  <option Value="CY" code="196" Text="Cyprus"></option>
+  <option Value="CZ" code="203" Text="Czech Republic"></option>
+  <option Value="DK" code="208" Text="Denmark"></option>
+  <option Value="DJ" code="262" Text="Djibouti"></option>
+  <option Value="DM" code="212" Text="Dominica"></option>
+  <option Value="DO" code="214" Text="Dominican Republic"></option>
+  <option Value="EC" code="218" Text="Ecuador"></option>
+  <option Value="EG" code="818" Text="Egypt"></option>
+  <option Value="SV" code="222" Text="El Salvador"></option>
+  <option Value="GQ" code="226" Text="Equatorial Guinea"></option>
+  <option Value="ER" code="232" Text="Eritrea"></option>
+  <option Value="EE" code="233" Text="Estonia"></option>
+  <option Value="ET" code="210" Text="Ethiopia"></option>
+  <option Value="FK" code="238" Text="Falkland Islands (Malvinas)"></option>
+  <option Value="FO" code="234" Text="Faroe Islands"></option>
+  <option Value="FJ" code="242" Text="Fiji"></option>
+  <option Value="FI" code="246" Text="Finland"></option>
+  <option Value="FR" code="250" Text="France"></option>
+  <option Value="FX" code="249" Text="France, Metropolitan"></option>
+  <option Value="GF" code="254" Text="French Guiana"></option>
+  <option Value="PF" code="258" Text="French Polynesia"></option>
+  <option Value="TF" code="260" Text="French Southern Territories"></option>
+  <option Value="GA" code="266" Text="Gabon"></option>
+  <option Value="GM" code="270" Text="Gambia"></option>
+  <option Value="GE" code="268" Text="Georgia"></option>
+  <option Value="DE" code="276" Text="Germany"></option>
+  <option Value="GH" code="288" Text="Ghana"></option>
+  <option Value="GI" code="292" Text="Gibraltar"></option>
+  <option Value="GR" code="300" Text="Greece"></option>
+  <option Value="GL" code="304" Text="Greenland"></option>
+  <option Value="GD" code="308" Text="Grenada"></option>
+  <option Value="GP" code="312" Text="Guadeloupe"></option>
+  <option Value="GU" code="316" Text="Guam"></option>
+  <option Value="GT" code="320" Text="Guatemala"></option>
+  <option Value="GN" code="324" Text="Guinea"></option>
+  <option Value="GW" code="624" Text="Guinea-Bissau"></option>
+  <option Value="GY" code="328" Text="Guyana"></option>
+  <option Value="HT" code="332" Text="Haiti"></option>
+  <option Value="HM" code="334" Text="Heard Island &amp; Mcdonald Islands"></option>
+  <option Value="HN" code="340" Text="Honduras"></option>
+  <option Value="HK" code="344" Text="Hong Kong"></option>
+  <option Value="HU" code="348" Text="Hungary"></option>
+  <option Value="IS" code="352" Text="Iceland"></option>
+  <option Value="IN" code="356" Text="India"></option>
+  <option Value="ID" code="360" Text="Indonesia"></option>
+  <option Value="IR" code="364" Text="Iran, Islamic Republic Of"></option>
+  <option Value="IQ" code="368" Text="Iraq"></option>
+  <option Value="IE" code="372" Text="Ireland"></option>
+  <option Value="IL" code="376" Text="Israel"></option>
+  <option Value="IT" code="380" Text="Italy"></option>
+  <option Value="JM" code="388" Text="Jamaica"></option>
+  <option Value="JP" code="392" Text="Japan"></option>
+  <option Value="JO" code="400" Text="Jordan"></option>
+  <option Value="KZ" code="398" Text="Kazakhstan"></option>
+  <option Value="KE" code="404" Text="Kenya"></option>
+  <option Value="KI" code="296" Text="Kiribati"></option>
+  <option Value="KP" code="408" Text="Korea, Democratic People'S Republic Of"></option>
+  <option Value="KR" code="410" Text="Korea, Republic Of"></option>
+  <option Value="KW" code="414" Text="Kuwait"></option>
+  <option Value="KG" code="417" Text="Kyrgyzstan"></option>
+  <option Value="LA" code="418" Text="Lao People'S Democratic Republic"></option>
+  <option Value="LV" code="428" Text="Latvia"></option>
+  <option Value="LB" code="422" Text="Lebanon"></option>
+  <option Value="LS" code="426" Text="Lesotho"></option>
+  <option Value="LR" code="430" Text="Liberia"></option>
+  <option Value="LY" code="434" Text="Libyan Arab Jamahiriya"></option>
+  <option Value="LI" code="438" Text="Liechtenstein"></option>
+  <option Value="LT" code="440" Text="Lithuania"></option>
+  <option Value="LU" code="442" Text="Luxembourg"></option>
+  <option Value="MO" code="446" Text="Macau"></option>
+  <option Value="MK" code="807" Text="Macedonia, The Former Yugoslav Republic Of"></option>
+  <option Value="MG" code="450" Text="Madagascar"></option>
+  <option Value="MW" code="454" Text="Malawi"></option>
+  <option Value="MY" code="458" Text="Malaysia"></option>
+  <option Value="MV" code="462" Text="Maldives"></option>
+  <option Value="ML" code="466" Text="Mali"></option>
+  <option Value="MT" code="470" Text="Malta"></option>
+  <option Value="MH" code="584" Text="Marshall Islands"></option>
+  <option Value="MQ" code="474" Text="Martinique"></option>
+  <option Value="MR" code="478" Text="Mauritania"></option>
+  <option Value="MU" code="480" Text="Mauritius"></option>
+  <option Value="YT" code="175" Text="Mayotte"></option>
+  <option Value="MX" code="484" Text="Mexico"></option>
+  <option Value="FM" code="583" Text="Micronesia, Federated States Of"></option>
+  <option Value="MD" code="498" Text="Moldova, Republic Of"></option>
+  <option Value="MC" code="492" Text="Monaco"></option>
+  <option Value="MN" code="496" Text="Mongolia"></option>
+  <option Value="MS" code="500" Text="Montserrat"></option>
+  <option Value="MA" code="504" Text="Morocco"></option>
+  <option Value="MZ" code="508" Text="Mozambique"></option>
+  <option Value="MM" code="104" Text="Myanmar"></option>
+  <option Value="NA" code="516" Text="Namibia"></option>
+  <option Value="NR" code="520" Text="Nauru"></option>
+  <option Value="NP" code="524" Text="Nepal"></option>
+  <option Value="NL" code="528" Text="Netherlands"></option>
+  <option Value="AN" code="530" Text="Netherlands Antilles"></option>
+  <option Value="NC" code="540" Text="New Caledonia"></option>
+  <option Value="NZ" code="554" Text="New Zealand"></option>
+  <option Value="NI" code="558" Text="Nicaragua"></option>
+  <option Value="NE" code="562" Text="Niger"></option>
+  <option Value="NG" code="566" Text="Nigeria"></option>
+  <option Value="NU" code="570" Text="Niue"></option>
+  <option Value="NF" code="574" Text="Norfolk Island"></option>
+  <option Value="MP" code="580" Text="Northern Mariana Islands"></option>
+  <option Value="NO" code="578" Text="Norway"></option>
+  <option Value="OM" code="512" Text="Oman"></option>
+  <option Value="PK" code="586" Text="Pakistan"></option>
+  <option Value="PW" code="585" Text="Palau"></option>
+  <option Value="PA" code="591" Text="Panama"></option>
+  <option Value="PG" code="598" Text="Papua New Guinea"></option>
+  <option Value="PY" code="600" Text="Paraguay"></option>
+  <option Value="PE" code="604" Text="Peru"></option>
+  <option Value="PH" code="608" Text="Philippines"></option>
+  <option Value="PN" code="612" Text="Pitcairn"></option>
+  <option Value="PL" code="616" Text="Poland"></option>
+  <option Value="PT" code="620" Text="Portugal"></option>
+  <option Value="PR" code="630" Text="Puerto Rico"></option>
+  <option Value="QA" code="634" Text="Qatar"></option>
+  <option Value="RE" code="638" Text="Reunion"></option>
+  <option Value="RO" code="642" Text="Romania"></option>
+  <option Value="RU" code="643" Text="Russian Federation"></option>
+  <option Value="RW" code="646" Text="Rwanda"></option>
+  <option Value="SH" code="654" Text="Saint Helena"></option>
+  <option Value="KN" code="659" Text="Saint Kitts And Nevis"></option>
+  <option Value="LC" code="662" Text="Saint Lucia"></option>
+  <option Value="PM" code="666" Text="Saint Pierre And Miquelon"></option>
+  <option Value="VC" code="670" Text="Saint Vincent And The Grenadines"></option>
+  <option Value="WS" code="882" Text="Samoa"></option>
+  <option Value="SM" code="674" Text="San Marino"></option>
+  <option Value="ST" code="678" Text="Sao Tome And Principe"></option>
+  <option Value="SA" code="682" Text="Saudi Arabia"></option>
+  <option Value="SN" code="686" Text="Senegal"></option>
+  <option Value="SC" code="690" Text="Seychelles"></option>
+  <option Value="SL" code="694" Text="Sierra Leone"></option>
+  <option Value="SG" code="702" Text="Singapore"></option>
+  <option Value="SK" code="703" Text="Slovakia (Slovak Republic)"></option>
+  <option Value="SI" code="705" Text="Slovenia"></option>
+  <option Value="SB" code="90" Text="Solomon Islands"></option>
+  <option Value="SO" code="706" Text="Somalia"></option>
+  <option Value="ZA" code="710" Text="South Africa"></option>
+  <option Value="ES" code="724" Text="Spain"></option>
+  <option Value="LK" code="144" Text="Sri Lanka"></option>
+  <option Value="SD" code="736" Text="Sudan"></option>
+  <option Value="SR" code="740" Text="Suriname"></option>
+  <option Value="SJ" code="744" Text="Svalbard And Jan Mayen Islands"></option>
+  <option Value="SZ" code="748" Text="Swaziland"></option>
+  <option Value="SE" code="752" Text="Sweden"></option>
+  <option Value="CH" code="756" Text="Switzerland"></option>
+  <option Value="SY" code="760" Text="Syrian Arab Republic"></option>
+  <option Value="TW" code="158" Text="Taiwan, Province Of China"></option>
+  <option Value="TJ" code="762" Text="Tajikistan"></option>
+  <option Value="TZ" code="834" Text="Tanzania, United Republic Of"></option>
+  <option Value="TH" code="764" Text="Thailand"></option>
+  <option Value="TG" code="768" Text="Togo"></option>
+  <option Value="TK" code="772" Text="Tokelau"></option>
+  <option Value="TO" code="776" Text="Tonga"></option>
+  <option Value="TT" code="780" Text="Trinidad And Tobago"></option>
+  <option Value="TN" code="788" Text="Tunisia"></option>
+  <option Value="TR" code="792" Text="Turkey"></option>
+  <option Value="TM" code="795" Text="Turkmenistan"></option>
+  <option Value="TC" code="796" Text="Turks And Caicos Islands"></option>
+  <option Value="TV" code="798" Text="Tuvalu"></option>
+  <option Value="UG" code="800" Text="Uganda"></option>
+  <option Value="UA" code="804" Text="Ukraine"></option>
+  <option Value="AE" code="784" Text="United Arab Emirates"></option>
+  <option Value="GB" code="826" Text="United Kingdom"></option>
+  <option Value="US" code="840" Text="United States"></option>
+  <option Value="UM" code="581" Text="United States Minor Outlying Islands"></option>
+  <option Value="UY" code="858" Text="Uruguay"></option>
+  <option Value="UZ" code="860" Text="Uzbekistan"></option>
+  <option Value="VU" code="548" Text="Vanuatu"></option>
+  <option Value="VA" code="336" Text="Vatican City State (Holy See)"></option>
+  <option Value="VE" code="862" Text="Venezuela"></option>
+  <option Value="VN" code="704" Text="Viet Nam"></option>
+  <option Value="VG" code="92" Text="Virgin Islands (British)"></option>
+  <option Value="VI" code="850" Text="Virgin Islands (U.S.)"></option>
+  <option Value="WF" code="876" Text="Wallis And Futuna Islands"></option>
+  <option Value="EH" code="732" Text="Western Sahara"></option>
+  <option Value="YE" code="887" Text="Yemen"></option>
+  <option Value="YU" code="891" Text="Yugoslavia"></option>
+  <option Value="ZR" code="180" Text="Zaire"></option>
+  <option Value="ZM" code="894" Text="Zambia"></option>
+  <option Value="ZW" code="716" Text="Zimbabwe"></option>
+</country>
+

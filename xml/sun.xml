@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sun>
+  <zodiac Value="0" Text="Please Select"></zodiac>
+  <zodiac Value="1" Text="Don't Know"></zodiac>
+  <zodiac Value="2" Text="Aries"></zodiac>
+  <zodiac Value="3" Text="Taurus"></zodiac>
+  <zodiac Value="4" Text="Gemini"></zodiac>
+  <zodiac Value="5" Text="Cancer"></zodiac>
+  <zodiac Value="6" Text="Leo"></zodiac>
+  <zodiac Value="7" Text="Virgo"></zodiac>
+  <zodiac Value="8" Text="Libra"></zodiac>
+  <zodiac Value="9" Text="Scorpio"></zodiac>
+  <zodiac Value="10" Text="Sagittarius"></zodiac>
+  <zodiac Value="11" Text="Capricorn"></zodiac>
+  <zodiac Value="12" Text="Aquarius"></zodiac>
+  <zodiac Value="13" Text="Pisces"></zodiac>
+  
+  
+</sun>

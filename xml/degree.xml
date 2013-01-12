@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<eucation>
+  <courses Text="B.Arch" Value="1"></courses>
+  <courses Text="B.E/B.Tech" Value="2"></courses>
+  <courses Text="B.Pharma" Value="3"></courses>
+  <courses Text="M.Arch" Value="4"></courses>
+  <courses Text="M.E/M.Tech" Value="5"></courses>
+  <courses Text="M.Pharma" Value="6"></courses>
+  <courses Text="M.S. (Engineering)" Value="7"></courses>
+  <courses Text="B.IT" Value="8"></courses>
+  <courses Text="BCA" Value="9"></courses>
+  <courses Text="MCA/PGDCA" Value="10"></courses>
+  <courses Text="B.Com" Value="11"></courses>
+  <courses Text="CA" Value="12"></courses>
+  <courses Text="CFA" Value="13"></courses>
+  <courses Text="CS" Value="14"></courses>
+  <courses Text="ICWA" Value="15"></courses>
+  <courses Text="BBA" Value="16"></courses>
+  <courses Text="BHM" Value="17"></courses>
+  <courses Text="BAMS" Value="18"></courses>
+  <courses Text="BDS" Value="19"></courses>
+  <courses Text="BHMS" Value="20"></courses>
+  <courses Text="BVSc." Value="21"></courses>
+
+  <courses Text="M.D." Value="22"></courses>
+
+  <courses Text="M.S. (Medicine)" Value="23"></courses>
+
+  <courses Text="MBBS" Value="24"></courses>
+
+  <courses Text="MVSc." Value="25"></courses>
+  <courses Text="BL/LLB" Value="26"></courses>
+
+  <courses Text="ML/LLM" Value="27"></courses>
+  <courses Text="B.A" Value="28"></courses>
+
+  <courses Text="B.Ed" Value="29"></courses>
+  <courses Text="B.Sc" Value="30"></courses>
+  <courses Text="M.A" Value="31"></courses>
+  <courses Text="M.Ed" Value="32"></courses>
+
+  <courses Text="M.Sc" Value="33"></courses>
+  <courses Text="M.Phil" Value=""></courses>
+
+  <courses Text="Ph. D" Value="34"></courses>
+  <courses Text="High School" Value="35"></courses>
+
+  <courses Text="Trade School" Value="36"></courses>
+
+  <courses Text="Diploma" Value="37"></courses>
+  <courses Text="Other" Value="38"></courses>
+</eucation>

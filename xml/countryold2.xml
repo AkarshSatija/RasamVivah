@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<country>
+  <option Value="0" Text="Please Select"></option>
+  <option Value="+93|}|1|X" Text="Afghanistan"></option>
+  <option Value="+355|}|2|X" Text="Albania"></option>
+  <option Value="+213|}|3|X" Text="Algeria"></option>
+  <option Value="+684|}|60|X" Text="American Samoa"></option>
+  <option Value="+376|}|138|X" Text="Andorra"></option>
+  <option Value="+244|}|4|X" Text="Angola"></option>
+  <option Value="+1|}|139|X" Text="Anguilla"></option>
+  <option Value="+1|}|140|X" Text="Antigua and Barbuda"></option>
+  <option Value="+54|}|5|X" Text="Argentina"></option>
+  <option Value="+374|}|6|X" Text="Armenia"></option>
+  <option Value="+61|}|7|X" Text="Australia"></option>
+  <option Value="+43|}|8|X" Text="Austria"></option>
+  <option Value="+994|}|141|X" Text="Azerbaijan"></option>
+  <option Value="+242|}|9|X" Text="Bahamas"></option>
+  <option Value="+973|}|10|X" Text="Bahrain"></option>
+  <option Value="+880|}|11|X" Text="Bangladesh"></option>
+  <option Value="+1|}|142|X" Text="Barbados"></option>
+  <option Value="+375|}|143|X" Text="Belarus"></option>
+  <option Value="+32|}|12|X" Text="Belgium"></option>
+  <option Value="+501|}|144|X" Text="Belize"></option>
+  <option Value="+229|}|145|X" Text="Benin"></option>
+  <option Value="+441|}|13|X" Text="Bermuda"></option>
+  <option Value="+975|}|14|X" Text="Bhutan"></option>
+  <option Value="+591|}|15|X" Text="Bolivia"></option>
+  <option Value="+387|}|16|X" Text="Bosnia and Herzegovina"></option>
+  <option Value="+267|}|146|X" Text="Botswana"></option>
+  <option Value="+55|}|17|X" Text="Brazil">"></option>
+  <option Value="+1|}|147|X" Text="British Virgin Islands"></option>
+  <option Value="+673|}|18|X" Text="Brunei"></option>
+  <option Value="+359|}|19|X" Text="Bulgaria"></option>
+  <option Value="+226|}|148|X" Text="Burkina Faso"></option>
+  <option Value="+257|}|149|X" Text="Burundi"></option>
+  <option Value="+855|}|20|X" Text="Cambodia"></option>
+  <option Value="+237|}|21|X" Text="Cameroon"></option>
+  <option Value="+1|}|22|X" Text="Canada"></option>
+  <option Value="+34|}|23|X" Text="Canary Islands"></option>
+  <option Value="+238|}|150|X" Text="Cape Verde"></option>
+  <option Value="+1|}|151|X" Text="Cayman Islands"></option>
+  <option Value="+236|}|152|X" Text="Central African Republic"></option>
+  <option Value="+235|}|153|X" Text="Chad"></option>
+  <option Value="+56|}|24|X" Text="Chile"></option>
+  <option Value="+86|}|25|X" Text="China"></option>
+  <option Value="+57|}|26|X" Text="Colombia"></option>
+  <option Value="+269|}|154|X" Text="Comoros"></option>
+  <option Value="+242|}|27|X" Text="Congo"></option>
+  <option Value="+682|}|155|X" Text="Cook Islands"></option>
+  <option Value="+506|}|28|X" Text="Costa Rica"></option>
+  <option Value="+225|}|156|X" Text="Cote dIvoire"></option>
+  <option Value="+385|}|29|X" Text="Croatia"></option>
+  <option Value="+53|}|30|X" Text="Cuba"></option>
+  <option Value="+357|}|31|X" Text="Cyprus"></option>
+  <option Value="+420|}|32|X" Text="Czech Republic"></option>
+  <option Value="+45|}|33|X" Text="Denmark"></option>
+  <option Value="+1|}|157|X" Text="Dominica"></option>
+  <option Value="+1|}|158|X" Text="Dominican Republic"></option>
+  <option Value="+670|}|159|X" Text="East Timor"></option>
+  <option Value="+593|}|34|X" Text="Ecuador"></option>
+  <option Value="+20|}|35|X" Text="Egypt"></option>
+  <option value="+503|}|36|X" Text="El Salvador"></option>
+  <option Value="+240|}|160|X" Text="Equatorial Guinea"></option>
+  <option Value="+291|}|161|X" Text="Eritrea"></option>
+  <option Value="+372|}|162|X" Text="Estonia"></option>
+  <option Value="+251|}|163|X" Text="Ethiopia"></option>
+  <option Value="+298|}|164|X" Text="Faeroe Islands"></option>
+  <option Value="+500|}|37|X" Text="Falkland Islands (Islas Malvinas)"></option>
+  <option Value="+679|}|38|X" Text="Fiji"></option>
+  <option Value="+358|}|39|X" Text="Finland"></option>
+  <option Value="+33|}|40|X" Text="France"></option>
+  <option Value="+594|}|165|X" Text="French Guiana"></option>
+  <option Value="+689|}|166|X" Text="French Polynesia"></option>
+  <option Value="+220|}|167|X" Text="Gambia"></option>
+  <option Value="+995|}|69|X" Text="Georgia"></option>
+  <option Value="+49|}|42|X" Text="Germany"></option>
+  <option Value="+233|}|43|X" Text="Ghana"></option>
+  <option Value="+350|}|44|X" Text="Gibraltar"></option>
+  <option Value="+30|}|45|X" Text="Greece"></option>
+  <option Value="+299|}|168|X" Text="Greenland"></option>
+  <option Value="+1|}|169|X" Text="Grenada"></option>
+  <option Value="+590|}|170|X" Text="Guadeloupe"></option>
+  <option Value="+1|}|217|X" Text="Guam"></option>
+  <option Value="+502|}|172|X" Text="Guatemala"></option>
+  <option Value="+224|}|173|X" Text="Guinea"></option>
+  <option Value="+245|}|174|X" Text="Guinea-Bissau"></option>
+  <option Value="+592|}|175|X" Text="Guyana"></option>
+  <option Value="+509|}|46|X" Text="Haiti"></option>
+  <option Value="+31|}|47|X" Text="Holland"></option>
+  <option Value="+504|}|176|X" Text="Honduras"></option>
+  <option Value="+852|}|48|X" Text="Hong Kong"></option>
+  <option Value="+36|}|49|X" Text="Hungary"></option>
+  <option Value="+354|}|50|X" Text="Iceland"></option>
+  <option Value="+91|}|51|X"  Text="India"></option>
+  <option Value="+62|}|52|X" Text="Indonesia"></option>
+  <option Value="+98|}|53|X" Text="Iran"></option>
+  <option Value="+964|}|54|X" Text="Iraq"></option>
+  <option Value="+353|}|55|X" Text="Ireland"></option>
+  <option Value="+44|}|177|X" Text="Isle of Man"></option>
+  <option Value="+972|}|56|X" Text="Israel"></option>
+  <option Value="+39|}|57|X" Text="Italy"></option>
+  <option Value="+876|}|58|X" Text="Jamaica"></option>
+  <option Value="+81|}|59|X" Text="Japan"></option>
+  <option Value="+962|}|215|X" Text="Jordan"></option>
+  <option Value="+7|}|61|X" Text="Kazakhstan"></option>
+  <option Value="+254|}|62|X" Text="Kenya"></option>
+  <option Value="+686|}|178|X" Text="Kiribati"></option>
+  <option Value="+965|}|63|X" Text="Kuwait"></option>
+  <option Value="+996|}|64|X" Text="Kyrgyzstan"></option>
+  <option Value="+856|}|179|X" Text="Laos"></option>
+  <option Value="+371|}|65|X" Text="Latvia"></option>
+  <option Value="+961|}|66|X" Text="Lebanon"></option>
+  <option Value="+266|}|180|X" Text="Lesotho"></option>
+  <option Value="+231|}|181|X" Text="Liberia"></option>
+  <option Value="+218|}|67|X" Text="Libya"></option>
+  <option Value="+423|}|182|X" Text="Liechtenstein"></option>
+  <option Value="+370|}|68|X" Text="Lithuania"></option>
+  <option Value="+352|}|216|X" Text="Luxembourg"></option>
+  <option Value="+853|}|183|X" Text="Macau"></option>
+  <option Value="+389|}|184|X" Text="Macedonia"></option>
+  <option Value="+261|}|185|X" Text="Madagascar"></option>
+  <option Value="+265|}|186|X" Text="Malawi"></option>
+  <option Value="+60|}|70|X" Text="Malaysia"></option>
+  <option value="+960|}|71|X" Text="Maldives"></option>
+  <option Value="+223|}|72|X" Text="Mali"></option>
+  <option Value="+356|}|73|X" Text="Malta"></option>
+  <option Value="+596|}|187|X" Text="Martinique"></option>
+  <option Value="+230|}|74|X" Text="Mauritius"></option>
+  <option Value="+52|}|76|X" Text="Mexico"></option>
+  <option Value="+373|}|188|X" Text="Moldova"></option>
+  <option Value="+377|}|189|X" Text="Monaco"></option>
+  <option Value="+976|}|75|X" Text="Mongolia"></option>
+  <option Value="+0|}|190|X" Text="Montenegro"></option>
+  <option Value="+1|}|191|X" Text="Montserrat"></option>
+  <option Value="+212|}|77|X" Text="Morocco"></option>
+  <option Value="+258|}|192|X" Text="Mozambique"></option>
+  <option Value="+95|}|78|X" Text="Myanmar"></option>
+  <option Value="+264|}|79|X" Text="Namibia"></option>
+  <option Value="+977|}|80|X" Text="Nepal"></option>
+  <option Value="+31|}|81|X" Text="Netherlands"></option>
+  <option Value="+599|}|193|X" Text="Netherlands Antilles"></option>
+  <option Value="+687|}|194|X" Text="New Caledonia"></option>
+  <option Value="+64|}|82|X" Text="New Zealand"></option>
+  <option Value="+505|}|83|X" Text="Nicaragua"></option>
+  <option Value="+227|}|195|X" Text="Niger"></option>
+  <option Value="+234|}|84|X" Text="Nigeria"></option>
+  <option Value="+850|}|85|X" Text="North Korea"></option>
+  <option Value="+47|}|86|X" Text="Norway"></option>
+  <option Value="+968|}|87|X" Text="Oman"></option>
+  <option Value="+92|}|88|X" Text="Pakistan"></option>
+  <option Value="+507|}|89|X" Text="Panama"></option>
+  <option Value="+675|}|196|X" Text="Papua New Guinea"></option>
+  <option Value="+595|}|90|X" Text="Paraguay"></option>
+  <option Value="+51|}|91|X" Text="Peru"></option>
+  <option Value="+63|}|92|X" Text="Philippines"></option>
+  <option Value="+48|}|93|X" Text="Poland"></option>
+  <option Value="+351|}|94|X" Text="Portugal"></option>
+  <option Value="+787|}|218|X" Text="Puerto Rico"></option>
+  <option Value="+974|}|96|X" Text="Qatar"></option>
+  <option Value="+262|}|197|X" Text="Reunion"></option>
+  <option Value="+40|}|97|X" Text="Romania"></option>
+  <option Value="+7|}|98|X" Text="Russia"></option>
+  <option Value="+250|}|198|X" Text="Rwanda"></option>
+  <option Value="+1|}|199|X" Text="Saint Kitts and NeVis"></option>
+  <option Value="+1|}|200|X" Text="Saint Lucia"></option>
+  <option Value="+1|}|201|X" Text="Saint Vincent and the Grenadines"></option>
+  <option Value="+378|}|202|X" Text="San Marino"></option>
+  <option Value="+239|}|203|X" Text="Sao Tome and Principe"></option>
+  <option Value="+966|}|99|X" Text="Saudi Arabia"></option>
+  <option Value="+221|}|100|X" Text="Senegal"></option>
+  <option Value="+381|}|204|X" Text="Serbia"></option>
+  <option Value="+248|}|101|X" Text="Seychelles"></option>
+  <option Value="+232|}|102|X" Text="Sierra Leone"></option>
+  <option Value="+65|}|103|X" Text="Singapore"></option>
+  <option Value="+421|}|104|X" Text="Slovakia"></option>
+  <option Value="+386|}|219|X" Text="Slovenia"></option>
+  <option Value="+677|}|205|X" Text="Solomon Islands"></option>
+  <option Value="+252|}|106|X" Text="Somalia"></option>
+  <option Value="+27|}|107|X" Text="South Africa"></option>
+  <option Value="+82|}|108|X" Text="South Korea"></option>
+  <option Value="+34|}|109|X" Text="Spain"></option>
+  <option Value="+94|}|110|X" Text="Sri Lanka"></option>
+  <option Value="+249|}|111|X" Text="Sudan"></option>
+  <option Value="+597|}|206|X" Text="Suriname"></option>
+  <option Value="+268|}|207|X" Text="Swaziland"></option>
+  <option Value="+46|}|112|X" Text="Sweden"></option>
+  <option Value="+41|}|113|X" Text="Switzerland"></option>
+  <option Value="+963|}|114|X" Text="Syrian Arab Republic"></option>
+  <option Value="+689|}|115|X" Text="Tahiti"></option>
+  <option Value="+886|}|116|X" Text="Taiwan"></option>
+  <option Value="+992|}|117|X" Text="Tajikistan"></option>
+  <option Value="+255|}|118|X" Text="Tanzania"></option>
+  <option Value="+66|}|119|X" Text="Thailand"></option>
+  <option Value="+228|}|208|X" Text="Togo"></option>
+  <option Value="+1|}|209|X" Text="Trinidad and Tobago"></option>
+  <option Value="+216|}|120|X" Text="Tunisia"></option>
+  <option Value="+90|}|121|X" Text="Turkey"></option>
+  <option Value="+993|}|122|X" Text="Turkmenistan"></option>
+  <option Value="+1|}|210|X" Text="Turks and Caicos Islands"></option>
+  <option Value="+256|}|123|X" Text="Uganda"></option>
+  <option Value="+380|}|124|X" Text="Ukraine"></option>
+  <option Value="+971|}|125|X" Text="United Arab Emirates"></option>
+  <option Value="+44|}|126|X" Text="United Kingdom"></option>
+  <option Value="+1|}|128|X" Text="United States"></option>
+  <option Value="+1|}|105|X" Text="United States Virgin Islands"></option>
+  <option Value="+598|}|127|X" Text="Uruguay"></option>
+  <option Value="+998|}|129|X" Text="Uzbekistan"></option>
+  <option Value="+678|}|212|X" Text="Vanuatu"></option>
+  <option Value="+379|}|213|X" Text="Vatican City State"></option>
+  <option Value="+58|}|130|X" Text="Venezuela"></option>
+  <option Value="+84|}|131|X" Text="Vietnam"></option>
+  <option Value="+681|}|214|X" Text="Wallis and Futuna"></option>
+  <option Value="+967|}|132|X" Text="Yemen"></option>
+  <option Value="+381|}|133|X" Text="Yugoslavia"></option>
+  <option Value="+260|}|134|X" Text="Zambia"></option>
+  <option Value="+263|}|135|X" Text="Zimbabwe"></option>
+  <option Value="+0|}|136|X" Text="Others"></option>
+  
+          </country>
+

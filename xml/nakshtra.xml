@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<nakshtra>
+<horo Value="0" Text="Please select"></horo>
+<horo Value="1" Text="Don't know"></horo>
+<horo Value="2" Text="Anuradha/ Anusham/ Anizham"></horo>
+<horo Value="3" Text="Ardra/ Thiruvathira"></horo>
+<horo Value="4" Text="Ashlesha/ Ayilyam"></horo>
+<horo Value="5" Text="Ashwini/ Ashwathi"></horo>
+<horo Value="6" Text="Bharani"></horo>
+<horo Value="7" Text="Chitra/ Chitha"></horo>
+<horo Value="8" Text="Dhanista/ Avittam"></horo>
+<horo Value="9" Text="Hastha/ Atham"></horo>
+<horo Value="10" Text="Jyesta/ Kettai"></horo>
+<horo Value="11" Text="Krithika/ Karthika"></horo>
+<horo Value="12" Text="Makha/ Magam"></horo>
+<horo Value="13" Text="Moolam/ Moola"></horo>
+<horo Value="14" Text="Mrigasira/ Makayiram"></horo>
+<horo Value="15" Text="Poorvabadrapada/ Puratathi"></horo>
+<horo Value="16" Text="Poorvashada/ Pooradam"></horo>
+<horo Value="17" Text="Poorvapalguni/ Puram/ Pubbhe"></horo>
+<horo Value="18" Text="Punarvasu/ Punarpusam"></horo>
+<horo Value="19" Text="Pushya/ Poosam/ Pooyam"></horo>
+<horo Value="20" Text="Revathi"></horo>
+<horo Value="21" Text="Rohini"></horo>
+<horo Value="22" Text="Shatataraka/ Sadayam/ Sadabist"></horo>
+<horo Value="23" Text="Shravan/ Thiruvonam"></horo>
+<horo Value="24" Text="Swati/ Chothi"></horo>
+<horo Value="25" Text="Uttrabadrapada/ Uthratadhi"></horo>
+<horo Value="26" Text="Uttarapalguni/ Uthram"></horo>
+<horo Value="27" Text="Uttarashada/ Uthradam"></horo>
+<horo Value="28" Text="Vishaka/ Vishakam"></horo>
+</nakshtra>

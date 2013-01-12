@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<create>
+  <option Value="0" Text="Please Select"></option>
+  <option Value="1" Text="Self"></option>
+  <option Value="2" Text="Relative/Friend"></option>
+  <option Value="3" Text="Son"></option>
+  <option Value="4" Text="Daughter"></option>
+  <option Value="5" Text="Brother"></option>
+  <option Value="6" Text="Sister"></option>
+  <option Value="7" Text="Client-Marriage Bureau"></option>
+</create>

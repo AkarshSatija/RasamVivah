@@ -1,0 +1,5 @@
+﻿*Notification DB config
+notif_type>
+1. verify email and mobile
+2. verify email
+3. verify mobile

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<christian>
+ <option Value="263" Text="Anglo Indian"></option>
+<option Value ="3" Text="Born Again"></option>
+<option Value ="264" Text="Brethren"></option>
+<option Value ="4" Text="Catholic"></option>
+<option Value ="266" Text="Catholic-Knanaya"></option>
+<option Value ="268" Text="Catholic-Latin"></option>
+<option Value ="269" Text="Catholic-Malankara"></option>
+<option Value ="270" Text="Catholic-Roman"></option>
+<option Value ="267" Text="Catholic-Syrian"></option>
+<option Value ="265" Text="Chaldean"></option>
+<option Value ="5" Text="CMS"></option>
+<option Value ="6" Text="CSI"></option>
+<option Value ="7" Text="Evangelical"></option>
+<option Value ="181" Text="Indian Orthodox"></option>
+<option Value ="8" Text="Jacobite"></option>
+<option Value ="271" Text="Jacobite-Knanaya"></option>
+<option Value ="272" Text="Jacobite-Syrian"></option>
+<option Value ="277" Text="Knanaya"></option>
+<option Value ="196" Text="Mangalorean"></option>
+<option Value ="273" Text="Manglorean"></option>
+<option Value ="9" Text="Marthomite"></option>
+<option Value ="10" Text="Nadar"></option>
+<option Value ="13" Text="Pentecost"></option>
+<option Value ="11" Text="Protestant"></option>
+<option Value ="12" Text="Syrian"></option>
+<option Value ="276" Text="Syrian-Malabar"></option>
+<option Value ="275" Text="Syrian-Orthodox"></option>
+<option Value ="406" Text="Syro-Malabar"></option>
+<option Value ="244" Text="Others"></option>
+</christian>

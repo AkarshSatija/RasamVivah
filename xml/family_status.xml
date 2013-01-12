@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<family_status>
+  <option Value="1" Text="Rich/Affluent"></option>
+  <option Value="2" Text="Upper Middle Class"></option>
+  <option Value="3" Text="Middle Class"></option>
+  <option Value="4" Text="Lower Middle Class"></option>
+  
+</family_status>

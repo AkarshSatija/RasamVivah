@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<select>
+  <option Value="0" Text="Please Select"></option>
+  <option Value="1" Text="Andaman Nicobar"></option>
+  <option Value="2" Text="Andhra Pradesh"></option>
+  <option Value="3" Text="Arunachal Pradesh"></option>
+  <option Value="4" Text="Assam"></option>
+  <option Value="5" Text="Bihar">" ></option>
+  <option Value="6" Text="CHANDIGARH">" ></option>
+  <option Value="7" Text="Chhattisgarh"></option>
+  <option Value="8" Text="Dadra n Nagar Haveli"></option>
+  <option Value="9" Text="Daman n Diu"></option>
+  <option Value="10" Text="Delhi"></option>
+  <option Value="11" Text="Delhi NCR"></option>
+  <option Value="12" Text="Goa"></option>
+  <option Value="13" Text="Gujarat"></option>
+  <option Value="14" Text="Haryana"></option>
+  <option Value="15" Text="Himachal Pradesh"></option>
+  <option Value="16" Text="Jammu n Kashmir"></option>
+  <option Value="17" Text="Jharkhand"></option>
+  <option Value="18" Text="Karnataka"></option>
+  <option Value="19" Text="Kerala"></option>
+  <option Value="20" Text="Lakshdweep"></option>
+  <option Value="21" Text="Madhya Pradesh"></option>
+  <option Value="22" Text="Maharashtra"></option>
+  <option Value="23" Text="Manipur"></option>
+  <option Value="24" Text="Meghalaya"></option>
+  <option Value="25" Text="Mizoram"></option>
+  <option Value="26" Text="Nagaland"></option>
+  <option Value="27" Text="Orissa"></option>
+  <option Value="28" Text="Pondicherry"></option>
+  <option Value="29" Text="Punjab"></option>
+  <option Value="30" Text="Rajasthan"></option>
+  <option Value="31" Text="Sikkim"></option>
+  <option Value="32" Text="Tamil Nadu"></option>
+  <option Value="33" Text="Tripura"></option>
+  <option Value="34" Text="Uttar Pradesh"></option>
+  <option Value="35" Text="Uttaranchal"></option>
+  <option Value="36" Text="West Bengal"></option>
+</select>

@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<UnitedStates>
+  <option Value="0" Text="Please Select"></option>
+  <option Value="58" Text="Abilene"></option>
+  <option Value="59" Text="Akron"></option>
+  <option Value="1" Text="Alabama"></option>
+  <option Value="2" Text="Alaska"></option>
+  <option Value="60" Text="Albany"></option>
+  <option Value="61" Text="Albuquerque"></option>
+  <option Value="62" Text="Alexandria"></option>
+  <option Value="63" Text="Allentown"></option>
+  <option Value="64" Text="Amarillo"></option>
+  <option Value="50" Text="American Samoa"></option>
+  <option Value="65" Text="Anaheim"></option>
+  <option Value="66" Text="Anchorage"></option>
+  <option Value="67" Text="Ann Arbor"></option>
+  <option Value="3" Text="Arizona"></option>
+  <option Value="4" Text="Arkansas"></option>
+  <option Value="69" Text="Arlington"></option>
+  <option Value="70" Text="Atlanta"></option>
+  <option Value="72" Text="Aurora"></option>
+  <option Value="73" Text="Austin"></option>
+  <option Value="74" Text="Bakersfield"></option>
+  <option Value="75" Text="Baltimore"></option>
+  <option Value="76" Text="Baton Rouge"></option>
+  <option Value="77" Text="Beaumont"></option>
+  <option Value="78" Text="Birmingham"></option>
+  <option Value="79" Text="Boise City"></option>
+  <option Value="80" Text="Boston"></option>
+  <option Value="81" Text="Bridgeport"></option>
+  <option Value="82" Text="Brownsville"></option>
+  <option Value="83" Text="Buffalo"></option>
+  <option Value="5" Text="California"></option>
+  <option Value="84" Text="Cedar Rapids"></option>
+  <option Value="85" Text="Chandler"></option>
+  <option Value="86" Text="Charlotte"></option>
+  <option Value="87" Text="Chattanooga"></option>
+  <option Value="88" Text="Chesapeake"></option>
+  <option Value="89" Text="Chicago"></option>
+  <option Value="90" Text="Chula Vista"></option>
+  <option Value="91" Text="Cincinnati"></option>
+  <option Value="92" Text="Cleveland"></option>
+  <option Value="6" Text="Colorado"></option>
+  <option Value="93" Text="Colorado Springs"></option>
+  <option Value="94" Text="Columbia"></option>
+  <option Value="96" Text="Columbus"></option>
+  <option Value="97" Text="Concord"></option>
+  <option Value="7" Text="Connecticut"></option>
+  <option Value="3011" Text="Connecticut City"></option>
+  <option Value="98" Text="Corpus Christi"></option>
+  <option Value="99" Text="Dallas"></option>
+  <option Value="100" Text="Dayton"></option>
+  <option Value="8" Text="Delaware"></option>
+  <option Value="101" Text="Denver"></option>
+  <option Value="102" Text="Des Moines"></option>
+  <option Value="49" Text="Detroit"></option>
+  <option Value="9" Text="District Of Columbia"></option>
+  <option Value="103" Text="Durham"></option>
+  <option Value="104" Text="El Monte"></option>
+  <option Value="105" Text="El Paso"></option>
+  <option Value="106" Text="Elizabeth"></option>
+  <option Value="107" Text="Erie"></option>
+  <option Value="108" Text="Escondido"></option>
+  <option Value="109" Text="Eugene"></option>
+  <option Value="110" Text="Evansville"></option>
+  <option Value="111" Text="Flint"></option>
+  <option Value="10" Text="Florida"></option>
+  <option Value="112" Text="Fontana"></option>
+  <option Value="113" Text="Fort Lauderdale"></option>
+  <option Value="114" Text="Fort Wayne"></option>
+  <option Value="115" Text="Fort Worth"></option>
+  <option Value="116" Text="Fremont"></option>
+  <option Value="117" Text="Fresno"></option>
+  <option Value="118" Text="Fullerton"></option>
+  <option Value="119" Text="Garden Grove"></option>
+  <option Value="120" Text="Garland"></option>
+  <option Value="121" Text="Gary"></option>
+  <option Value="11" Text="Georgia"></option>
+  <option Value="123" Text="Glendale"></option>
+  <option Value="124" Text="Grand Prairie"></option>
+  <option Value="125" Text="Grand Rapids"></option>
+  <option Value="126" Text="Green Bay"></option>
+  <option Value="127" Text="Greensboro"></option>
+  <option Value="51" Text="Guam"></option>
+  <option Value="128" Text="Hampton"></option>
+  <option Value="129" Text="Hartford"></option>
+  <option Value="12" Text="Hawaii"></option>
+  <option Value="130" Text="Hayward"></option>
+  <option Value="131" Text="Henderson"></option>
+  <option Value="132" Text="Hialeah"></option>
+  <option Value="133" Text="Hollywood"></option>
+  <option Value="134" Text="Honolulu"></option>
+  <option Value="135" Text="Houston"></option>
+  <option Value="136" Text="Huntington Beach"></option>
+  <option Value="137" Text="Huntsville"></option>
+  <option Value="13" Text="Idaho"></option>
+  <option Value="14" Text="Illinois"></option>
+  <option Value="138" Text="Independence"></option>
+  <option Value="15" Text="Indiana"></option>
+  <option Value="139" Text="Indianapolis"></option>
+  <option Value="140" Text="Inglewood"></option>
+  <option Value="16" Text="Iowa"></option>
+  <option Value="141" Text="Irvine"></option>
+  <option Value="142" Text="Irving"></option>
+  <option Value="143" Text="Jackson"></option>
+  <option Value="144" Text="Jacksonville"></option>
+  <option Value="145" Text="Jersey City"></option>
+  <option Value="17" Text="Kansas"></option>
+  <option Value="147" Text="Kansas City"></option>
+  <option Value="18" Text="Kentucky"></option>
+  <option Value="148" Text="Knoxville"></option>
+  <option Value="149" Text="Lafayette"></option>
+  <option Value="150" Text="Lakewood"></option>
+  <option Value="151" Text="Lancaster"></option>
+  <option Value="152" Text="Lansing"></option>
+  <option Value="153" Text="Laredo"></option>
+  <option Value="154" Text="Las Vegas"></option>
+  <option Value="155" Text="Lexington-fayette"></option>
+  <option Value="156" Text="Lincoln"></option>
+  <option Value="157" Text="Little Rock"></option>
+  <option Value="158" Text="Livonia"></option>
+  <option Value="159" Text="Long Beach"></option>
+  <option Value="160" Text="Los Angeles"></option>
+  <option Value="19" Text="Louisiana"></option>
+  <option Value="161" Text="Louisville"></option>
+  <option Value="162" Text="Lubbock"></option>
+  <option Value="163" Text="Macon"></option>
+  <option Value="164" Text="Madison"></option>
+  <option Value="20" Text="Maine"></option>
+  <option Value="21" Text="Maryland"></option>
+  <option Value="22" Text="Massachusetts"></option>
+  <option Value="165" Text="Memphis"></option>
+  <option Value="166" Text="Mesa"></option>
+  <option Value="167" Text="Mesquite"></option>
+  <option Value="168" Text="Miami"></option>
+  <option Value="23" Text="Michigan"></option>
+  <option Value="3012" Text="Midland"></option>
+  <option Value="169" Text="Milwaukee"></option>
+  <option Value="170" Text="Minneapolis"></option>
+  <option Value="24" Text="Minnesota"></option>
+  <option Value="25" Text="Mississippi"></option>
+  <option Value="52" Text="Missouri"></option>
+  <option Value="171" Text="Mobile"></option>
+  <option Value="172" Text="Modesto"></option>
+  <option Value="53" Text="Montana"></option>
+  <option Value="173" Text="Montgomery"></option>
+  <option Value="174" Text="Moreno Valley"></option>
+  <option Value="175" Text="Naperville"></option>
+  <option Value="176" Text="Nashville-davidson"></option>
+  <option Value="54" Text="Nebraska"></option>
+  <option Value="26" Text="Nevada"></option>
+  <option Value="27" Text="New Hampshire"></option>
+  <option Value="177" Text="New Haven"></option>
+  <option Value="28" Text="New Jersey"></option>
+  <option Value="29" Text="New Mexico"></option>
+  <option Value="178" Text="New Orleans"></option>
+  <option Value="30" Text="New York"></option>
+  <option Value="179" Text="Newark"></option>
+  <option Value="180" Text="Newport News"></option>
+  <option Value="181" Text="Norfolk"></option>
+  <option Value="31" Text="North Carolina"></option>
+  <option Value="32" Text="North Dakota"></option>
+  <option Value="55" Text="Northern Mariana Islands"></option>
+  <option Value="182" Text="Norwalk"></option>
+  <option Value="183" Text="Oakland"></option>
+  <option Value="184" Text="Oceanside"></option>
+  <option Value="33" Text="Ohio"></option>
+  <option Value="34" Text="Oklahoma"></option>
+  <option Value="185" Text="Oklahoma City"></option>
+  <option Value="186" Text="Omaha"></option>
+  <option Value="187" Text="Ontario"></option>
+  <option Value="188" Text="Orange"></option>
+  <option Value="35" Text="Oregon"></option>
+  <option Value="189" Text="Orlando"></option>
+  <option Value="190" Text="Overland Park"></option>
+  <option Value="191" Text="Oxnard"></option>
+  <option Value="192" Text="Palmdale"></option>
+  <option Value="194" Text="Pasadena"></option>
+  <option Value="195" Text="Paterson"></option>
+  <option Value="36" Text="Pennsylvania"></option>
+  <option Value="196" Text="Peoria"></option>
+  <option Value="197" Text="Philadelphia"></option>
+  <option Value="198" Text="Phoenix"></option>
+  <option Value="199" Text="Pittsburgh"></option>
+  <option Value="200" Text="Plano"></option>
+  <option Value="201" Text="Pomona"></option>
+  <option Value="202" Text="Portland"></option>
+  <option Value="203" Text="Portsmouth"></option>
+  <option Value="204" Text="Providence"></option>
+  <option Value="205" Text="Pueblo"></option>
+  <option Value="56" Text="Puerto Rico"></option>
+  <option Value="206" Text="Raleigh"></option>
+  <option Value="207" Text="Rancho Cucamonga"></option>
+  <option Value="208" Text="Reno"></option>
+  <option Value="37" Text="Rhode Island"></option>
+  <option Value="209" Text="Richmond"></option>
+  <option Value="210" Text="Riverside"></option>
+  <option Value="211" Text="Rochester"></option>
+  <option Value="212" Text="Rockford"></option>
+  <option Value="213" Text="Sacramento"></option>
+  <option Value="214" Text="Salem"></option>
+  <option Value="215" Text="Salinas"></option>
+  <option Value="216" Text="Salt Lake City"></option>
+  <option Value="217" Text="San Antonio"></option>
+  <option Value="218" Text="San Bernardino"></option>
+  <option Value="219" Text="San Diego"></option>
+  <option Value="220" Text="San Francisco"></option>
+  <option Value="221" Text="San Jose"></option>
+  <option Value="222" Text="Santa Ana"></option>
+  <option Value="223" Text="Santa Clarita"></option>
+  <option Value="224" Text="Santa Rosa"></option>
+  <option Value="225" Text="Savannah"></option>
+  <option Value="226" Text="Scottsdale"></option>
+  <option Value="227" Text="Seattle"></option>
+  <option Value="228" Text="Shreveport"></option>
+  <option Value="229" Text="Simi Valley"></option>
+  <option Value="230" Text="Sioux City"></option>
+  <option Value="231" Text="South Bend"></option>
+  <option Value="38" Text="South Carolina"></option>
+  <option Value="39" Text="South Dakota"></option>
+  <option Value="232" Text="Spokane"></option>
+  <option Value="236" Text="Springfield"></option>
+  <option Value="237" Text="St. Louis"></option>
+  <option Value="238" Text="St. Paul"></option>
+  <option Value="239" Text="St. Petersburg"></option>
+  <option Value="240" Text="Sterling Heights"></option>
+  <option Value="241" Text="Stockton"></option>
+  <option Value="242" Text="Sunnyvale"></option>
+  <option Value="243" Text="Syracuse"></option>
+  <option Value="244" Text="Tacoma"></option>
+  <option Value="245" Text="Tallahassee"></option>
+  <option Value="246" Text="Tampa"></option>
+  <option Value="247" Text="Tempe"></option>
+  <option Value="40" Text="Tennessee"></option>
+  <option Value="41" Text="Texas"></option>
+  <option Value="248" Text="Thousand Oaks"></option>
+  <option Value="249" Text="Toledo"></option>
+  <option Value="250" Text="Topeka"></option>
+  <option Value="251" Text="Torrance"></option>
+  <option Value="252" Text="Tucson"></option>
+  <option Value="253" Text="Tulsa"></option>
+  <option Value="57" Text="United States Virgin Islands"></option>
+  <option Value="42" Text="Utah"></option>
+  <option Value="254" Text="Vallejo"></option>
+  <option Value="43" Text="Vermont"></option>
+  <option Value="44" Text="Virginia"></option>
+  <option Value="255" Text="Virginia Beach"></option>
+  <option Value="256" Text="Waco"></option>
+  <option Value="257" Text="Warren"></option>
+  <option Value="45" Text="Washington"></option>
+  <option Value="258" Text="Waterbury"></option>
+  <option Value="259" Text="West Covina"></option>
+  <option Value="46" Text="West Virginia"></option>
+  <option Value="260" Text="Wichita"></option>
+  <option Value="261" Text="Winston-salem"></option>
+  <option Value="47" Text="Wisconsin"></option>
+  <option Value="262" Text="Worcester"></option>
+  <option Value="48" Text="Wyoming"></option>
+  <option Value="263" Text="Yonkers"></option>
+  <option Value="300" Text="Others"></option>
+
+</UnitedStates>
+ 

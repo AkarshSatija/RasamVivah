@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Family_Values>
+  <option Value="1" Text="Orthodox"></option>
+  <option Value="2" Text="Conservative"></option>
+  <option Value="3" Text="Moderate"></option>
+  <option Value="4" Text="Liberal"></option>
+  
+</Family_Values>

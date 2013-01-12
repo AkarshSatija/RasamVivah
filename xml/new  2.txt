@@ -1,0 +1,2 @@
+1. description nahi aa rha(me.aspx)
+2. remove location frm db and process]

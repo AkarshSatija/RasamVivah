@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<marital>
+<status Value="0" Text="Please Select"></status>
+<status Value ="1" Text="Never Married"></status>
+<status Value ="2" Text="Divorced"></status>
+<status Value ="3" Text="Widowed"></status>
+  <status Value ="4" Text="Awaiting Divorce"></status>
+<status Value ="5" Text="Annulled"></status>
+  <status Value ="6" Text="Married"></status>
+</marital>

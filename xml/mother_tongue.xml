@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<languages>
+  <language Text="Please Select" Value="0"></language>
+  <language Text="Hindi/ Delhi" Value="10" ></language>
+  <language Text="Hindi/U.P./Awadhi/ Bhojpuri/Garhwali" Value="33"></language>
+  <language Text="Hindi /Madhya Pradesh / Bundelkhand / Chattisgarhi" Value="19"></language>
+  <language Text="Punjabi" Value="27"></language>
+  <language Text="Bihari/Maithili/Magahi" Value="7"></language>
+  <language Text="Rajasthani / Marwari / Malwi / Jaipuri" Value="28"></language>
+  <language Text="Haryanvi" Value="13"></language>
+  <language Text="Himachali/Pahari" Value="14"></language>
+  <language Text="Kashmiri/Dogri" Value="15"></language>
+  <language Text="Sindhi" Value="30"></language>
+  <language Text="Marathi" Value="20"></language>
+  <language Text="Gujarati / Kutchi" Value="12"></language>
+  <language Text="Konkani" Value="34"></language>
+  <language Text="Sindhi" Value="30"></language>
+  <language Text="Tamil" Value="31"></language>
+  <language Text="Telugu" Value="3"></language>
+  <language Text="Kannada" Value="16"></language>
+  <language Text="Malayalam" Value="17"></language>
+  <language Text="Bengali" Value="6"></language>
+  <language Text="Oriya" Value="25"></language>
+  <language Text="Assamese" Value="5"></language>
+  <language Text="Sikkim/ Nepali/ Lepcha/ Bhutia/ Limbu" Value="29"></language>
+</languages>

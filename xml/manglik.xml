@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<maglik>
+  <option Value="1" Text="Don't know"></option>
+  <option Value="2" Text="Manglik"></option>
+  <option Value="3" Text=" Non-Manglik"></option>
+  <option Value="4" Text="Angshik(partial manglik)"></option>
+  
+</maglik>

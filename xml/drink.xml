@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<drink>
+  <option Value="1" Text="No"></option>
+  <option Value="2" Text="Yes"></option>
+  <option Value="3" Text="Occasionally"></option>
+  
+</drink>

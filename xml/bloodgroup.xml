@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<blood>
+  <option Value="1" Text="Don't know"></option>
+  <option Value="2" Text="A+"></option>
+  <option Value="3" Text="A-"></option>
+  <option Value="4" Text="B+"></option>
+  <option Value="5" Text="B-"></option>
+  <option Value="6" Text="AB+"></option>
+  <option Value="7" Text="AB-"></option>
+  <option Value="8" Text="O+"></option>
+  <option Value="9" Text="O-"></option>
+  
+  
+</blood>

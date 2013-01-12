@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="adminMaster.master.cs" Inherits="admin_adminMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <link href="assets/stylesheets/adminlayout.css" rel="stylesheet" />
+    <title></title>
+    <script type="text/javascript">
+
+        function redirectToLogin() {
+
+            window.location = "Default.aspx?goto=" + document.URL;
+
+
+        }
+
+       
+
+         
+    
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+   
+      <div id="divloggedin" runat="server" >
+        <div class="header">
+            <div class="innerheader">
+                <div class="headcontainer">
+                    <asp:ImageButton ID="imglogo" CssClass="logo" runat="server" ImageUrl="~/assets/img/logo.png"
+                        PostBackUrl="http://www.rasamvivah.com" />
+                    <%--<img class="logo" src="assets/img/logo.png" width="364" alt="" height="135"/>--%>
+                    <div class="menu">
+                        <a href="profile.aspx">Welcome Admin<asp:Label ID="lbid" runat="server"></asp:Label></a>
+                        |
+                        <asp:LinkButton ID="signout" runat="server" OnClick="signout_Click" CausesValidation="false">Log out</asp:LinkButton>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    
+
+        
+    <div class="container">
+        
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        
+       
+    </div>
+    </form>
+</body>
+</html>
+

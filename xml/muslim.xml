@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<muslim>
+  <option Value="0" Text="Select" ></option>
+  <option Value="1" Text="Shia" ></option>
+  <option Value="2" Text="Sunni" ></option>
+  <option Value="3" Text="Others"></option> 
+  
+  
+</muslim>

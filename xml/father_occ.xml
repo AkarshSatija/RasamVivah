@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<father_occ>
+  <option Value="0" Text = "Select"></option>
+  <option Value="1" Text = "Business/Entrepreneur"></option>
+  <option Value="2" Text = "Service-Private"></option>
+  <option Value="3" Text = "Service-Govt./PSU"></option>
+  <option Value="4" Text = "Army/Armed force"></option>
+  <option Value="5" Text = "Civil Services"></option>
+  <option Value="6" Text = "Retired"></option>
+  <option Value="7" Text = "Not Employed"></option>
+  <option Value="8" Text = "Expired"></option>
+  
+</father_occ>

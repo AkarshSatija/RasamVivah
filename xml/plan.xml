@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<membership>
+  <option value="1" Plan="Bronge" Price="2195" Duration="3"></option>
+  <option value="2" Plan="Silver" Price="3495" Duration="6"></option>
+  <option value="3" Plan="Gold" Price="5295" Duration="9"></option>
+  <option value="4" Plan="Platinum" Price="6995" Duration="12"></option>
+  </membership>

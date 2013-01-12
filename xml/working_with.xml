@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<working>
+<with Value="0" Text="Select"></with>
+<with Value="1" Text="Not Working"></with>
+<with Value="2" Text="Employed"></with>
+<with Value="3" Text="Entrepreneur"></with>
+<with Value="4" Text="Consultant"></with>
+<with Value="5" Text="Student"></with>
+<with Value="6" Text="Academia"></with>
+<with Value="7" Text="Defence"></with>
+<with Value="8" Text="Independent Worker/Free Lancer"></with>
+</working>

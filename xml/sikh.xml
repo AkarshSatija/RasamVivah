@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sikh>
+ <option value ="0"  Text ="Select"></option>
+ <option value ="1"  Text ="Arora"></option>
+ <option value ="2"  Text ="Bhatia"></option>
+ <option value ="3"  Text ="Gursikh"></option>
+ <option value ="4"  Text ="Jat"></option>
+ <option value ="5"  Text ="Kamboj"></option>
+ <option value ="6"  Text ="Kesadhari"></option>
+ <option value ="7"  Text ="Khashap Rajpoot"></option>
+ <option value ="8"  Text ="Khatri"></option>
+ <option value ="9"  Text ="Labana"></option>
+ <option value ="10"  Text ="Mazhbi"></option>
+ <option value ="11"  Text ="Rajput"></option>
+ <option value ="12"  Text ="Ramdasia"></option>
+ <option value ="13"  Text ="Ramgarhia"></option>
+ <option value ="14"  Text ="Saini"></option>
+ <option value ="15"  Text ="Others"></option>
+  
+  
+</sikh>

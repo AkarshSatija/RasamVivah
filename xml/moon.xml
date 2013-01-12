@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<moon>
+  <rashi Value="0" Text="Please Select"></rashi>
+  <rashi Value="1" Text="Don't Know"></rashi>
+  <rashi Value="2" Text="Mesh"></rashi>
+  <rashi Value="3" Text="Vrishabh"></rashi>
+  <rashi Value="4" Text="Mithun"></rashi>
+  <rashi Value="5" Text="Kark"></rashi>
+  <rashi Value="6" Text="Simha"></rashi>
+  <rashi Value="7" Text="Kanya"></rashi>
+  <rashi Value="8" Text="Tula"></rashi>
+  <rashi Value="9" Text="Vrishchick"></rashi>
+  <rashi Value="10" Text="Dhanu"></rashi>
+  <rashi Value="11" Text="Makar"></rashi>
+  <rashi Value="12" Text="Kumbh"></rashi>
+  <rashi Value="13" Text="Meen"></rashi>
+
+
+</moon>

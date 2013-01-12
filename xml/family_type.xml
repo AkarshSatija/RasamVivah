@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<family_type>
+ <option Value="1" Text="Joint family"></option>
+ <option Value="2" Text="Nuclear Family"></option>
+ <option Value="3" Text="Others"></option>
+  
+</family_type>

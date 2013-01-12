@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hindu>
+  <option Value="0" Text="Select"></option>
+        <option Value="278" Text="Ad Dharmi"></option>
+        <option Value="407" Text="Adi Andhra"></option>
+        <option Value="16" Text="Adi Dravida"></option>
+        <option Value="408" Text="Adi Karnataka"></option>
+        <option Value="409" Text="Agamudayar"></option>
+        <option Value="17" Text="Aggarwal"></option>
+        <option Value="168" Text="Agri"></option>
+        <option Value="410" Text="Ahir"></option>
+        <option Value="279" Text="Ahom"></option>
+        <option Value="182" Text="Ambalavasi"></option>
+        <option Value="18" Text="Arora"></option>
+        <option Value="183" Text="Arunthathiyar"></option>
+        <option Value="19" Text="Arya Vysya"></option>
+        <option Value="227" Text="Baghel/Pal/Gaderiya"></option>
+        <option Value="252" Text="Baidya"></option>
+        <option Value="281" Text="Baishnab"></option>
+        <option Value="282" Text="Baishya"></option>
+        <option Value="283" Text="Balija"></option>
+        <option Value="21" Text="Balija Naidu"></option>
+        <option Value="20" Text="Bania"></option>
+        <option Value="284" Text="Banik"></option>
+        <option Value="411" Text="Banjara"></option>
+        <option Value="229" Text="Bari"></option>
+        <option Value="285" Text="Barujibi"></option>
+        <option Value="286" Text="Besta"></option>
+        <option Value="22" Text="Bhandari"></option>
+        <option Value="231" Text="Bhatia"></option>
+        <option Value="412" Text="Bhatraju"></option>
+        <option Value="287" Text="Bhavsar"></option>
+        <option Value="288" Text="Bhovi/Bhoi"></option>
+        <option Value="24" Text="Billava"></option>
+        <option Value="413" Text="Bishnoi/Vishnoi"></option>
+        <option Value="184" Text="Boyer"></option>
+        <option Value="289" Text="Brahmbatt"></option>
+        <option Value="25" Text="Brahmin"></option>
+        <option Value="26" Text="Brahmin 6000 Niyogi"></option>
+        <option Value="27" Text="Brahmin Anavil"></option>
+        <option Value="234" Text="Brahmin Audichya"></option>
+        <option Value="414" Text="Brahmin Bajkhedwal"></option>
+        <option Value="290" Text="Brahmin Barendra"></option>
+        <option Value="415" Text="Brahmin Bhargava"></option>
+        <option Value="291" Text="Brahmin Bhatt"></option>
+        <option Value="28" Text="Brahmin Bhumihar"></option>
+        <option Value="416" Text="Brahmin Brahacharanam"></option>
+        <option Value="29" Text="Brahmin Daivadnya"></option>
+        <option Value="30" Text="Brahmin Deshastha"></option>
+        <option Value="292" Text="Brahmin Dhiman"></option>
+        <option Value="293" Text="Brahmin Dravida"></option>
+        <option Value="294" Text="Brahmin Dunua"></option>
+        <option Value="31" Text="Brahmin Garhwali"></option>
+        <option Value="32" Text="Brahmin Gaud Saraswat (GSB)"></option>
+        <option Value="33" Text="Brahmin Gaur"></option>
+        <option Value="34" Text="Brahmin Goswami"></option>
+        <option Value="417" Text="Brahmin Gujar Gaur"></option>
+        <option Value="418" Text="Brahmin Gurukkal"></option>
+        <option Value="295" Text="Brahmin Halua"></option>
+        <option Value="35" Text="Brahmin Havyaka"></option>
+        <option Value="296" Text="Brahmin Hoysala"></option>
+        <option Value="65" Text="Brahmin Iyengar"></option>
+        <option Value="66" Text="Brahmin Iyer"></option>
+        <option Value="420" Text="Brahmin Jangid"></option>
+        <option Value="421" Text="Brahmin Jangra"></option>
+        <option Value="299" Text="Brahmin Jhadua"></option>
+        <option Value="262" Text="Brahmin Jhijhotiya"></option>
+        <option Value="422" Text="Brahmin Jogi"></option>
+        <option Value="36" Text="Brahmin Kanyakubj"></option>
+        <option Value="37" Text="Brahmin Karhade"></option>
+        <option Value="38" Text="Brahmin Kashmiri Pandit"></option>
+        <option Value="39" Text="Brahmin Koknastha"></option>
+        <option Value="300" Text="Brahmin Kota"></option>
+        <option Value="301" Text="Brahmin Kulin"></option>
+        <option Value="40" Text="Brahmin Kumaoni"></option>
+        <option Value="41" Text="Brahmin Madhwa"></option>
+        <option Value="42" Text="Brahmin Maithil"></option>
+        <option Value="302" Text="Brahmin Modh"></option>
+        <option Value="303" Text="Brahmin Mohyal"></option>
+        <option Value="43" Text="Brahmin Nagar"></option>
+        <option Value="304" Text="Brahmin Namboodiri"></option>
+        <option Value="44" Text="Brahmin Narmadiya"></option>
+        <option Value="306" Text="Brahmin Panda"></option>
+        <option Value="307" Text="Brahmin Pandit"></option>
+        <option Value="261" Text="Brahmin Pareek"></option>
+        <option Value="237" Text="Brahmin Pushkarna"></option>
+        <option Value="309" Text="Brahmin Rarhi"></option>
+        <option Value="45" Text="Brahmin Rigvedi"></option>
+        <option Value="310" Text="Brahmin Rudraj"></option>
+        <option Value="311" Text="Brahmin Sakaldwipi"></option>
+        <option Value="180" Text="Brahmin Sanadya"></option>
+        <option Value="312" Text="Brahmin Sanketi"></option>
+        <option Value="46" Text="Brahmin Saraswat"></option>
+        <option Value="47" Text="Brahmin Saryuparin"></option>
+        <option Value="251" Text="Brahmin Shivalli"></option>
+        <option Value="314" Text="Brahmin Shrimali"></option>
+        <option Value="48" Text="Brahmin Smartha"></option>
+        <option Value="315" Text="Brahmin Sri Vishnava"></option>
+        <option Value="179" Text="Brahmin Tyagi"></option>
+        <option Value="49" Text="Brahmin Vaidiki"></option>
+        <option Value="402" Text="Brahmin Viswa"></option>
+        <option Value="316" Text="Brahmin Vyas"></option>
+        <option Value="423" Text="Brahmin Yajurvedi"></option>
+        <option Value="317" Text="Brahmo"></option>
+        <option Value="210" Text="Bunt/Shetty"></option>
+        <option Value="318" Text="Chamar"></option>
+        <option Value="52" Text="Chambhar"></option>
+        <option Value="319" Text="Chandravanshi Kahar"></option>
+        <option Value="320" Text="Chasa"></option>
+        <option Value="424" Text="Chattada Sri Vaishnava"></option>
+        <option Value="321" Text="Chaudary"></option>
+        <option Value="53" Text="Chaurasia"></option>
+        <option Value="54" Text="Chettiar"></option>
+        <option Value="322" Text="Chhetri"></option>
+        <option Value="55" Text="CKP"></option>
+        <option Value="56" Text="Coorgi"></option>
+        <option Value="425" Text="Deshastha Maratha"></option>
+        <option Value="230" Text="Devadigas"></option>
+        <option Value="324" Text="Devang Koshthi"></option>
+        <option Value="57" Text="Devanga"></option>
+        <option Value="323" Text="Devendra Kula Vellalar"></option>
+        <option Value="58" Text="Dhangar"></option>
+        <option Value="171" Text="Dheevara"></option>
+        <option Value="326" Text="Dhoba"></option>
+        <option Value="166" Text="Dhobi"></option>
+        <option Value="426" Text="Dusadh"></option>
+        <option Value="178" Text="Edigas"></option>
+        <option Value="59" Text="Ezhava"></option>
+        <option Value="185" Text="Ezhuthachan"></option>
+        <option Value="327" Text="Gabit"></option>
+        <option Value="187" Text="Ganiga"></option>
+        <option Value="328" Text="Garhwali"></option>
+        <option Value="247" Text="Gavali"></option>
+        <option Value="188" Text="Gavara"></option>
+        <option Value="329" Text="Ghumar"></option>
+        <option Value="330" Text="Goala"></option>
+        <option Value="331" Text="Goan"></option>
+        <option Value="427" Text="Gomantak Maratha"></option>
+        <option Value="428" Text="Gondhali"></option>
+        <option Value="60" Text="Goud"></option>
+        <option Value="61" Text="Gounder"></option>
+        <option Value="62" Text="Gowda"></option>
+        <option Value="429" Text="Gramani"></option>
+        <option Value="332" Text="Gudia"></option>
+        <option Value="63" Text="Gujjar"></option>
+        <option Value="64" Text="Gupta"></option>
+        <option Value="430" Text="Gurav"></option>
+        <option Value="431" Text="Gurjar"></option>
+        <option Value="223" Text="Hegde"></option>
+        <option Value="70" Text="Jaiswal"></option>
+        <option Value="333" Text="Jangam"></option>
+        <option Value="71" Text="Jat"></option>
+        <option Value="72" Text="Jatav"></option>
+        <option Value="334" Text="Kadava patel"></option>
+        <option Value="432" Text="Kahar"></option>
+        <option Value="335" Text="Kaibarta"></option>
+        <option Value="433" Text="Kalal"></option>
+        <option Value="74" Text="Kalar"></option>
+        <option Value="434" Text="Kalinga Vysya"></option>
+        <option Value="337" Text="Kalwar"></option>
+        <option Value="225" Text="Kamboj"></option>
+        <option Value="73" Text="Kamma"></option>
+        <option Value="338" Text="Kansari"></option>
+        <option Value="435" Text="Kapol"></option>
+        <option Value="75" Text="Kapu"></option>
+        <option Value="218" Text="Kapu Munnuru"></option>
+        <option Value="339" Text="Karana"></option>
+        <option Value="340" Text="Karmakar"></option>
+        <option Value="190" Text="Karuneegar"></option>
+        <option Value="341" Text="Kasar"></option>
+        <option Value="342" Text="Kashyap"></option>
+        <option Value="76" Text="Kayastha"></option>
+        <option Value="77" Text="Khandayat"></option>
+        <option Value="343" Text="Khandelwal"></option>
+        <option Value="405" Text="Kharwar"></option>
+        <option Value="226" Text="Khatik"></option>
+        <option Value="78" Text="Khatri"></option>
+        <option Value="436" Text="Kokanastha Maratha"></option>
+        <option Value="79" Text="Koli"></option>
+        <option Value="437" Text="Koli Mahadev"></option>
+        <option Value="80" Text="Kongu Vellala Gounder"></option>
+        <option Value="344" Text="Konkani"></option>
+        <option Value="345" Text="Kori"></option>
+        <option Value="81" Text="Koshti"></option>
+        <option Value="82" Text="Kshatriya"></option>
+        <option Value="217" Text="Kshatriya Agnikula"></option>
+        <option Value="346" Text="Kudumbi"></option>
+        <option Value="191" Text="Kulalar"></option>
+        <option Value="347" Text="Kulita"></option>
+        <option Value="83" Text="Kumawat"></option>
+        <option Value="438" Text="Kumbhakar"></option>
+        <option Value="228" Text="Kumhar/Kumbhar"></option>
+        <option Value="192" Text="Kummari"></option>
+        <option Value="84" Text="Kunbi"></option>
+        <option Value="85" Text="Kurmi"></option>
+        <option Value="349" Text="Kurmi kshatriya"></option>
+        <option Value="86" Text="Kuruba"></option>
+        <option Value="350" Text="Kuruhina shetty"></option>
+        <option Value="193" Text="Kurumbar"></option>
+        <option Value="87" Text="Kushwaha"></option>
+        <option Value="351" Text="Kutchi"></option>
+        <option Value="439" Text="Kutchi Gurjar"></option>
+        <option Value="352" Text="Lambadi"></option>
+        <option Value="88" Text="Leva Patida"></option>
+        r<option Value="354" Text="Leva Patil"></option>
+        <option Value="89" Text="Lingayat"></option>
+        <option Value="440" Text="Lodhi Rajput"></option>
+        <option Value="90" Text="Lohana"></option>
+        <option Value="250" Text="Lohar"></option>
+        <option Value="355" Text="Lubana"></option>
+        <option Value="194" Text="Madiga"></option>
+        <option Value="356" Text="Mahajan"></option>
+        <option Value="357" Text="Mahar"></option>
+        <option Value="91" Text="Maheshwari"></option>
+        <option Value="358" Text="Mahindra"></option>
+        <option Value="92" Text="Mahisya"></option>
+        <option Value="359" Text="Majabi/Mazhbi"></option>
+        <option Value="195" Text="Mala"></option>
+        <option Value="93" Text="Mali"></option>
+        <option Value="164" Text="Mallah"></option>
+        <option Value="360" Text="Manipuri"></option>
+        <option Value="361" Text="Mapila"></option>
+        <option Value="94" Text="Maratha"></option>
+        <option Value="441" Text="Maravar"></option>
+        <option Value="197" Text="Maruthuvar"></option>
+        <option Value="95" Text="Marwari"></option>
+        <option Value="362" Text="Matang"></option>
+        <option Value="442" Text="Mathur"></option>
+        <option Value="96" Text="Maurya"></option>
+        <option Value="364" Text="Meena"></option>
+        <option Value="198" Text="Meenavar"></option>
+        <option Value="365" Text="Mehra"></option>
+        <option Value="97" Text="Menon"></option>
+        <option Value="170" Text="Meru"></option>
+        <option Value="366" Text="Meru darji"></option>
+        <option Value="367" Text="Modak"></option>
+        <option Value="100" Text="Mogaveera"></option>
+        <option Value="235" Text="Monchi"></option>
+        <option Value="443" Text="Motati Reddy"></option>
+        <option Value="98" Text="Mudaliar"></option>
+        <option Value="99" Text="Mudaliar Arcot"></option>
+        <option Value="199" Text="Mudiraj"></option>
+        <option Value="201" Text="Muthuraja"></option>
+        <option Value="101" Text="Nadar"></option>
+        <option Value="202" Text="Naicker"></option>
+        <option Value="102" Text="Naidu"></option>
+        <option Value="233" Text="Naik/Nayak/Nayaka"></option>
+        <option Value="103" Text="Nair"></option>
+        <option Value="400" Text="Nair Veluthedathu"></option>
+        <option Value="401" Text="Nair Vilakkithala"></option>
+        <option Value="253" Text="Namasudra/Namosudra"></option>
+        <option Value="104" Text="Nambiar"></option>
+        <option Value="105" Text="Namboodiri"></option>
+        <option Value="369" Text="Napit"></option>
+        <option Value="107" Text="Nayee (Barber)"></option>
+        <option Value="106" Text="Nepali"></option>
+        <option Value="370" Text="Nhavi"></option>
+        <option Value="470" Text="OBC"></option>
+        <option Value="371" Text="Oswal"></option>
+        <option Value="108" Text="Padmashali"></option>
+        <option Value="372" Text="Pal"></option>
+        <option Value="373" Text="Panchal"></option>
+        <option Value="444" Text="Panchamsali"></option>
+        <option Value="445" Text="Pandaram"></option>
+        <option Value="204" Text="Panicker"></option>
+        <option Value="205" Text="Parkava Kulam"></option>
+        <option Value="374" Text="Pasi"></option>
+        <option Value="109" Text="Patel"></option>
+        <option Value="176" Text="Patel Dodia"></option>
+        <option Value="110" Text="Patel Kadva"></option>
+        <option Value="111" Text="Patel Leva"></option>
+        <option Value="112" Text="Patil"></option>
+        <option Value="206" Text="Patnaick"></option>
+        <option Value="375" Text="Patra"></option>
+        <option Value="446" Text="Perika"></option>
+        <option Value="114" Text="Pillai"></option>
+        <option Value="115" Text="Prajapati"></option>
+        <option Value="447" Text="Raigar"></option>
+        <option Value="207" Text="Rajaka"></option>
+        <option Value="448" Text="Rajbhar"></option>
+        <option Value="376" Text="Rajbonshi"></option>
+        <option Value="116" Text="Rajput"></option>
+        <option Value="117" Text="Rajput Garhwali"></option>
+        <option Value="118" Text="Rajput Kumaoni"></option>
+        <option Value="449" Text="Rajput Negi"></option>
+        <option Value="221" Text="Rajput Rohella/Tank"></option>
+        <option Value="377" Text="Ramdasia"></option>
+        <option Value="378" Text="Ramgarhia"></option>
+        <option Value="379" Text="Ravidasia"></option>
+        <option Value="380" Text="Rawat"></option>
+        <option Value="119" Text="Reddy"></option>
+        <option Value="120" Text="Sadgope"></option>
+        <option Value="381" Text="Saha"></option>
+        <option Value="382" Text="Sahu"></option>
+        <option Value="177" Text="Saini"></option>
+        <option Value="208" Text="Saliya"></option>
+        <option Value="121" Text="Scheduled Caste"></option>
+        <option Value="403" Text="Scheduled Tribe"></option>
+        <option Value="209" Text="Senai Thalaivar"></option>
+        <option Value="450" Text="Senguntha Mudaliyar"></option>
+        <option Value="383" Text="Settibalija"></option>
+        <option Value="165" Text="Shah"></option>
+        <option Value="122" Text="Shimpi"></option>
+        <option Value="123" Text="Sindhi"></option>
+        <option Value="451" Text="Sindhi Amil"></option>
+        <option Value="452" Text="Sindhi Baibhand"></option>
+        <option Value="453" Text="Sindhi Bhatia"></option>
+        <option Value="454" Text="Sindhi Larai"></option>
+        <option Value="455" Text="Sindhi Larkana"></option>
+        <option Value="456" Text="Sindhi Rohiri"></option>
+        <option Value="457" Text="Sindhi Sahiti"></option>
+        <option Value="458" Text="Sindhi Sakkhar"></option>
+        <option Value="459" Text="Sindhi Shikarpuri"></option>
+        <option Value="460" Text="SKP"></option>
+        <option Value="124" Text="Somvanshi"></option>
+        <option Value="241" Text="Somvanshi Kayastha Prabhu"></option>
+        <option Value="125" Text="Sonar"></option>
+        <option Value="384" Text="Soni"></option>
+        <option Value="461" Text="Sood"></option>
+        <option Value="211" Text="Sourashtra"></option>
+        <option Value="126" Text="Sozhiya Vellalar"></option>
+        <option Value="232" Text="Srisayani"></option>
+        <option Value="239" Text="SSK"></option>
+        <option Value="385" Text="Subarna Banik"></option>
+        <option Value="386" Text="Sundhi"></option>
+        <option Value="127" Text="Sutar"></option>
+        <option Value="387" Text="Swakula sali"></option>
+        <option Value="128" Text="Swarnkar"></option>
+        <option Value="388" Text="Tamboli"></option>
+        <option Value="389" Text="Tanti"></option>
+        <option Value="163" Text="Tantuway"></option>
+        <option Value="212" Text="Telaga"></option>
+        <option Value="129" Text="Teli"></option>
+        <option Value="390" Text="Thakkar"></option>
+        <option Value="391" Text="Thakur"></option>
+        <option Value="130" Text="Thevar/Mukkulathor"></option>
+        <option Value="392" Text="Thigala"></option>
+        <option Value="131" Text="Thiyya"></option>
+        <option Value="462" Text="Tili"></option>
+        <option Value="463" Text="Togata"></option>
+        <option Value="464" Text="Tonk Kshatriya"></option>
+        <option Value="393" Text="Tribe"></option>
+        <option Value="465" Text="Turupu Kapu"></option>
+        <option Value="394" Text="Uppara"></option>
+        <option Value="395" Text="Vaddera"></option>
+        <option Value="466" Text="Vaidiki Velanadu"></option>
+        <option Value="133" Text="Vaish"></option>
+        <option Value="134" Text="Vaishnav"></option>
+        <option Value="135" Text="Vaishnav Vanik"></option>
+        <option Value="396" Text="Vaishnava"></option>
+        <option Value="136" Text="Vaishya"></option>
+        <option Value="397" Text="Vaishya Vani"></option>
+        <option Value="467" Text="Valluvar"></option>
+        <option Value="137" Text="Valmiki"></option>
+        <option Value="398" Text="Vania"></option>
+        <option Value="399" Text="Vaniya"></option>
+        <option Value="224" Text="Vanjari"></option>
+        <option Value="236" Text="Vankar"></option>
+        <option Value="213" Text="Vannar"></option>
+        <option Value="214" Text="Vannia Kula Kshatriyar"></option>
+        <option Value="138" Text="Vanniyar"></option>
+        <option Value="139" Text="Varshney"></option>
+        <option Value="215" Text="Veershaiva/Veera Saivam"></option>
+        <option Value="142" Text="Velama"></option>
+        <option Value="468" Text="Velan"></option>
+        <option Value="141" Text="Vellalar"></option>
+        <option Value="469" Text="Vettuva Gounder"></option>
+        <option Value="143" Text="Vishwakarma"></option>
+        <option Value="144" Text="Vokkaliga"></option>
+        <option Value="145" Text="Vysya"></option>
+        <option Value="146" Text="Yadav/Yadava"></option>
+        <option Value="242" Text="Others"></option>
+</hindu>

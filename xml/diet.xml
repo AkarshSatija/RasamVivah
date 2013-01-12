@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<diet>
+  <option Value="1" Text="Veg"></option>
+  <option Value="2" Text="Non-Veg"></option>
+  <option Value="3" Text="Occasionally Non-Veg"></option>
+  <option Value="4" Text="Eggetarian"></option>
+  <option Value="5" Text="Jain"></option>
+</diet>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<challenged>
+  <option Value="1" Text="None"></option>
+  <option Value="2" Text="Physically challenged from birth"></option>
+  <option Value="3" Text="Physically challenged due to accident"></option>
+  <option Value="4" Text="Mentally challenged from birth"></option>
+  <option Value="5" Text="Mentally challenged due to accident"></option>
+  <option Value="6" Text="Physical abnormality affecting only looks"></option>
+  <option Value="7" Text="Physical abnormality affecting bodily functions"></option>
+  <option Value="8" Text="Physically and mentally challenged"></option>
+
+
+</challenged>

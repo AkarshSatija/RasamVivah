@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<religion>
+<option Value = "0" Text="Select"></option>
+<option Value = "1" Text="Hindu"></option>
+<option Value = "2" Text="Muslim"></option>
+<option Value = "3" Text="Christian" ></option>
+<option Value = "4" Text="Sikh"></option>
+<option Value = "5" Text="Parsi"></option>
+<option Value = "6" Text="Jain" ></option>
+<option Value = "7" Text="Budhist"></option>
+<option Value = "8" Text="Jewish" ></option>
+<option Value = "9" Text="No religion"></option>
+<option Value = "10" Text="Spiritual"></option>
+<option Value = "11" Text="Others" ></option>
+</religion>

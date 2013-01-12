@@ -1,0 +1,585 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<select>
+  <option Value="0" Text="Please Select" ></option>
+  <option Value="11|{|DE00" Text="New Delhi" ></option>
+  <option Value="22|{|MH04" Text="Mumbai" ></option>
+  <option Value="80|{|KA02" Text="Bangalore" ></option>
+  <option Value="40|{|AP03" Text="Hyderabad/Secunderabad" ></option>
+  <option Value="20|{|MH08" Text="Pune/ Chinchwad" ></option>
+  <option Value="44|{|TN02" Text="Chennai" ></option>
+  <option Value="33|{|WB05" Text="Kolkata" ></option>
+  <option Value="1634|{|PU11" Text="Abohar  " ></option>
+  <option Value="7223|{|MH31" Text="Achalpur" ></option>
+  <option Value="657|{|JH05" Text="Adityapur" ></option>
+  <option Value="0|{|AP12" Text="Adoni" ></option>
+  <option Value="381|{|TR01" Text="Agartala" ></option>
+  <option Value="562|{|UP01" Text="Agra" ></option>
+  <option Value="79|{|GU01" Text="Ahmedabad" ></option>
+  <option Value="241|{|MH30" Text="Ahmednagar" >" ></option>
+  <option Value="389|{|MI01" Text="Aizwal" ></option>
+  <option Value="145|{|RA01" Text="Ajmer" ></option>
+  <option Value="724|{|MH01" Text="Akola" ></option>
+  <option Value="422|{|TN38" Text="Alandurai" ></option>
+  <option Value="571|{|UP02" Text="Aligarh" ></option>
+  <option Value="532|{|UP03" Text="Allahabad" ></option>
+  <option Value="477|{|KE10" Text="Alleppey " ></option>
+  <option Value="5962|{|UK06" Text="Almora" ></option>
+  <option Value="144|{|RA02" Text="Alwar" ></option>
+  <option Value="171|{|HA01" Text="Ambala" ></option>
+  <option Value="7774|{|CH05" Text="Ambikapur" ></option>
+  <option Value="5368|{|UP04" Text="Amethi" ></option>
+  <option Value="0|{|AP13" Text="Amravati" ></option>
+  <option Value="2792|{|GU26" Text="Amreli" ></option>
+  <option Value="183|{|PU01" Text="Amritsar" ></option>
+  <option Value="0|{|UP32" Text="Amroha" ></option>
+  <option Value="2692|{|GU02" Text="Anand" ></option>
+  <option Value="0|{|AP14" Text="Anantapur" ></option>
+  <option Value="1932|{|JK05" Text="Anantnag" ></option>
+  <option Value="2646|{|GU03" Text="Ankleshwar" ></option>
+  <option Value="8388|{|KA01" Text="Ankola" ></option>
+  <option Value="0|{|TN01" Text="Arcot" ></option>
+  <option Value="6182|{|BI08" Text="Arrah" ></option>
+  <option Value="341|{|WB01" Text="Asansol" ></option>
+  <option Value="242|{|MH02" Text="Aurangabad" ></option>
+  <option Value="5276|{|UP05" Text="Ayodhya" ></option>
+  <option Value="1795|{|HP04" Text="Baddi" ></option>
+  <option Value="6251|{|BI17" Text="Bagaha" ></option>
+  <option Value="1276|{|HA13" Text="Bahadurgarh" ></option>
+  <option Value="0|{|WB06" Text="Baharampur" ></option>
+  <option Value="0|{|UP33" Text="Bahraich" ></option>
+  <option Value="6652|{|OR10" Text="Balangir" ></option>
+  <option Value="0|{|OR05" Text="Baleshwar" ></option>
+  <option Value="0|{|WB07" Text="Bally" ></option>
+  <option Value="2988|{|RA17" Text="Balotra" ></option>
+  <option Value="0|{|WB08" Text="Balurghat" ></option>
+  <option Value="7583|{|MP27" Text="Banda" ></option>
+  <option Value="80|{|KA02" Text="Bangalore" ></option>
+  <option Value="0|{|WB09" Text="Bankura" ></option>
+  <option Value="2962|{|RA18" Text="Banswara" ></option>
+  <option Value="1952|{|JK06" Text="Baramula" ></option>
+  <option Value="7453|{|RA19" Text="Baran" ></option>
+  <option Value="0|{|WB10" Text="Baranagar" ></option>
+  <option Value="6767|{|OR11" Text="Barbil" ></option>
+  <option Value="342|{|WB02" Text="Barddhaman/Burdwan" ></option>
+  <option Value="581|{|UP06" Text="Bareilly" ></option>
+  <option Value="6646|{|OR12" Text="Bargarh" ></option>
+  <option Value="6792|{|OR13" Text="Baripada Town" ></option>
+  <option Value="2982|{|RA20" Text="Barmer" ></option>
+  <option Value="1679|{|PU18" Text="Barnala" ></option>
+  <option Value="265|{|GU04" Text="Baroda/Vadodara" ></option>
+  <option Value="0|{|WB11" Text="Barrackpore" ></option>
+  <option Value="2184|{|MH32" Text="Barshi" ></option>
+  <option Value="0|{|WB12" Text="Basirhat" ></option>
+  <option Value="0|{|PU12" Text="Batala" ></option>
+  <option Value="164|{|PU02" Text="Bathinda" ></option>
+  <option Value="0|{|RA12" Text="Beawar" ></option>
+  <option Value="6243|{|BI18" Text="Begusarai" ></option>
+  <option Value="680|{|OR14" Text="Behrampur" ></option>
+  <option Value="831|{|KA03" Text="Belgaum" ></option>
+  <option Value="0|{|KA10" Text="Bellary" ></option>
+  <option Value="6254|{|BI19" Text="Bettiah" ></option>
+  <option Value="7141|{|MP28" Text="Betul" ></option>
+  <option Value="6784|{|OR15" Text="Bhadrak" ></option>
+  <option Value="8282|{|KA27" Text="Bhadravati" ></option>
+  <option Value="0|{|BI09" Text="Bhagalpur" ></option>
+  <option Value="265|{|RA03" Text="Bharatpur" ></option>
+  <option Value="2642|{|GU13" Text="Bharuch " ></option>
+  <option Value="7726|{|CH06" Text="Bhatapara" ></option>
+  <option Value="0|{|WB13" Text="Bhatpara" ></option>
+  <option Value="278|{|GU14" Text="Bhavnagar " ></option>
+  <option Value="6670|{|OR16" Text="Bhawanipatna" ></option>
+  <option Value="22|{|MH29" Text="Bhayander" ></option>
+  <option Value="788|{|CH04" Text="Bhilai" ></option>
+  <option Value="1482|{|RA04" Text="Bhilwara" ></option>
+  <option Value="0|{|AP15" Text="Bhimavaram" ></option>
+  <option Value="0|{|MP13" Text="Bhind" ></option>
+  <option Value="0|{|MH14" Text="Bhiwandi" ></option>
+  <option Value="1664|{|HA07" Text="Bhiwani " ></option>
+  <option Value="755|{|MP02" Text="Bhopal" ></option>
+  <option Value="674|{|OR01" Text="Bhubaneshwar" ></option>
+  <option Value="2832|{|GU15" Text="Bhuj " ></option>
+  <option Value="0|{|MH15" Text="Bhusawal" ></option>
+  <option Value="8482|{|KA04" Text="Bidar" ></option>
+  <option Value="353|{|WB40" Text="Bidhan Nagar" ></option>
+  <option Value="0|{|BI10" Text="Bihar Sharif" ></option>
+  <option Value="0|{|KA11" Text="Bijapur" ></option>
+  <option Value="151|{|RA05" Text="Bikaner" ></option>
+  <option Value="7752|{|CH03" Text="Bilaspur" ></option>
+  <option Value="6542|{|JH04" Text="Bokaro" ></option>
+  <option Value="3664|{|AS06" Text="Bongaigaon " ></option>
+  <option Value="2849|{|GU27" Text="Botad" ></option>
+  <option Value="0|{|WB14" Text="Brahmapur" ></option>
+  <option Value="66451|{|OR17" Text="Brajarajnagar" ></option>
+  <option Value="0|{|UP34" Text="Budaun" ></option>
+  <option Value="0|{|UP35" Text="Bulandshahar" ></option>
+  <option Value="747|{|RA21" Text="Bundi" ></option>
+  <option Value="0|{|MP14" Text="Burhanpur" ></option>
+  <option Value="3448|{|WB16" Text="Burnpur " ></option>
+  <option Value="6183|{|BI20" Text="Buxar" ></option>
+  <option Value="497|{|KE11" Text="Cannanore " ></option>
+  <option Value="6582|{|JH06" Text="Chaibasa" ></option>
+  <option Value="1899|{|HP05" Text="Chamba" ></option>
+  <option Value="3831|{|MI02" Text="Champhai" ></option>
+  <option Value="0|{|WB17" Text="Chandan Nagar" ></option>
+  <option Value="172|{|PH00" Text="Chandigarh" ></option>
+  <option Value="0|{|MH16" Text="Chandrapur" ></option>
+  <option Value="0|{|BI11" Text="Chapra" ></option>
+  <option Value="6548|{|JH07" Text="Chass" ></option>
+  <option Value="7682|{|MP29" Text="Chatrapur" ></option>
+  <option Value="44|{|TN02" Text="Chennai" ></option>
+  <option Value="0|{|KE12" Text="Cherthala" ></option>
+  <option Value="7162|{|MP04" Text="Chhindwara" ></option>
+  <option Value="4114|{|TN03" Text="Chidambaram" ></option>
+  <option Value="8262|{|KA12" Text="Chikamangalur " ></option>
+  <option Value="4114|{|TN21" Text="Chinglepet " ></option>
+  <option Value="8194|{|KA28" Text="Chitradurga" ></option>
+  <option Value="8572|{|AP16" Text="Chittor " ></option>
+  <option Value="1472|{|RA22" Text="Chittorgarh" ></option>
+  <option Value="67129|{|OR18" Text="Choudwar" ></option>
+  <option Value="1562|{|RA23" Text="Churu" ></option>
+  <option Value="482|{|KE13" Text="Cochin/ Kochi/ Ernakulam" ></option>
+  <option Value="422|{|TN04" Text="Coimbatore" ></option>
+  <option Value="3582|{|WB18" Text="Coochbehar " ></option>
+  <option Value="4142|{|TN05" Text="Cuddalore" ></option>
+  <option Value="8562|{|AP01" Text="Cuddapah" ></option>
+  <option Value="671|{|OR02" Text="Cuttack" ></option>
+  <option Value="0|{|WB19" Text="Dabgram" ></option>
+  <option Value="26388|{|DN01" Text="Dadara" ></option>
+  <option Value="1899|{|HP01" Text="Dalhousie" ></option>
+  <option Value="7748|{|CH07" Text="Dalli-Rajhara" ></option>
+  <option Value="6562|{|JH08" Text="Daltonganj" ></option>
+  <option Value="2636|{|DD01" Text="Daman" ></option>
+  <option Value="0|{|MP26" Text="Damoh" ></option>
+  <option Value="6272|{|BI12" Text="Darbanga  " ></option>
+  <option Value="354|{|WB20" Text="Darjeeling " ></option>
+  <option Value="7522|{|MP30" Text="Datia" ></option>
+  <option Value="1427|{|RA24" Text="Dausa" ></option>
+  <option Value="8192|{|KA13" Text="Davangere" ></option>
+  <option Value="2744|{|GU28" Text="Deesa" ></option>
+  <option Value="135|{|UK05" Text="Dehradun" ></option>
+  <option Value="6432|{|JH09" Text="Deoghar" ></option>
+  <option Value="5562|{|MP05" Text="Deora" ></option>
+  <option Value="0|{|MP15" Text="Dewas" ></option>
+  <option Value="7722|{|CH08" Text="Dhamtari" ></option>
+  <option Value="326|{|JH03" Text="Dhanbad" ></option>
+  <option Value="1892|{|HP06" Text="Dharmsala" ></option>
+  <option Value="836|{|KA05" Text="Dharwad" ></option>
+  <option Value="5642|{|RA25" Text="Dhaulpur" ></option>
+  <option Value="6762|{|OR19" Text="Dhenkanal" ></option>
+  <option Value="2824|{|GU29" Text="Dhoraji" ></option>
+  <option Value="3662|{|AS08" Text="Dhubri" ></option>
+  <option Value="0|{|MH17" Text="Dhule" ></option>
+  <option Value="1671|{|PU19" Text="Dhuri" ></option>
+  <option Value="373|{|AS01" Text="Dibrugarh" ></option>
+  <option Value="3862|{|NA01" Text="Dimapur" ></option>
+  <option Value="451|{|TN22" Text="Dindigal " ></option>
+  <option Value="3671|{|AS09" Text="Diphu" ></option>
+  <option Value="361|{|AS02" Text="Dispur" ></option>
+  <option Value="28758|{|DD02" Text="Diu" ></option>
+  <option Value="788|{|CH02" Text="Durg" ></option>
+  <option Value="343|{|WB03" Text="Durgapur" ></option>
+  <option Value="2892|{|GU16" Text="Dwarka " ></option>
+  <option Value="495|{|KE24" Text="Edathala" ></option>
+  <option Value="0|{|AP17" Text="Eluru" ></option>
+  <option Value="0|{|WB21" Text="English Bazar" ></option>
+  <option Value="424|{|TN06" Text="Erode" ></option>
+  <option Value="5742|{|UP36" Text="Etah " ></option>
+  <option Value="5682|{|UP08" Text="Etawah" ></option>
+  <option Value="5278|{|UP09" Text="Faizabad" ></option>
+  <option Value="129|{|HA02" Text="Faridabad" ></option>
+  <option Value="1639|{|PU03" Text="Faridkot" ></option>
+  <option Value="5692|{|UP49" Text="Farokkabad" ></option>
+  <option Value="1667|{|HA14" Text="Fatehabad" ></option>
+  <option Value="5182|{|UP10" Text="Fatehpur" ></option>
+  <option Value="1638|{|PU20" Text="Fazilka" ></option>
+  <option Value="1632|{|PU14" Text="Ferozepur " ></option>
+  <option Value="561|{|UP11" Text="Firozabad" ></option>
+  <option Value="0|{|KA15" Text="Gadag-betgeri" ></option>
+  <option Value="0|{|GU17" Text="Gandhidham" ></option>
+  <option Value="2712|{|GU05" Text="Gandhinagar" ></option>
+  <option Value="0|{|RA06" Text="Ganganagar" ></option>
+  <option Value="7463|{|RA26" Text="Gangapur City" ></option>
+  <option Value="3592|{|SI01" Text="Gangtok" ></option>
+  <option Value="631|{|BI03" Text="Gaya" ></option>
+  <option Value="120|{|UP12" Text="Ghaziabad" ></option>
+  <option Value="6532|{|JH10" Text="Giridih" ></option>
+  <option Value="2672|{|GU18" Text="Godhra " ></option>
+  <option Value="5262|{|UP50" Text="Gonda" ></option>
+  <option Value="2825|{|GU30" Text="Gondal" ></option>
+  <option Value="0|{|MH18" Text="Gondiya" ></option>
+  <option Value="551|{|UP13" Text="Gorakhpur" ></option>
+  <option Value="120|{|UP47" Text="Greater Noida" ></option>
+  <option Value="0|{|AP18" Text="Gudivada" ></option>
+  <option Value="8472|{|KA06" Text="Gulbarga" ></option>
+  <option Value="1953|{|JK01" Text="Gulmarg" ></option>
+  <option Value="0|{|MP16" Text="Guna" ></option>
+  <option Value="0|{|AP19" Text="Guntakal" ></option>
+  <option Value="863|{|AP02" Text="Guntur" ></option>
+  <option Value="1874|{|PU05" Text="Gurdaspur" ></option>
+  <option Value="124|{|HA03" Text="Gurgaon" ></option>
+  <option Value="361|{|AS03" Text="Guwahati" ></option>
+  <option Value="751|{|MP07" Text="Gwalior" ></option>
+  <option Value="0|{|WB22" Text="Habra" ></option>
+  <option Value="6224|{|BI21" Text="Hajipur" ></option>
+  <option Value="0|{|WB23" Text="Haldia" ></option>
+  <option Value="5946|{|UK07" Text="Haldwani" ></option>
+  <option Value="1663|{|HA15" Text="Hansi" ></option>
+  <option Value="1552|{|RA27" Text="Hanumangarh" ></option>
+  <option Value="0|{|WB24" Text="Haora" ></option>
+  <option Value="122|{|UP14" Text="Hapur" ></option>
+  <option Value="1334|{|UK02" Text="Haridwar" ></option>
+  <option Value="0|{|KA16" Text="Hassan" ></option>
+  <option Value="0|{|UP37" Text="Hathras" ></option>
+  <option Value="6546|{|JH11" Text="Hazaribagh" ></option>
+  <option Value="7469|{|RA28" Text="Hindaun" ></option>
+  <option Value="0|{|AP20" Text="Hindupur" ></option>
+  <option Value="1662|{|HA08" Text="Hissar " ></option>
+  <option Value="7574|{|MP31" Text="Hosangabad" ></option>
+  <option Value="1882|{|PU06" Text="Hoshiarpur" ></option>
+  <option Value="0|{|KA17" Text="Hospet" ></option>
+  <option Value="836|{|KA07" Text="Hubli" ></option>
+  <option Value="40|{|AP03" Text="Hyderabad/Secunderabad" ></option>
+  <option Value="0|{|MH19" Text="Ichalakaranji" ></option>
+  <option Value="3852|{|MA01" Text="Imphal" ></option>
+  <option Value="731|{|MP08" Text="Indore" ></option>
+  <option Value="3781|{|AR01" Text="Itanagar" ></option>
+  <option Value="7572|{|MP32" Text="Ittarsi" ></option>
+  <option Value="761|{|MP09" Text="Jabalpur" ></option>
+  <option Value="7782|{|CH09" Text="Jagadhalpur" ></option>
+  <option Value="1732|{|HA16" Text="Jagadhari" ></option>
+  <option Value="1624|{|PU21" Text="Jagraon" ></option>
+  <option Value="141|{|RA07" Text="Jaipur" ></option>
+  <option Value="2992|{|RA11" Text="Jaisalmer" ></option>
+  <option Value="181|{|PU10" Text="Jalandhar" ></option>
+  <option Value="257|{|MH20" Text="Jalgaon " ></option>
+  <option Value="2482|{|MH21" Text="Jalna " ></option>
+  <option Value="2973|{|RA13" Text="Jalore " ></option>
+  <option Value="3561|{|WB25" Text="Jalpaiguri " ></option>
+  <option Value="288|{|GU19" Text="Jam Nagar " ></option>
+  <option Value="6344|{|BI22" Text="Jamalpur" ></option>
+  <option Value="8353|{|KA18" Text="Jamkhandi " ></option>
+  <option Value="191|{|JK04" Text="Jammu" ></option>
+  <option Value="657|{|JH02" Text="Jamshedpur" ></option>
+  <option Value="6754|{|OR20" Text="Jatni" ></option>
+  <option Value="5452|{|UP51" Text="Jaunpur" ></option>
+  <option Value="3652|{|ME02" Text="Jawai" ></option>
+  <option Value="6114|{|BI23" Text="Jehanabad" ></option>
+  <option Value="2823|{|GU31" Text="Jetpur Navagadh" ></option>
+  <option Value="6854|{|OR21" Text="Jeypur" ></option>
+  <option Value="517|{|UP16" Text="Jhansi" ></option>
+  <option Value="326|{|JH12" Text="Jharia" ></option>
+  <option Value="6645|{|OR22" Text="Jharsugda" ></option>
+  <option Value="6534|{|JH13" Text="Jhumri Talaiya" ></option>
+  <option Value="1595|{|RA29" Text="Jhunjhunun" ></option>
+  <option Value="1681|{|HA17" Text="Jind" ></option>
+  <option Value="291|{|RA08" Text="Jodhpur" ></option>
+  <option Value="376|{|AS04" Text="Jorhat" ></option>
+  <option Value="285|{|GU06" Text="Junagarh" ></option>
+  <option Value="1746|{|HA18" Text="Kaithal" ></option>
+  <option Value="3848|{|MA02" Text="Kakching" ></option>
+  <option Value="884|{|AP04" Text="Kakinada" ></option>
+  <option Value="3552|{|WB26" Text="Kalimpong " ></option>
+  <option Value="2764|{|GU20" Text="Kalol " ></option>
+  <option Value="4117|{|TN23" Text="Kalpakkam " ></option>
+  <option Value="251|{|MH33" Text="Kalyan" ></option>
+  <option Value="4112|{|TN24" Text="Kanchipuram " ></option>
+  <option Value="2834|{|GU07" Text="Kandla" ></option>
+  <option Value="0|{|KE20" Text="Kanhangad" ></option>
+  <option Value="5694|{|UP17" Text="Kannauj" ></option>
+  <option Value="4652|{|TN07" Text="Kanniyakumari" ></option>
+  <option Value="0|{|KE14" Text="Kannur" ></option>
+  <option Value="512|{|UP18" Text="Kanpur" ></option>
+  <option Value="4652|{|TN25" Text="Kanyakumari " ></option>
+  <option Value="1822|{|PU22" Text="Kapurthala" ></option>
+  <option Value="7464|{|RA30" Text="Karauli" ></option>
+  <option Value="3843|{|AS10" Text="Karimganj" ></option>
+  <option Value="8722|{|AP21" Text="Karimnagar " ></option>
+  <option Value="184|{|HA09" Text="Karnal " ></option>
+  <option Value="1793|{|HP02" Text="Kasauli" ></option>
+  <option Value="5947|{|UK08" Text="Kashipur" ></option>
+  <option Value="1922|{|JK07" Text="Kathua" ></option>
+  <option Value="0|{|BI13" Text="Katihar" ></option>
+  <option Value="7622|{|MP33" Text="Katni" ></option>
+  <option Value="4866|{|LA01" Text="Kavaratti" ></option>
+  <option Value="4786|{|KE25" Text="Kayamkulam" ></option>
+  <option Value="6727|{|OR23" Text="Kendrapara" ></option>
+  <option Value="6553|{|MP10" Text="Khajuraho" ></option>
+  <option Value="2698|{|GU32" Text="Khambhat" ></option>
+  <option Value="0|{|AP22" Text="Khammam" ></option>
+  <option Value="0|{|MP17" Text="Khandwa" ></option>
+  <option Value="3222|{|WB04" Text="Kharagpur" ></option>
+  <option Value="7282|{|MP34" Text="Khargone" ></option>
+  <option Value="5944|{|UK09" Text="Kicha" ></option>
+  <option Value="6466|{|BI24" Text="Kishanganj" ></option>
+  <option Value="1497|{|RA31" Text="Kishangarh" ></option>
+  <option Value="4542|{|TN08" Text="Kodaikanal" ></option>
+  <option Value="370|{|NA02" Text="Kohima" ></option>
+  <option Value="8152|{|KA19" Text="Kolar " ></option>
+  <option Value="231|{|MH03" Text="Kolhapur" ></option>
+  <option Value="33|{|WB05" Text="Kolkata" ></option>
+  <option Value="0|{|KE15" Text="Kollam" ></option>
+  <option Value="7759|{|CH10" Text="Korba" ></option>
+  <option Value="1635|{|PU23" Text="Kot Kapura" ></option>
+  <option Value="744|{|RA09" Text="Kota" ></option>
+  <option Value="481|{|KE04" Text="Kottayam" ></option>
+  <option Value="471|{|KE05" Text="Kovalam" ></option>
+  <option Value="495|{|KE06" Text="Kozhikhode/ Calicut" ></option>
+  <option Value="0|{|WB27" Text="Krishnanagar" ></option>
+  <option Value="8230|{|KA29" Text="Krishnarajapura" ></option>
+  <option Value="1902|{|HP07" Text="Kullu" ></option>
+  <option Value="0|{|TN27" Text="Kumbakonam" ></option>
+  <option Value="8518|{|AP05" Text="Kurnool" ></option>
+  <option Value="5872|{|UP52" Text="Lakhimpur Kheri" ></option>
+  <option Value="0|{|MH22" Text="Latur" ></option>
+  <option Value="1982|{|JK02" Text="Leh" ></option>
+  <option Value="385|{|MA03" Text="Lilong (Thoubal)" ></option>
+  <option Value="522|{|UP19" Text="Lucknow" ></option>
+  <option Value="161|{|PU07" Text="Ludhiana" ></option>
+  <option Value="372|{|MI03" Text="Lunglei" ></option>
+  <option Value="8672|{|AP06" Text="Machilipatnam" ></option>
+  <option Value="3452|{|WB41" Text="Madhyamgram" ></option>
+  <option Value="8272|{|KA20" Text="Madikeri " ></option>
+  <option Value="452|{|TN09" Text="Madurai" ></option>
+  <option Value="452|{|TN28" Text="Madural Ellisnaga " ></option>
+  <option Value="4113|{|TN29" Text="Mahabalipuram " ></option>
+  <option Value="8236|{|KA30" Text="Mahadevapura" ></option>
+  <option Value="7723|{|CH11" Text="Mahasamund" ></option>
+  <option Value="0|{|AP23" Text="Mahbubnagar" ></option>
+  <option Value="2762|{|GU33" Text="Mahesana" ></option>
+  <option Value="1588|{|RA32" Text="Makrana" ></option>
+  <option Value="0|{|KE16" Text="Malappuram" ></option>
+  <option Value="3512|{|WB28" Text="Malda " ></option>
+  <option Value="0|{|MH23" Text="Malegaon" ></option>
+  <option Value="1675|{|PU24" Text="Malerkotla" ></option>
+  <option Value="1637|{|PU25" Text="Malout" ></option>
+  <option Value="1905|{|HP08" Text="Mandi" ></option>
+  <option Value="1668|{|HA19" Text="Mandi Dabwali" ></option>
+  <option Value="1761|{|PU26" Text="Mandigovindgarh" ></option>
+  <option Value="7422|{|MP35" Text="Mandsaur" ></option>
+  <option Value="0|{|KA21" Text="Mandya" ></option>
+  <option Value="824|{|KA08" Text="Mangalore" ></option>
+  <option Value="483|{|KE26" Text="Manjeri" ></option>
+  <option Value="83284|{|GO01" Text="Mapusa" ></option>
+  <option Value="8342|{|GO02" Text="Margaon" ></option>
+  <option Value="565|{|UP20" Text="Mathura" ></option>
+  <option Value="0|{|UP38" Text="Maunath Bhanjan" ></option>
+  <option Value="3638|{|ME03" Text="Mawlai" ></option>
+  <option Value="0|{|WB29" Text="Medinipur" ></option>
+  <option Value="121|{|UP21" Text="Meerut" ></option>
+  <option Value="7324|{|MP36" Text="Mhow" ></option>
+  <option Value="0|{|UP39" Text="Mirzapur" ></option>
+  <option Value="1232|{|UP40" Text="Modi Nagar " ></option>
+  <option Value="0|{|PU15" Text="Moga" ></option>
+  <option Value="172|{|PU27" Text="Mohali" ></option>
+  <option Value="369|{|NA03" Text="Mokokchung" ></option>
+  <option Value="591|{|UP22" Text="Moradabad" ></option>
+  <option Value="0|{|MP18" Text="Morena" ></option>
+  <option Value="0|{|GU21" Text="Morvi" ></option>
+  <option Value="6252|{|BI25" Text="Motihari" ></option>
+  <option Value="1633|{|PU28" Text="Muktsar" ></option>
+  <option Value="22|{|MH04" Text="Mumbai" ></option>
+  <option Value="0|{|BI14" Text="Munger" ></option>
+  <option Value="0|{|MP19" Text="Murwara" ></option>
+  <option Value="3276|{|UK01" Text="Mussoorie" ></option>
+  <option Value="131|{|UP24" Text="Muzaffarnagar" ></option>
+  <option Value="621|{|BI05" Text="Muzaffarpur" ></option>
+  <option Value="821|{|KA09" Text="Mysore" ></option>
+  <option Value="0|{|WB30" Text="Nabadwip" ></option>
+  <option Value="1765|{|PU29" Text="Nabha" ></option>
+  <option Value="0|{|GU22" Text="Nadiad" ></option>
+  <option Value="0|{|TN30" Text="Nagercoil" ></option>
+  <option Value="1584|{|RA33" Text="Nagore" ></option>
+  <option Value="712|{|MH05" Text="Nagpur" ></option>
+  <option Value="1702|{|HP09" Text="Nahan" ></option>
+  <option Value="360|{|AR02" Text="Naharlagun" ></option>
+  <option Value="0|{|WB31" Text="Naihati" ></option>
+  <option Value="5942|{|UK10" Text="Nainital" ></option>
+  <option Value="2462|{|MH06" Text="Nanded" ></option>
+  <option Value="0|{|AP24" Text="Nandyal" ></option>
+  <option Value="1282|{|HA20" Text="Narnaul" ></option>
+  <option Value="1684|{|HA21" Text="Narwana" ></option>
+  <option Value="253|{|MH24" Text="Nashik/ Nasik" ></option>
+  <option Value="215|{|MH28" Text="Navi Mumbai" ></option>
+  <option Value="0|{|GU23" Text="Navsari" ></option>
+  <option Value="6324|{|BI26" Text="Nawada" ></option>
+  <option Value="3672|{|AS11" Text="Nawagoan" ></option>
+  <option Value="7423|{|MP37" Text="Neemuch" ></option>
+  <option Value="861|{|AP07" Text="Nellore" ></option>
+  <option Value="11|{|DE00" Text="New Delhi" ></option>
+  <option Value="4148|{|TN31" Text="Neyveli " ></option>
+  <option Value="6553|{|TN10" Text="Nilgiri" ></option>
+  <option Value="0|{|AP25" Text="Nizamabad" ></option>
+  <option Value="120|{|UP25" Text="Noida" ></option>
+  <option Value="3654|{|ME04" Text="Nongstoin" ></option>
+  <option Value="3752|{|AS12" Text="North Lakhimpur" ></option>
+  <option Value="0|{|AP26" Text="Ongole" ></option>
+  <option Value="423|{|TN32" Text="Ooty  " ></option>
+  <option Value="5162|{|UP53" Text="Orai" ></option>
+  <option Value="491|{|KE07" Text="Palakkad" ></option>
+  <option Value="0|{|AP08" Text="Palampet" ></option>
+  <option Value="2742|{|GU08" Text="Palanpur" ></option>
+  <option Value="491|{|KE21" Text="Palghat  " ></option>
+  <option Value="0|{|RA14" Text="Pali" ></option>
+  <option Value="1275|{|HA22" Text="Palwal" ></option>
+  <option Value="832|{|GO03" Text="Panaji" ></option>
+  <option Value="4732|{|KE09" Text="Pandalam" ></option>
+  <option Value="0|{|WB32" Text="Panihati" ></option>
+  <option Value="1742|{|HA06" Text="Panipat" ></option>
+  <option Value="6722|{|OR03" Text="Paradeep" ></option>
+  <option Value="0|{|MH25" Text="Parbhani" ></option>
+  <option Value="6815|{|OR24" Text="Parlakhemundi" ></option>
+  <option Value="360|{|AR03" Text="Pasighat" ></option>
+  <option Value="7826|{|CH12" Text="Patan" ></option>
+  <option Value="|{|KE23" Text="Pathanamtitta" ></option>
+  <option Value="186|{|PU08" Text="Pathankot" ></option>
+  <option Value="175|{|PU09" Text="Patiala" ></option>
+  <option Value="612|{|BI06" Text="Patna" ></option>
+  <option Value="4985|{|KE27" Text="Payyannur" ></option>
+  <option Value="0|{|TN11" Text="Periyar" ></option>
+  <option Value="1824|{|PU30" Text="Phagawara" ></option>
+  <option Value="5882|{|UP41" Text="Pilibhit " ></option>
+  <option Value="5964|{|UK11" Text="Pithoragarh" ></option>
+  <option Value="413|{|PO00" Text="Pondicherry" ></option>
+  <option Value="4939|{|KE28" Text="Ponnani" ></option>
+  <option Value="1704|{|HP10" Text="Ponta Sahib" ></option>
+  <option Value="286|{|GU24" Text="Porbandar " ></option>
+  <option Value="3192|{|AN01" Text="Port Blair" ></option>
+  <option Value="0|{|AP27" Text="Proddatur" ></option>
+  <option Value="4322|{|TN39" Text="Pudukkottai" ></option>
+  <option Value="20|{|MH08" Text="Pune/ Chinchwad" ></option>
+  <option Value="6752|{|OR07" Text="Puri " ></option>
+  <option Value="0|{|BI15" Text="Purnia" ></option>
+  <option Value="474|{|KE29" Text="Quilandy" ></option>
+  <option Value="474|{|KE22" Text="Quilon  " ></option>
+  <option Value="535|{|UP26" Text="Rae Bareli" ></option>
+  <option Value="0|{|KA22" Text="Raichur" ></option>
+  <option Value="0|{|WB33" Text="Raiganj" ></option>
+  <option Value="7762|{|CH13" Text="Raigarh" ></option>
+  <option Value="771|{|CH01" Text="Raipur" ></option>
+  <option Value="6624|{|OR25" Text="Rajagangpur" ></option>
+  <option Value="883|{|TN12" Text="Rajahmundry" ></option>
+  <option Value="4563|{|TN33" Text="Rajapalayam " ></option>
+  <option Value="339116|{|WB42" Text="Rajarhat Gopalpur" ></option>
+  <option Value="281|{|GU09" Text="Rajkot" ></option>
+  <option Value="7744|{|CH14" Text="Rajnandgaon" ></option>
+  <option Value="1762|{|PU31" Text="Rajpura" ></option>
+  <option Value="0|{|AP29" Text="Ramagundam" ></option>
+  <option Value="4573|{|TN13" Text="Rameswaram" ></option>
+  <option Value="6553|{|JH14" Text="Ramgarh Cantonment" ></option>
+  <option Value="6256|{|BI27" Text="Ramnagar" ></option>
+  <option Value="0|{|UP42" Text="Rampur" ></option>
+  <option Value="651|{|JH01" Text="Ranchi" ></option>
+  <option Value="8414|{|AP33" Text="Rangareddy" ></option>
+  <option Value="0|{|WB34" Text="Raniganj" ></option>
+  <option Value="7272692|{|MP38" Text="Ratangarh" ></option>
+  <option Value="0|{|MP21" Text="Ratlam" ></option>
+  <option Value="6856|{|OR26" Text="Rayagada" ></option>
+  <option Value="0|{|MP22" Text="Rewa" ></option>
+  <option Value="1274|{|HA10" Text="Rewari " ></option>
+  <option Value="1364|{|UK04" Text="Rishikesh" ></option>
+  <option Value="1262|{|HA04" Text="Rohtak" ></option>
+  <option Value="1332|{|UK03" Text="Roorkee" ></option>
+  <option Value="1881|{|PU17" Text="Ropar/ Rupnagar/ Roopnagar" ></option>
+  <option Value="661|{|OR04" Text="Rourkela" ></option>
+  <option Value="5568|{|UP54" Text="Rudrapur" ></option>
+  <option Value="7582|{|MP23" Text="Sagar  " ></option>
+  <option Value="132|{|UP29" Text="Saharanpur" ></option>
+  <option Value="6478|{|BI28" Text="Saharsa" ></option>
+  <option Value="120|{|UP48" Text="Sahibabad" ></option>
+  <option Value="6436|{|JH15" Text="Sahibganj" ></option>
+  <option Value="427|{|TN14" Text="Salem" ></option>
+  <option Value="1764|{|PU32" Text="Samana" ></option>
+  <option Value="6274|{|BI16" Text="Samastipur " ></option>
+  <option Value="0|{|OR09" Text="Sambalpur" ></option>
+  <option Value="0|{|UP43" Text="Sambhal" ></option>
+  <option Value="233|{|MH09" Text="Sangli" ></option>
+  <option Value="1672|{|PU16" Text="Sangrur " ></option>
+  <option Value="0|{|WB35" Text="Santipur" ></option>
+  <option Value="1563|{|RA34" Text="Sardarshahar" ></option>
+  <option Value="6184|{|BI29" Text="Sasaram" ></option>
+  <option Value="2162|{|MH34" Text="Satara" ></option>
+  <option Value="0|{|MP24" Text="Satna" ></option>
+  <option Value="7462|{|RA35" Text="Sawai Madhopur" ></option>
+  <option Value="7562|{|MP39" Text="Sehore" ></option>
+  <option Value="0|{|WB36" Text="Serampore" ></option>
+  <option Value="0|{|UP44" Text="Shahjahanpur" ></option>
+  <option Value="364|{|ME01" Text="Shillong" ></option>
+  <option Value="177|{|HP03" Text="Shimla" ></option>
+  <option Value="0|{|KA23" Text="Shimoga" ></option>
+  <option Value="2423|{|MH10" Text="Shirdi" ></option>
+  <option Value="0|{|MP25" Text="Shivapuri" ></option>
+  <option Value="3772|{|AS13" Text="Sibsagar" ></option>
+  <option Value="0|{|RA15" Text="Sikar" ></option>
+  <option Value="3842|{|AS05" Text="Silchar" ></option>
+  <option Value="353|{|WB37" Text="Siliguri " ></option>
+  <option Value="6544|{|JH16" Text="Sindri" ></option>
+  <option Value="7805|{|MP40" Text="Singrauli" ></option>
+  <option Value="1763|{|PU33" Text="Sirhind -Fategarh" ></option>
+  <option Value="1666|{|HA05" Text="Sirsa" ></option>
+  <option Value="0|{|UP45" Text="Sitapur" ></option>
+  <option Value="4560|{|TN34" Text="Sivakasi " ></option>
+  <option Value="6154|{|BI30" Text="Siwan" ></option>
+  <option Value="1792|{|HP11" Text="Solan" ></option>
+  <option Value="217|{|MH11" Text="Solapur" ></option>
+  <option Value="1264|{|HA11" Text="Sonepat " ></option>
+  <option Value="0|{|WB38" Text="South Dum Dum" ></option>
+  <option Value="154|{|RA36" Text="Sri Ganga Nagar" ></option>
+  <option Value="194|{|JK03" Text="Srinagar" ></option>
+  <option Value="1560|{|RA37" Text="Sujangarh" ></option>
+  <option Value="6853|{|OR27" Text="Sunabeda" ></option>
+  <option Value="1676|{|PU34" Text="Sunam" ></option>
+  <option Value="1907|{|HP12" Text="Sundernagar" ></option>
+  <option Value="261|{|GU10" Text="Surat" ></option>
+  <option Value="2752|{|GU34" Text="Surendranagar" ></option>
+  <option Value="4982|{|KE30" Text="Taliparamba" ></option>
+  <option Value="1852|{|PU35" Text="Taran Taaran" ></option>
+  <option Value="1376|{|UK12" Text="Tehri" ></option>
+  <option Value="0|{|AP30" Text="Tenali" ></option>
+  <option Value="3712|{|AS14" Text="Tezpur" ></option>
+  <option Value="0|{|KE17" Text="Thalassery" ></option>
+  <option Value="0|{|MH12" Text="Thane" ></option>
+  <option Value="4362|{|TN15" Text="Thanjavur" ></option>
+  <option Value="471|{|KE08" Text="Thiruvananthapuram" ></option>
+  <option Value="456157|{|TN40" Text="Thiruvetriyur" ></option>
+  <option Value="3848|{|MA04" Text="Thoubal" ></option>
+  <option Value="0|{|KE18" Text="Thrissur" ></option>
+  <option Value="374|{|AS07" Text="Tinsukia " ></option>
+  <option Value="431|{|TN16" Text="Tiruchirapalli" ></option>
+  <option Value="462|{|TN17" Text="Tirunelvelli" ></option>
+  <option Value="8574|{|AP31" Text="Tirupati " ></option>
+  <option Value="0|{|TN35" Text="Tiruppur" ></option>
+  <option Value="0|{|TN37" Text="Tiruvannamalai" ></option>
+  <option Value="0|{|WB39" Text="Titagarh" ></option>
+  <option Value="1692|{|HA23" Text="Tohana" ></option>
+  <option Value="0|{|RA16" Text="Tonk" ></option>
+  <option Value="3861|{|NA04" Text="Tuensang" ></option>
+  <option Value="816|{|KA24" Text="Tumkur " ></option>
+  <option Value="3651|{|ME05" Text="Tura" ></option>
+  <option Value="461|{|TN18" Text="Tuticorin" ></option>
+  <option Value="294|{|RA10" Text="Udaipur" ></option>
+  <option Value="1992|{|JK08" Text="Udhampur" ></option>
+  <option Value="8252|{|KA26" Text="Udipi " ></option>
+  <option Value="734|{|MP11" Text="Ujjain" ></option>
+  <option Value="251|{|MH13" Text="Ulhasnagar" ></option>
+  <option Value="5144|{|UP46" Text="Unnao " ></option>
+  <option Value="0|{|KE19" Text="Vadakara" ></option>
+  <option Value="0|{|TN36" Text="Valparai" ></option>
+  <option Value="0|{|GU25" Text="Valsad" ></option>
+  <option Value="2638|{|GU12" Text="Vapi" ></option>
+  <option Value="542|{|UP30" Text="Varanasi" ></option>
+  <option Value="26726|{|GU35" Text="Vejalpur" ></option>
+  <option Value="416|{|TN19" Text="Vellore" ></option>
+  <option Value="2876|{|GU36" Text="Veraval" ></option>
+  <option Value="7592|{|MP41" Text="Vidisha" ></option>
+  <option Value="866|{|AP10" Text="Vijaywada" ></option>
+  <option Value="8119|{|KA25" Text="Vishwanathapura " ></option>
+  <option Value="891|{|AP11" Text="Vizag/ Vishakapatnam" ></option>
+  <option Value="0|{|AP32" Text="Vizianagaram" ></option>
+  <option Value="8712|{|AP09" Text="Warangal" ></option>
+  <option Value="7152|{|MH26" Text="Wardha " ></option>
+  <option Value="3860|{|NA05" Text="Wokha" ></option>
+  <option Value="1732|{|HA12" Text="Yamunanagar  " ></option>
+  <option Value="0|{|MH27" Text="Yavatmal" ></option>
+  <option Value="3867|{|NA06" Text="Zunheboto" ></option>
+  <option Value="0" Text="Others" ></option>
+</select>

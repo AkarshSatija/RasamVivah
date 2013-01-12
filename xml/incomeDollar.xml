@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<income>
+
+<rupee Value="0" Text="No Income" ></rupee>
+<rupee Value="1" Text="Rs.0.5 Lakh" ></rupee>
+<rupee Value="2" Text="Rs.1 Lakh" ></rupee>
+<rupee Value="3" Text="Rs.2 Lakh" ></rupee>
+<rupee Value="4" Text="Rs.3 Lakh" ></rupee>
+<rupee Value="5" Text="Rs.4 Lakh" ></rupee>
+<rupee Value="6" Text="Rs.5 Lakh" ></rupee>
+<rupee Value="7" Text="Rs.7.5 Lakh" ></rupee>
+<rupee Value="8" Text="Rs.10 Lakh" ></rupee>
+<rupee Value="9" Text="Rs.15 Lakh" ></rupee>
+<rupee Value="10" Text="Rs.20 Lakh" >" ></rupee>
+<rupee Value="11" Text="Rs.25 Lakh" ></rupee>
+<rupee Value="12" Text="Rs.25 Lakh and more" ></rupee>
+</income>

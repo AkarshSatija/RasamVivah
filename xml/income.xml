@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<income>
+
+  <rupee Value="0" Text="Income in Indian rupee">
+  </rupee>
+<rupee Value="21" Text="No Income" ></rupee>
+<rupee Value="1" Text="Under Rs.50,000" ></rupee>
+<rupee Value="2" Text="Rs.50,001-1,00,000" ></rupee>
+<rupee Value="3" Text="Rs.1,00,001-2,00,000" ></rupee>
+<rupee Value="4" Text="Rs.2,00,001-3,00,000" ></rupee>
+<rupee Value="5" Text="Rs.3,00,001-4,00,000" ></rupee>
+<rupee Value="6" Text="Rs.4,00,001-5,00,000" ></rupee>
+<rupee Value="7" Text="Rs.5,00,001-7,50,000" ></rupee>
+<rupee Value="8" Text="Rs.7,50,001-10,00,000" ></rupee>
+<rupee Value="9" Text="Rs.10,00,001-15,00,000" ></rupee>
+<rupee Value="10" Text="Rs.15,00,001-20,00,000" >" ></rupee>
+<rupee Value="11" Text="Rs.20,00,001-25,00,000" ></rupee>
+<rupee Value="12" Text="Rs.25,00,001 and above" ></rupee>
+  
+  <rupee Value="0" Text="Income in US Dollars"></rupee>
+  <rupee Value="13" Text="Under $25,000"></rupee>
+  <rupee Value="14" Text="$25,001 - 40,000"></rupee>
+  <rupee Value="15" Text="$40,001 - 60,000"></rupee>
+  <rupee Value="16" Text="$60,001 - 80,000"></rupee>
+  <rupee Value="17" Text="$80,001 - 100,000"></rupee>
+  <rupee Value="18" Text="$100,001 - 150,000"></rupee>
+  <rupee Value="19" Text="$150,001 - 200,000"></rupee>
+  <rupee Value="20" Text="$200,001 and above"></rupee>
+</income>

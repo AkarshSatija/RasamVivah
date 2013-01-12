@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<children>
+  
+  <option Value="1" Text="No"></option>
+  <option Value="2" Text="Yes,Living together"></option>
+  <option Value="3" Text="Yes,Living Seperately"></option>
+</children>

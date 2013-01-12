@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<work_area>
+  <occupation Value="44" Text="Looking for a job" ></occupation>
+  <occupation Value="36" Text="Not working" ></occupation>
+  <occupation Value="5" Text="Actor/Model" ></occupation>
+  <occupation Value="2" Text="Advertising Professional" ></occupation>
+  <occupation Value="3" Text="Agent" ></occupation>
+  <occupation Value="32" Text="Agriculture/Dairy" ></occupation>
+  <occupation Value="46" Text="Air Hostess" ></occupation>
+  <occupation Value="6" Text="Architect" ></occupation>
+  <occupation Value="7" Text="Banking Professional" ></occupation>
+  <occupation Value="40" Text="Beautician" ></occupation>
+  <occupation Value="8" Text="BPO/ITES" ></occupation>
+  <occupation Value="13" Text="Businessperson" ></occupation>
+  <occupation Value="33" Text="Civil Services (IAS/ IFS/ IPS/ IRS)" ></occupation>
+  <occupation Value="50" Text="Consultant" ></occupation>
+  <occupation Value="10" Text="Corporate Communication" ></occupation>
+  <occupation Value="11" Text="Corporate Planning Professional" ></occupation>
+  <occupation Value="12" Text="Customer Services" ></occupation>
+  <occupation Value="34" Text="Defence" ></occupation>
+  <occupation Value="57" Text="Doctor" ></occupation>
+  <occupation Value="60" Text="Education Professional" ></occupation>
+  <occupation Value="27" Text="Engineer - Non IT" ></occupation>
+  <occupation Value="14" Text="Export/Import" ></occupation>
+  <occupation Value="15" Text="Fashion Designer" ></occupation>
+  <occupation Value="1" Text="Financial Services/Accounting" ></occupation>
+  <occupation Value="39" Text="Fitness Professional" ></occupation>
+  <occupation Value="35" Text="Govt. Services" ></occupation>
+  <occupation Value="21" Text="Hardware/Telecom" ></occupation>
+  <occupation Value="24" Text="Healthcare Professional" ></occupation>
+  <occupation Value="47" Text="Hotels/Hospitality Professional" ></occupation>
+  <occupation Value="19" Text="HR Professional" ></occupation>
+  <occupation Value="51" Text="Interior Designer" ></occupation>
+  <occupation Value="9" Text="Journalist" ></occupation>
+  <occupation Value="22" Text="Lawyer/Legal Professional" ></occupation>
+  <occupation Value="23" Text="Logistics/SCM Professional" ></occupation>
+  <occupation Value="49" Text="Marketing Professional" ></occupation>
+  <occupation Value="54" Text="Media Professional" ></occupation>
+  <occupation Value="42" Text="Merchant Navy" ></occupation>
+  <occupation Value="38" Text="NGO/Social Services" ></occupation>
+  <occupation Value="53" Text="Nurse" ></occupation>
+  <occupation Value="45" Text="Pilot" ></occupation>
+  <occupation Value="56" Text="Police" ></occupation>
+  <occupation Value="25" Text="Printing/Packaging" ></occupation>
+  <occupation Value="58" Text="Professor/Lecturer" ></occupation>
+  <occupation Value="30" Text="Project Manager - IT" ></occupation>
+  <occupation Value="59" Text="Project Manager - Non IT" ></occupation>
+  <occupation Value="61" Text="Research Professional" ></occupation>
+  <occupation Value="18" Text="Restaurateur" ></occupation>
+  <occupation Value="37" Text="Retired" ></occupation>
+  <occupation Value="28" Text="Sales Professional" ></occupation>
+  <occupation Value="62" Text="Scientist" ></occupation>
+  <occupation Value="16" Text="Secretary/Front Office" ></occupation>
+  <occupation Value="29" Text="Security Professional" ></occupation>
+  <occupation Value="52" Text="Self Employed" ></occupation>
+  <occupation Value="26" Text="Service Engineering" ></occupation>
+  <occupation Value="20" Text="Software Professional" ></occupation>
+  <occupation Value="55" Text="Sportsperson" ></occupation>
+  <occupation Value="41" Text="Student" ></occupation>
+  <occupation Value="31" Text="Teacher" ></occupation>
+  <occupation Value="48" Text="Top Management (CXO, M.D. etc.)" ></occupation>
+  <occupation Value="4" Text="Travel/Ticketing" ></occupation>
+  <occupation Value="17" Text="Web/Graphic Design" ></occupation>
+  <occupation Value="43" Text="Others" ></occupation>
+</work_area>

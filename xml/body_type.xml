@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<body_type>
+  <option Value="1" Text="Slim"></option>
+  <option Value="2" Text="Athletic"></option>
+  <option Value="3" Text="Average"></option>
+  <option Value="4" Text="Heavy"></option>
+  
+</body_type>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mother_occ>
+  <option Value="0" Text="Select"
+  ></option>
+  <option Value="1" Text="House Wife"
+  ></option>
+  <option Value="2" Text="Business/Entrepreneur"
+  ></option>
+  <option Value="3" Text="Service-Private"
+  ></option>
+  <option Value="4" Text="Service-Govt./PSU"
+  ></option>
+  <option Value="5" Text="Army/Armed force"
+  ></option>
+  <option Value="6" Text="Civil Services"
+  ></option>
+  <option Value="7" Text="Retired"
+  ></option>
+  <option Value="8" Text="Teacher"
+  ></option>
+  <option Value="9" Text="Expired"
+  ></option>
+
+</mother_occ>

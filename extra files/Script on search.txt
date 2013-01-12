@@ -1,0 +1,73 @@
+﻿<script type="text/javascript">
+        document.onclick = hideall;
+        function checklogin() { 
+        var ses = '<%= s %>';
+        if (ses == '') {
+
+            var r = window.confirm("Login To Proceed");
+            if (r == true) {
+
+                window.location = "login.aspx?goto=" + document.URL;
+            }
+            else {
+                return false;
+            }
+
+        }
+        else
+            return true;
+    }
+    function hideall()
+    {
+    hideSaveSearchDiv();
+    hidedivsavedsearches()
+    
+    
+    }
+
+        function hideSaveSearchDiv() {
+
+
+            var div1;
+            if (div1 = document.getElementById("divsavesearch")) {
+
+                div1.style.display = 'none';
+            }
+
+        }
+
+        function showSaveSearchDiv() {
+            if (checklogin()) {
+                var div1 = document.getElementById("divsavesearch");
+                div1.style.display = '';
+            }
+            
+            
+        }
+
+        function hidedivsavedsearches() {
+
+
+
+            var div1;
+            if (div1 = document.getElementById("divsavedsearches")) {
+
+                div1.style.display = 'none';
+            }
+        }
+
+        function showdivsavedsearches() {
+
+            if (checklogin()) {
+                var div1 = document.getElementById("divsavedsearches");
+                div1.style.display = '';
+            }
+        }
+
+        function cancelfurther(e) {
+            if (!e) var e = window.event;
+            e.cancelBubble = true;
+            if (e.stopPropagation) e.stopPropagation();
+        }
+    
+    </script>

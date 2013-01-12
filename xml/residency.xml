@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<residency>
+  <option Value="0" Text="Select"></option>
+  <option Value="1" Text="Citizen"></option>
+  <option Value="2" Text="Permanent Resident"></option>
+  <option Value="3" Text="Student Visa"></option>
+  <option Value="4" Text="Temporary Visa"></option>
+  <option Value="5" Text="Work Permit"></option>
+
+
+</residency>

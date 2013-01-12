@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<jain>
+  <option  Value="0" Text=" Select"></option>
+  <option  Value="1" Text="Digamber"></option>
+  <option  Value="2" Text="Shwetamber"></option>
+  <option  Value="3" Text="Others"></option>
+</jain>

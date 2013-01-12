@@ -1,0 +1,181 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterLoginOptional.master.cs"
+    Inherits="MasterLoginOptional" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="assets/stylesheets/layout.css" rel="stylesheet" />
+    <title></title>
+    <script type="text/javascript">
+        
+         function redirectToLogin() {
+       
+        window.location = "login.aspx?goto=" + document.URL;
+        
+        
+        }
+
+        function hideContactusDiv() {
+
+
+            var div1 = document.getElementById("divcontactus");
+
+            if (div1.style.display == 'none') {
+                div1.style.display = '';
+            }
+            else
+                div1.style.display = 'none';
+
+        } 
+    
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="divloggedin" runat="server" visible="false">
+        <div class="header">
+            <div class="innerheader">
+                <div class="headcontainer">
+                    <asp:ImageButton ID="imglogo" CssClass="logo" runat="server" ImageUrl="~/assets/img/logo.png"
+                        PostBackUrl="http://www.rasamvivah.com" />
+                    <%--<img class="logo" src="assets/img/logo.png" width="364" alt="" height="135"/>--%>
+                    <div class="menu">
+                        <a href="profile.aspx">Welcome RV<asp:Label ID="lbid" runat="server"></asp:Label></a>
+                        | <a href="messages.aspx">Message:
+                            <asp:Label ID="lbmessages" runat="server" /></a> |
+                        <asp:LinkButton ID="signout" runat="server" OnClick="signout_Click" CausesValidation="false">Log out</asp:LinkButton>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="divnotlogged" runat="server" visible="false">
+        <div class="header">
+            <div class="innerheader">
+                <div class="headcontainer">
+                    <asp:ImageButton ID="ImageButton1" CssClass="logo" runat="server" AlternateText=""
+                        ImageUrl="~/assets/img/logo.png" PostBackUrl="http://www.rasamvivah.com" />
+                    <div class="menu">
+                        <a href="/">Home</a> | <a href="aboutus.aspx">About Us</a> | <a href="services.aspx">Services</a>
+                        | <a href="membership.aspx">Membership Plans</a> | <a href="javascript:redirectToLogin()">Login</a>
+                        | <a href="help.aspx">Help</a> | <a href="search.aspx">Search</a> | <a href="contactus.aspx">
+                            Contact Us</a>
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+        <div id="divcontactus" class="divfloating rounded-corners" style="height: 150px; width: 280px;">
+        <table style="width: 100%; height: 100%; padding:1px;">
+            <tr valign="top">
+                <td>
+                    <label style="font-family: verdana; font-size: 16px; font-weight: 600; color: #444444;">
+                        For any Help !!</label>
+                    <br /><br />
+                    <label style="color: #009900;  font-size:16px;">
+                        Call Us at:</label>
+                    <br /><br />
+                    9810830402<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;or
+                    <br />
+                    9999613933
+                </td>
+                <td align="center" valign="top" rowspan="3">
+                    <img src="assets/img/contactusnow.jpg" alt="" style="width: 105px; height: auto;" />
+                </td>
+                <td>
+                    <a href="javascript:hideContactusDiv()" style="border: 0px">
+                        <img src="assets/img/wrong.png" width="20px" style="border: 0px;" height="20px" alt="" /></a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="container">
+        
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+        
+       
+    </div>
+       <div class="footer">
+            <hr class="hrdivsion" />
+            <div class="Fcontainer">
+                <table class="footertable">
+                    <tr>
+                        <td>
+                            <div class="footercategory">
+                                Sitemap
+                                <ul>
+                                    <li><a href="contactus.aspx">Contact Us</a></li>
+                                    <li><a href="aboutus.aspx">About Us</a></li>
+                                    <li><a href="legal.aspx">Terms and Condition</a></li>
+                                   <%-- <li><a href="#">Legal</a></li>--%>
+                                    <li><a href="privacy.aspx">Privacy Policy</a></li>
+                                    <li><a href="membership.aspx">Membership</a></li>
+                                    <li><a href="Thirdparty.aspx">Third Party</a></li>
+                                </ul>
+                            </div>
+                        </td>
+                        <td>
+                            <div class=" footercategory">
+                                Connect
+                                <ul>
+                                    <li>
+                                        <a href="#"><img class="socialImg" src="assets/img/fb.png" /></a>
+                                        <a href="#"><img class="socialImg" src="assets/img/googlep.png" /></a>
+                                        <a href="#"><img class="socialImg" src="assets/img/twitter.png" /></a>
+                                    </li>
+                                </ul>
+                                
+                            </div>
+                        </td>
+                        <td>
+                            <div class="footercategory">
+                                Proudly Powered By:
+                                <ul>
+                                   <!-- <li>vInspire IT Solutions</li> -->
+                               
+                                    <li>
+                                    <a href="#"><img class="socialImg" src="assets/img/vInspire.png" style="width:150px; height:auto;" />
+                                    </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </td>
+                       <%-- <td>
+                            <div class="footercategory">
+                                Credits
+                                <ul>
+                                    <li><a href="#">Akarsh Satija</a>, Web Developer, Admin </li>
+                                    <li><a href="#">Parul Jain</a>, Web Developer, Admin </li>
+                                    <li><a href="#">Ravi Suhag</a>, Web Designer, Admin </li>
+                                    <li><a href="#">Anurag Panda</a>, Mentor </li>
+                                </ul>
+                            </div>
+                        </td>--%>
+                        <!--         </tr>
+        <tr>
+            <td align="center">
+                <div class="footercategory">
+                    <b>&copy; </b>vInspire India Pvt Ltd
+                </div>
+            </td>
+        </tr>-->
+
+        </tr>
+                </table>
+                <div style="font-family: verdana; font-size: 10px; color: #222; text-align:center;">
+                    <b>&copy; </b>vInspire IT Solutions
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
