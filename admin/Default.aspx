@@ -40,6 +40,8 @@
                                             Width="140px" ValidationGroup="login"></asp:TextBox>
                                         <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="tbpaasword" ValidationGroup="login"
                                             SetFocusOnError="true"></asp:RequiredFieldValidator>
+                                            <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="tbpaasword" ValidationGroup="changepassword"
+                        ErrorMessage="Incorrect format" ValidationExpression="^[\s\S]{5,25}$"></asp:RegularExpressionValidator>
                                     </td>
                                 </tr>
                                 <tr>
@@ -62,7 +64,7 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <asp:LinkButton ID="lnkforgotpass" runat="server">Forgot Password?</asp:LinkButton>
+                                        <asp:LinkButton ID="lnkforgotpass" runat="server" PostBackUrl="~/admin/forgotpass.aspx">Forgot Password?</asp:LinkButton>
                                     </td>
                                 </tr>
 

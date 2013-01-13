@@ -17,6 +17,7 @@ public class myverify
     string emailcod;
     string smsto;
     string smscod;
+    
 
     public myverify()
     {
@@ -230,5 +231,62 @@ public class myverify
         c.dr.Close();
 
         return 0;
+    }
+
+    public int recoveradminpassword(string s)
+    {
+
+        connect c = new connect();
+        c.cmd.CommandText = "select * from admins where id='" + s + "' ";
+        c.dr = c.cmd.ExecuteReader();
+        if (c.dr.Read())
+        {
+            emailto = c.dr["emailid"].ToString();
+            recpassword = c.dr["pass"].ToString();
+        }
+
+
+        try
+        {
+
+            MailMessage MyMailMessage = new MailMessage();
+
+
+
+            MailAddress m = new MailAddress("info@rasamvivah.com", "RasamVivah");
+            MyMailMessage.From = m;
+            MyMailMessage.To.Add(new MailAddress(emailto));
+
+            MyMailMessage.Subject = "RasamVivah Password Recovery";
+            MyMailMessage.Body = "Your password is:" + recpassword;
+
+            System.Net.NetworkCredential mailAuthentication = new System.Net.NetworkCredential("info@rasamvivah.com", "akarshparul"); //id and password here...........
+
+            System.Net.Mail.SmtpClient mailClient = new System.Net.Mail.SmtpClient("smtp.gmail.com", 587);
+
+            //Enable SSL
+            mailClient.EnableSsl = true;
+
+            mailClient.UseDefaultCredentials = false;
+
+            mailClient.Credentials = mailAuthentication;
+
+            mailClient.Send(MyMailMessage);
+            string status = MyMailMessage.DeliveryNotificationOptions.ToString();
+            //  return s;
+            //  Response.Redirect("#");// redirect to??????
+            c.cn.Close();
+            c.dr.Close();
+            return 1;
+
+
+        }
+        catch (Exception exp)
+        {
+            //  return e.ToString();
+            return 0;
+        }
+
+
     }
 }

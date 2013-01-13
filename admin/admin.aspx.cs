@@ -22,7 +22,7 @@ public partial class admin : System.Web.UI.Page
         if (Request.QueryString["type"] != null)
             bindlvprofiles(Request.QueryString["type"].ToString());
         else
-            bindlvprofiles("");
+            bindlvprofiles("active");
 
 
     }
@@ -45,11 +45,7 @@ public partial class admin : System.Web.UI.Page
                 command = "";
 
             }
-            else if (type.ToLower().Equals("search"))
-            {
-                command = "";
-
-            }
+            
             else if (type.ToLower().Equals("expiring"))
             {
                 command = "";
@@ -66,16 +62,8 @@ public partial class admin : System.Web.UI.Page
                 command = "";
 
             }
-            else if (type.ToLower().Equals("manage"))
-            {
-                command = "";
-
-            }
-            else if (type.ToLower().Equals("email"))
-            {
-                command = "";
-
-            }
+            
+            
             else if (type.ToLower().Equals("approved"))
             {
                 command = "";
@@ -86,21 +74,13 @@ public partial class admin : System.Web.UI.Page
                 command = "";
 
             }
-            else if (type.ToLower().Equals("newusers"))
-            {
-                command = "";
-
-            }
-            else if (type.ToLower().Equals("banners"))
-            {
-                command = "";
-
-            }
             else
             {
                 command = "";
 
             }
+            
+            
             connect c = new connect();
             c.cmd.CommandText = "select * from logins";
 
