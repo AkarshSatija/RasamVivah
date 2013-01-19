@@ -32,7 +32,8 @@
 
     </div>
     <div class="content">
-        <asp:ListView ID="lvprofiles" runat="server">
+        <asp:ListView ID="lvprofiles" runat="server" 
+            onitemdatabound="lvprofiles_ItemDataBound">
             <EmptyDataTemplate>
             
                             <div>
@@ -45,7 +46,7 @@
                     <asp:Label ID="lbid" runat="server" Text='<%# Eval("id") %>' />
                </td>
                <td>
-                    <asp:Label ID="lbname" runat="server" 
+                    <asp:Label ID="lbname" runat="server" ></asp:Label>
                </td>
                 </tr>
             </ItemTemplate>

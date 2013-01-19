@@ -16,6 +16,7 @@ using System.Collections.Generic;
 
 public partial class admin : System.Web.UI.Page
 {
+    profileFunc p = new profileFunc();
     protected void Page_Load(object sender, EventArgs e)
     {
 
@@ -113,4 +114,12 @@ public partial class admin : System.Web.UI.Page
 
         }
     }
+    protected void lvprofiles_ItemDataBound(object sender, ListViewItemEventArgs e)
+    {
+        Label lblID = e.Item.FindControl("lbid") as Label;
+
+
+        ((Label)e.Item.FindControl("lbname")).Text = p.getAboutMeString(lblID.Text, Server.MapPath("xml//").ToString());
+        
+        }
 }
