@@ -40,8 +40,7 @@
                                             Width="140px" ValidationGroup="login"></asp:TextBox>
                                         <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="tbpaasword" ValidationGroup="login"
                                             SetFocusOnError="true"></asp:RequiredFieldValidator>
-                                            <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="tbpaasword" ValidationGroup="changepassword"
-                        ErrorMessage="Incorrect format" ValidationExpression="^[\s\S]{5,25}$"></asp:RegularExpressionValidator>
+                                            
                                     </td>
                                 </tr>
                                 <tr>

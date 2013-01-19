@@ -21,9 +21,9 @@
             </li>
             
             
-            <li><a href="admin.aspx?type=approved">Approved Users</a>
+            <li><a href="admin.aspx?type=approved">Approved</a>
             </li>
-            <li><a href="admin.aspx?type=unapproved">Unapproved Users</a>
+            <li><a href="admin.aspx?type=unapproved">Unapproved</a>
             </li>
             <li><a href="admin.aspx?type=newusers">New Users</a>
             </li>

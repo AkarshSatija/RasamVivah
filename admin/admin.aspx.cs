@@ -36,7 +36,7 @@ public partial class admin : System.Web.UI.Page
             //work here!!!!!
             if (type.ToLower().Equals("active"))
             {
-                command = "";
+                command = "c";
 
             }
 
