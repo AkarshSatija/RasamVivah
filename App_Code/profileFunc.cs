@@ -230,7 +230,6 @@ public class profileFunc
         return "";
     }
 
-
     public string getCity(string country, string city_val, string pathToXmlFolder)
     {
         //p.getCity(Eval("country").ToString(),Eval("city").ToString(),Server.MapPath("xml//"))
@@ -283,12 +282,12 @@ public class profileFunc
         return "";
     }
 
-
-
-
-    public string getAboutMeString(string id, string pathToXmlFolder)
+    public string getAboutMeString(string id, string pathToXmlFolder,int stringtype=1)
     {
+
+        //stringtype=2 for only name
         string content = "";
+        string name="";
         try
         {
 
@@ -299,7 +298,7 @@ public class profileFunc
 
             if (c.dr.Read())
             {
-                string name = c.dr["fname"].ToString() + " " + c.dr["lname"].ToString();
+                name = c.dr["fname"].ToString() + " " + c.dr["lname"].ToString();
                
                 if (c.dr["gender"].ToString() == "True")
                 {
@@ -344,6 +343,13 @@ public class profileFunc
             
             c.dr.Close();
             c.cn.Close();
+            if (stringtype==2)
+            {
+
+                return name;
+            }
+
+
             return content;
             //==========================
         }
@@ -400,8 +406,6 @@ public class profileFunc
         return 0;
     }
 
-
-
     public string descAboutMe(string id)
     {
 
@@ -422,8 +426,6 @@ public class profileFunc
 
         return "";
     }
-
-
 
     public string descAboutMyFamily(string id)
     {

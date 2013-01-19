@@ -119,7 +119,7 @@ public partial class admin : System.Web.UI.Page
         Label lblID = e.Item.FindControl("lbid") as Label;
 
 
-        ((Label)e.Item.FindControl("lbname")).Text = p.getAboutMeString(lblID.Text, Server.MapPath("xml//").ToString());
+        ((Label)e.Item.FindControl("lbname")).Text = p.getAboutMeString(lblID.Text, Server.MapPath("xml//").ToString(),2);
         
         }
 }
