@@ -36,54 +36,64 @@ public partial class admin : System.Web.UI.Page
             //work here!!!!!
             if (type.ToLower().Equals("active"))
             {
-                command = "c";
+
+                command = "select * from userinfo where active='1'";
+
 
             }
 
             else if (type.ToLower().Equals("deactive"))
             {
-                command = "";
+                command = "select * from userinfo where active='0'";
+
+            }
+            //select * from userinfo where last_login < DATEADD(day,-15,getdate()) order by last_login desc
+            else if (type.ToLower().Equals("inactive"))
+            {
+                command = "select * from userinfo where last_login < DATEADD(day,-15,getdate()) order by last_login desc";
 
             }
             
             else if (type.ToLower().Equals("expiring"))
             {
-                command = "";
+                //expiring in next 15 days
+                command = "select * from userinfo where ((sed > getdate()) AND (sed < DATEADD(day,15,getdate()))) order by sed asc";
 
             }
 
             else if (type.ToLower().Equals("expired"))
             {
-                command = "";
+                //expirwed in last 30 days
+                command = "select * from userinfo where ((sed < DATEADD(day,0,getdate())) and (sed > DATEADD(day,-30,getdate()))) order by sed desc";
 
             }
             else if (type.ToLower().Equals("paid"))
             {
-                command = "";
+                command = "select * from userinfo where sed > getdate() and sed > CONVERT( DATETIME, '1 JAN 2013', 106 )  order by sed asc";
 
             }
             
             
             else if (type.ToLower().Equals("approved"))
             {
-                command = "";
+                command = "select * from userinfo where approved='1'";
 
             }
             else if (type.ToLower().Equals("unapproved"))
             {
-                command = "";
+                command = "select * from userinfo where approved='0'";
 
             }
             else
             {
-                command = "";
+                command = "select * from logins";
 
             }
             
             
             connect c = new connect();
-            c.cmd.CommandText = "select * from logins";
-
+            //c.cmd.CommandText = "select * from logins";
+            c.cmd.CommandText = command;
             c.adp.Fill(c.ds);
             lvprofiles.DataSource = c.ds;
             lvprofiles.DataBind();
