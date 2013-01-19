@@ -11,7 +11,8 @@
             </li>
             <li><a href="admin.aspx?type=deactive">Deactive</a>
             </li>
-            
+            <li><a href="admin.aspx?type=inactive">Inactive</a>
+            </li>            
             <li><a href="admin.aspx?type=expiring">Expiring</a>
             </li>
             <li><a href="admin.aspx?type=expired">Expired</a>
@@ -55,17 +56,6 @@
         </asp:ListView>
 
     </div>
-    <div class="rightpane">
-        <ul>
-            <li>1.
-            </li>
-            <li>3.
-            </li>
-            <li>3.
-            </li>
-            <li>1.
-            </li>
-        </ul>
-    </div>
+    
 </asp:Content>
 
