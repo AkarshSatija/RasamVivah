@@ -7,6 +7,9 @@
     <div class="leftpane">
 
         <ul style="list-style: none outside none;">
+            
+            <li><a href="admin.aspx?type=newusers">New Users</a>
+            </li>
             <li><a href="admin.aspx?type=active">Active</a>
             </li>
             <li><a href="admin.aspx?type=deactive">Deactive</a>
@@ -19,14 +22,11 @@
             </li>
             <li><a href="admin.aspx?type=paid">Paid</a>
             </li>
-            
-            
             <li><a href="admin.aspx?type=approved">Approved</a>
             </li>
             <li><a href="admin.aspx?type=unapproved">Unapproved</a>
             </li>
-            <li><a href="admin.aspx?type=newusers">New Users</a>
-            </li>
+            
             
         </ul>
 
@@ -40,18 +40,22 @@
                             </div>
             </EmptyDataTemplate>
             <ItemTemplate>
-                <li>
-                    <asp:Label ID="idLabel" runat="server" Text='<%# Eval("id") %>' Visible="false" />
-                    <%--<asp:Label ID="Label2" runat="server" Text='<%# Eval("fname").ToString()+" "+ Eval("mname").ToString()+" "+Eval("lname").ToString() %>' />--%>
-                    <asp:Label ID="Label3" runat="server" Text='<%# Eval("id").ToString() %>' />
-                </li>
+                <tr>
+                <td>
+                    <asp:Label ID="lbid" runat="server" Text='<%# Eval("id") %>' />
+               </td>
+               <td>
+                    <asp:Label ID="lbname" runat="server" 
+               </td>
+                </tr>
             </ItemTemplate>
             <LayoutTemplate>
-
-                <ul id="itemPlaceholderContainer" runat="server">
-                    <ul runat="server" id="itemPlaceholder" />
-                </ul>
-                </div>
+           
+                <table id="itemPlaceholderContainer" runat="server" border=3 >
+                    <tr runat="server" id="itemPlaceholder" >
+                    </tr>
+                </table>
+             
             </LayoutTemplate>
         </asp:ListView>
 

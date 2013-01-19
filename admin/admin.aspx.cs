@@ -84,9 +84,16 @@ public partial class admin : System.Web.UI.Page
                 command = "select * from userinfo where approved='0'";
 
             }
+            else if (type.ToLower().Equals("newusers"))
+            {
+                // new users in last 15 days
+                command = "select * from logins where created_at> DATEADD(day,-15,getdate()) order by created_at desc";
+
+
+            }
             else
             {
-                command = "select * from logins";
+                command = "select * from logins where created_at> DATEADD(day,-15,getdate()) order by created_at desc";
 
             }
             
@@ -97,8 +104,6 @@ public partial class admin : System.Web.UI.Page
             c.adp.Fill(c.ds);
             lvprofiles.DataSource = c.ds;
             lvprofiles.DataBind();
-
-
 
 
 
