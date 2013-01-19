@@ -48,12 +48,23 @@
                <td>
                     <asp:Label ID="lbname" runat="server" ></asp:Label>
                </td>
+               <td>
+              <asp:CheckBox ID="cb1" runat="server" />              
+               </td>
+                <td>
+              <asp:CheckBox ID="CheckBox1" runat="server" />              
+               </td>
+                <td>
+              <asp:CheckBox ID="CheckBox2" runat="server" />              
+               </td>
                 </tr>
             </ItemTemplate>
             <LayoutTemplate>
            
                 <table id="itemPlaceholderContainer" runat="server" border=3 >
+                <tr><td>id</td><td>name</td><td>active</td><td>approve</td></tr>
                     <tr runat="server" id="itemPlaceholder" >
+                    <th><td>id</td><td>name</td><td>active</td><td>approve</td></th>
                     </tr>
                 </table>
              

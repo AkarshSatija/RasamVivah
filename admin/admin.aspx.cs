@@ -121,5 +121,8 @@ public partial class admin : System.Web.UI.Page
 
         ((Label)e.Item.FindControl("lbname")).Text = p.getAboutMeString(lblID.Text, Server.MapPath("xml//").ToString(),2);
         
-        }
+        
+    
+    
+    }
 }
