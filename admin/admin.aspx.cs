@@ -36,13 +36,13 @@ public partial class admin : System.Web.UI.Page
             //work here!!!!!
             if (type.ToLower().Equals("active"))
             {
-                command = "";
+                command = "select * from userinfo where active='1'";
 
             }
 
             else if (type.ToLower().Equals("deactive"))
             {
-                command = "";
+                command = "select * from userinfo where deactive='0'";
 
             }
             
@@ -66,12 +66,12 @@ public partial class admin : System.Web.UI.Page
             
             else if (type.ToLower().Equals("approved"))
             {
-                command = "";
+                command = "select * from userinfo where approved='1'";
 
             }
             else if (type.ToLower().Equals("unapproved"))
             {
-                command = "";
+                command = "select * from userinfo where approved='0'";
 
             }
             else
