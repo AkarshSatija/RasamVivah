@@ -109,7 +109,7 @@
             </table>
         </asp:Panel>
     </div>
-    <div class="sidebar">
+    <div class="leftpane">
         <table width="100%" border="0" cellspacing="0" cellpadding="0">
             <tr>
                 <td style="border: solid 1px #000099; font-size: 0px; line-height: 0px">

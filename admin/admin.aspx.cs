@@ -151,8 +151,7 @@ public partial class admin : System.Web.UI.Page
 
 
                 connect c = new connect();
-                //int app = ((CheckBox)item.FindControl("cbapproved")).Checked ? 1 : 0;
-                
+               
 
                 c.cmd.CommandText = "update userinfo set approved='"+approved_status+"' where id='"+transaction_id+"'";
                 c.cmd.ExecuteNonQuery();
