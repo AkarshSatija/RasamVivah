@@ -289,7 +289,7 @@
                 <div class="heading">
                     Contact Me at:
                 </div>
-                <div id="divContactInfo" runat="server" visible="false">
+                <div id="divContactInfo" runat="server" >
                     <asp:ListView ID="lvcontactInfo" runat="server" DataSourceID="SqlDataSourceContactInfo">
                         <EmptyDataTemplate>
                         </EmptyDataTemplate>
@@ -920,9 +920,23 @@
         <ul>
         
         <li>
+        
         <asp:Label ID="lbactive" runat="server" Text="active" ></asp:Label>
         </li>
+        <li>
         
+        <asp:Label ID="lbApproved" runat="server" Text="Approved" ></asp:Label>
+        </li>
+        <li>
+        <asp:DropDownList ID="ddlactions" runat="server">
+        <asp:ListItem Value="0">Action</asp:ListItem>
+        <asp:ListItem Value="1">Activate</asp:ListItem>
+        <asp:ListItem Value="2">Deactivate</asp:ListItem>
+        <asp:ListItem Value="3">Approve</asp:ListItem>
+        <asp:ListItem Value="4">Unpprove</asp:ListItem>
+        </asp:DropDownList>
+        <asp:Button ID="btngo" runat="server" Text="Go" onclick="btngo_Click" /></li>
+
         </ul>
         
     </div>

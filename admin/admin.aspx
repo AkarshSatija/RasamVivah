@@ -101,6 +101,8 @@
         <asp:ListItem Value="0">Action</asp:ListItem>
         <asp:ListItem Value="1">Activate</asp:ListItem>
         <asp:ListItem Value="2">Deactivate</asp:ListItem>
+        <asp:ListItem Value="3">Approve</asp:ListItem>
+        <asp:ListItem Value="4">Unpprove</asp:ListItem>
         </asp:DropDownList>
         <asp:Button ID="btngo" runat="server" Text="Go" onclick="btngo_Click" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:Button runat="server" ID="btnSave" Text="Save Changes" 
             onclick="btnSave_Click"  />

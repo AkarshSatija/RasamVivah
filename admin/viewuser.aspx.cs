@@ -77,6 +77,7 @@ public partial class viewuser : System.Web.UI.Page
         prof_image.ImageUrl = "~/image.ashx?id=" + user;
         retrieve_sidebar();
         retrieveData();
+        retrieve_rightbar();
     }
 
     protected void lv_ItemDataBound(object sender, ListViewItemEventArgs e)
@@ -768,5 +769,72 @@ public partial class viewuser : System.Web.UI.Page
     protected void drpadvreligion_SelectedIndexChanged(object sender, EventArgs e)
     {
         bindCaste(drpadvreligion.SelectedValue.ToString());
+    }
+
+    protected void retrieve_rightbar()
+    {
+        if (p.isActive(user))
+        {
+            lbactive.Text = "Active";
+        }
+        else
+        {
+
+            lbactive.Text = "Deactive";
+
+        }
+
+        if (p.isApproved(user))
+        {
+            lbApproved.Text = "Approved";
+        }
+        else
+        {
+
+            lbApproved.Text = "Unapprroved";
+
+        }
+    
+    
+    
+    }
+    protected void btngo_Click(object sender, EventArgs e)
+    {
+        string mycmd = "update userinfo set ";
+        string action_string = "";
+        
+        if (ddlactions.SelectedValue == "1")
+        {
+            action_string = "active='1' ";
+        }
+        else if (ddlactions.SelectedValue == "2")
+        {
+            action_string = "active='0' ";
+        }
+        else if (ddlactions.SelectedValue == "3")
+        {
+            action_string = "approved='1' ";
+        }
+        else if (ddlactions.SelectedValue == "4")
+        {
+            action_string = "approved='0' ";
+        }
+        //more actions
+
+        
+
+
+
+        connect c = new connect();
+
+        c.cmd.CommandText = mycmd + action_string + " where id='"+user+"'";
+
+        c.cmd.ExecuteNonQuery();
+
+        c.cn.Dispose();
+        c.cn.Close();
+
+
+
     }
 }

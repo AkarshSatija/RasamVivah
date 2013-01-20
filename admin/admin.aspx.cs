@@ -180,7 +180,14 @@ public partial class admin : System.Web.UI.Page
         {
             action_string = "active='0' ";
         }
-
+        else if (ddlactions.SelectedValue == "3")
+        {
+            action_string = "approved='1' ";
+        }
+        else if (ddlactions.SelectedValue == "4")
+        {
+            action_string = "approved='0' ";
+        }
         //more actions
 
         foreach (ListViewItem item in lvprofiles.Items)
