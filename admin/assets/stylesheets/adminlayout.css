@@ -78,25 +78,28 @@ body {
 	float:left;
 	/*border:solid 1px;*/
 	width: 180px;
+	padding:0;
 	
 }
 .content{
     /*border:dashed 2px green;*/
 	width:690px;
-    float:left;
+    float:right;
+   
   
 }
 
 .login {
 	width: 200px;
 	/*position: absolute;*/
+	float:right;
 	
-	border: solid 2px #2a54c2;
-	padding: 8px;
-	background-image: url(../img/bg.png);
-	background-size: 100% 100%;
 }
-
+.adminlvout
+{
+    background-color:#C3D9FF; width:100%; height:30px; padding:1px;
+    
+    }
 
 
 

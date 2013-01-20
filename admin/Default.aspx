@@ -6,9 +6,9 @@
 <head runat="server">
     <title></title>
     <link href="assets/stylesheets/adminlayout.css" rel="stylesheet" />
-    <link href="assets/stylesheets/carouselStyle.css" rel="stylesheet" />
+    
     <script type="text/javascript" src="assets/javascript/jquery-1.8.3.min.js"></script>
-    <script type="text/javascript" src="assets/javascript/simple.carousel.js"></script>
+    
 </head>
 <body>
     <form id="form1" runat="server">
@@ -16,7 +16,7 @@
     <div class="container" style="margin: auto;">
         <img src="../assets/img/logo.png" style="width: 25%; height: auto;" />
                   
-          <div class="login">
+          <div>
                         <asp:Panel ID="panelLogin" runat="server" DefaultButton="btnsignin">
                             <table class="logform" width="100%" border="0">
                                 <tr>

@@ -4,7 +4,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
-    <div class="qsearch">
+    <%--<div class="qsearch">
         <asp:Panel ID="panelQsearch" runat="server" DefaultButton="btsearch">
             <table width="100%" border="0">
                 <tr>
@@ -108,17 +108,17 @@
                 </tr>
             </table>
         </asp:Panel>
-    </div>
-    <div class="leftpane">
+    </div>--%>
+    <div class="leftpane" style="width:280px">
         <table width="100%" border="0" cellspacing="0" cellpadding="0">
-            <tr>
+            <tr runat="server">
                 <td style="border: solid 1px #000099; font-size: 0px; line-height: 0px">
-                    <asp:Image ID="prof_image" runat="server" />
+                    <asp:Image ID="prof_image" runat="server" Width="100%" />
                 </td>
             </tr>
             <tr>
-                <td id="tdverification" runat="server" align="right" valign="middle" class="verified">
-                    <asp:Label ID="lbverified" runat="server"></asp:Label>&nbsp;
+                <td id="tdverification" runat="server" class="verified">
+                    &nbsp;
                 </td>
             </tr>
             <tr>
@@ -168,6 +168,27 @@
                 </td>
             </tr>
         </table>
+        <ul>
+        <li><asp:Label ID="lbverified" runat="server"></asp:Label></li>
+        <li>
+        
+        <asp:Label ID="lbactive" runat="server" Text="active" ></asp:Label>
+        </li>
+        <li>
+        
+        <asp:Label ID="lbApproved" runat="server" Text="Approved" ></asp:Label>
+        </li>
+        <li>
+        <asp:DropDownList ID="ddlactions" runat="server">
+        <asp:ListItem Value="0">Action</asp:ListItem>
+        <asp:ListItem Value="1">Activate</asp:ListItem>
+        <asp:ListItem Value="2">Deactivate</asp:ListItem>
+        <asp:ListItem Value="3">Approve</asp:ListItem>
+        <asp:ListItem Value="4">Unpprove</asp:ListItem>
+        </asp:DropDownList>
+        <asp:Button ID="btngo" runat="server" Text="Go" onclick="btngo_Click" /></li>
+
+        </ul>
     </div>
     <div class="content">
         <div>
@@ -915,29 +936,9 @@
             </div>
         </div>
     </div>
-    <div class="login" style="top: 190px;">
+    <div class="login" >
         
-        <ul>
         
-        <li>
-        
-        <asp:Label ID="lbactive" runat="server" Text="active" ></asp:Label>
-        </li>
-        <li>
-        
-        <asp:Label ID="lbApproved" runat="server" Text="Approved" ></asp:Label>
-        </li>
-        <li>
-        <asp:DropDownList ID="ddlactions" runat="server">
-        <asp:ListItem Value="0">Action</asp:ListItem>
-        <asp:ListItem Value="1">Activate</asp:ListItem>
-        <asp:ListItem Value="2">Deactivate</asp:ListItem>
-        <asp:ListItem Value="3">Approve</asp:ListItem>
-        <asp:ListItem Value="4">Unpprove</asp:ListItem>
-        </asp:DropDownList>
-        <asp:Button ID="btngo" runat="server" Text="Go" onclick="btngo_Click" /></li>
-
-        </ul>
         
     </div>
     <div style="min-height: 2800px;">

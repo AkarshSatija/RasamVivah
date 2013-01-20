@@ -44,7 +44,18 @@
         </ul>
 
     </div>
-    <div class="content">
+    <div class="content" style="float: left;    padding-top: 18px; ">
+        <div class="adminlvout">
+        <asp:DropDownList ID="DropDownList1" runat="server">
+        <asp:ListItem Value="0">Action</asp:ListItem>
+        <asp:ListItem Value="1">Activate</asp:ListItem>
+        <asp:ListItem Value="2">Deactivate</asp:ListItem>
+        <asp:ListItem Value="3">Approve</asp:ListItem>
+        <asp:ListItem Value="4">Unpprove</asp:ListItem>
+        </asp:DropDownList>
+        <asp:Button ID="Button1" runat="server" Text="Go" onclick="btngo_Click"  />
+        <asp:Button runat="server" ID="Button2" Text="Save Changes" onclick="btnSave_Click" style="float:right"  />
+        </div>
         <asp:ListView ID="lvprofiles" runat="server" 
             onitemdatabound="lvprofiles_ItemDataBound">
             <EmptyDataTemplate>
@@ -80,15 +91,17 @@
             </ItemTemplate>
             <LayoutTemplate>
            
-                <table id="itemPlaceholderContainer" runat="server" border="3" >
+                <table id="itemPlaceholderContainer" runat="server" style=" border:3px solid #C3D9FF; border-bottom:0; width:100%" >
                 
-                <tr><td><asp:CheckBox ID="cbselectall" runat="server" onClick="selectall(event)" /></td>
+                <tr style="border-bottom:2px solid black; ">
+                <td><asp:CheckBox ID="cbselectall" runat="server" onClick="selectall(event)" /></td>
                 <td>Id</td>
                 <td>Name</td>
                 <td>Active</td>
                 <td>Approve</td>
                 <td>Paid Member</td>
                 </tr>
+
                     <tr runat="server" id="itemPlaceholder" >
                     <th><td>id</td><td>Name</td><td>Active</td><td>Approve</td></th>
                 </tr>
@@ -96,7 +109,9 @@
                 </table>
              
             </LayoutTemplate>
+            
         </asp:ListView>
+        <div class="adminlvout">
         <asp:DropDownList ID="ddlactions" runat="server">
         <asp:ListItem Value="0">Action</asp:ListItem>
         <asp:ListItem Value="1">Activate</asp:ListItem>
@@ -104,8 +119,9 @@
         <asp:ListItem Value="3">Approve</asp:ListItem>
         <asp:ListItem Value="4">Unpprove</asp:ListItem>
         </asp:DropDownList>
-        <asp:Button ID="btngo" runat="server" Text="Go" onclick="btngo_Click" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:Button runat="server" ID="btnSave" Text="Save Changes" 
-            onclick="btnSave_Click"  />
+        <asp:Button ID="btngo" runat="server" Text="Go" onclick="btngo_Click" />
+        <asp:Button runat="server" ID="btnSave" Text="Save Changes" style="float:right" onclick="btnSave_Click"  />
+        </div>
     </div>
     
 </asp:Content>

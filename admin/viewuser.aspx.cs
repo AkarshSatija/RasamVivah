@@ -32,46 +32,46 @@ public partial class viewuser : System.Web.UI.Page
             
 
 
-        if (!IsPostBack)
-        {
+        //if (!IsPostBack)
+        //{
 
-            BindMotherTongue();
-            bindReligion();
-            bindMarital();
-            bindWorking_with();
-            bindCity();
-            bindDegree();
-            bindCountry();
-
-
-
-            for (int i = 18; i <= 65; i++)
-            {
+        //    BindMotherTongue();
+        //    bindReligion();
+        //    bindMarital();
+        //    bindWorking_with();
+        //    bindCity();
+        //    bindDegree();
+        //    bindCountry();
 
 
-                ListItem l = new ListItem();
-                l = new ListItem(i.ToString() + " Yrs", i.ToString());
-                drpadvlwrage.Items.Add(l);
-                //drpadvuprage.Items.Add(l);
 
-            }
-
-            for (int i = 18; i <= 65; i++)
-            {
+        //    for (int i = 18; i <= 65; i++)
+        //    {
 
 
-                ListItem l = new ListItem();
-                l = new ListItem(i.ToString() + " Yrs", i.ToString());
-                // drpadvlwrage.Items.Add(l);
-                drpadvuprage.Items.Add(l);
+        //        ListItem l = new ListItem();
+        //        l = new ListItem(i.ToString() + " Yrs", i.ToString());
+        //        drpadvlwrage.Items.Add(l);
+        //        //drpadvuprage.Items.Add(l);
 
-            }
+        //    }
 
-            drpadvlwrage.SelectedValue = "18";
-            drpadvuprage.SelectedValue = "30";
+        //    for (int i = 18; i <= 65; i++)
+        //    {
+
+
+        //        ListItem l = new ListItem();
+        //        l = new ListItem(i.ToString() + " Yrs", i.ToString());
+        //        // drpadvlwrage.Items.Add(l);
+        //        drpadvuprage.Items.Add(l);
+
+        //    }
+
+        //    drpadvlwrage.SelectedValue = "18";
+        //    drpadvuprage.SelectedValue = "30";
             
 
-        }
+        //}
 
         
         prof_image.ImageUrl = "~/image.ashx?id=" + user;
@@ -347,78 +347,78 @@ public partial class viewuser : System.Web.UI.Page
 
     }
     
-    protected void btsearch_Click(object sender, EventArgs e)
-    {
-        string search_url = "search.aspx?result=1";
+    //protected void btsearch_Click(object sender, EventArgs e)
+    //{
+    //    string search_url = "search.aspx?result=1";
 
 
-        if (!rbtnlooking.SelectedValue.ToString().Equals("")) // is type se
-        {
-            search_url += "&gender=" + rbtnlooking.SelectedValue.ToString();
-        }
+    //    if (!rbtnlooking.SelectedValue.ToString().Equals("")) // is type se
+    //    {
+    //        search_url += "&gender=" + rbtnlooking.SelectedValue.ToString();
+    //    }
 
 
-        if (!drpadvlwrage.SelectedValue.Equals("0"))
-        {
-            search_url += "&agel=" + drpadvlwrage.SelectedValue.ToString();
-        }
+    //    if (!drpadvlwrage.SelectedValue.Equals("0"))
+    //    {
+    //        search_url += "&agel=" + drpadvlwrage.SelectedValue.ToString();
+    //    }
 
-        if (!drpadvuprage.SelectedValue.Equals("0"))
-        {
-            search_url += "&ageu=" + drpadvuprage.SelectedValue.ToString();
-        }
-
-
-        if (!drpadvmarital.SelectedValue.Equals("0")) //like this
-        {
-            search_url += "&m_status1=" + drpadvmarital.SelectedValue.ToString();
-        }
-
-        if (!drpadvreligion.SelectedValue.Equals("0"))
-        {
-            search_url += "&religion1=" + drpadvreligion.SelectedValue.ToString();
-        }
-
-        if (!drpadvmthrtongue.SelectedValue.Equals("0"))
-        {
-            search_url += "&m_tongue1=" + drpadvmthrtongue.SelectedValue.ToString();
-        }
-
-        if (!drpadvcountry.SelectedValue.Equals("0"))
-        {
-            search_url += "&country1=" + drpadvcountry.SelectedValue.ToString();
-        }
-
-        if (!drpcity.SelectedValue.Equals("0"))
-        {
-            search_url += "&city1=" + drpcity.SelectedValue.ToString();
-        }
-
-        if (!drpadveducation.SelectedValue.Equals("0"))
-        {
-            search_url += "&edu1=" + drpadveducation.SelectedValue.ToString();
-        }
-
-        //if (!drpadvoccupation.SelectedValue.Equals("0"))
-        //{
-        //    search_url += "&occ1=" + drpadvoccupation.SelectedValue.ToString();
-        //}
-
-        if (!drpadvworkstatus.SelectedValue.Equals("0"))
-        {
-            search_url += "&work_s1=" + drpadvworkstatus.SelectedValue.ToString();
-        }
-
-        if (chkphotos.Checked == true)
-        {
-            search_url += "&photos=1";
-        }
-
-        Response.Redirect(search_url);
+    //    if (!drpadvuprage.SelectedValue.Equals("0"))
+    //    {
+    //        search_url += "&ageu=" + drpadvuprage.SelectedValue.ToString();
+    //    }
 
 
-    }
+    //    if (!drpadvmarital.SelectedValue.Equals("0")) //like this
+    //    {
+    //        search_url += "&m_status1=" + drpadvmarital.SelectedValue.ToString();
+    //    }
 
+    //    if (!drpadvreligion.SelectedValue.Equals("0"))
+    //    {
+    //        search_url += "&religion1=" + drpadvreligion.SelectedValue.ToString();
+    //    }
+
+    //    if (!drpadvmthrtongue.SelectedValue.Equals("0"))
+    //    {
+    //        search_url += "&m_tongue1=" + drpadvmthrtongue.SelectedValue.ToString();
+    //    }
+
+    //    if (!drpadvcountry.SelectedValue.Equals("0"))
+    //    {
+    //        search_url += "&country1=" + drpadvcountry.SelectedValue.ToString();
+    //    }
+
+    //    if (!drpcity.SelectedValue.Equals("0"))
+    //    {
+    //        search_url += "&city1=" + drpcity.SelectedValue.ToString();
+    //    }
+
+    //    if (!drpadveducation.SelectedValue.Equals("0"))
+    //    {
+    //        search_url += "&edu1=" + drpadveducation.SelectedValue.ToString();
+    //    }
+
+    //    //if (!drpadvoccupation.SelectedValue.Equals("0"))
+    //    //{
+    //    //    search_url += "&occ1=" + drpadvoccupation.SelectedValue.ToString();
+    //    //}
+
+    //    if (!drpadvworkstatus.SelectedValue.Equals("0"))
+    //    {
+    //        search_url += "&work_s1=" + drpadvworkstatus.SelectedValue.ToString();
+    //    }
+
+    //    if (chkphotos.Checked == true)
+    //    {
+    //        search_url += "&photos=1";
+    //    }
+
+    //    Response.Redirect(search_url);
+
+
+    //}
+    /*
     protected void BindMotherTongue()
     {
 
@@ -770,7 +770,7 @@ public partial class viewuser : System.Web.UI.Page
     {
         bindCaste(drpadvreligion.SelectedValue.ToString());
     }
-
+    */
     protected void retrieve_rightbar()
     {
         if (p.isActive(user))
