@@ -83,14 +83,14 @@
                 <table id="itemPlaceholderContainer" runat="server" border="3" >
                 
                 <tr><td><asp:CheckBox ID="cbselectall" runat="server" onClick="selectall(event)" /></td>
-                <td>id</td>
-                <td>name</td>
-                <td>active</td>
-                <td>approve</td>
-                <td>paid member</td>
+                <td>Id</td>
+                <td>Name</td>
+                <td>Active</td>
+                <td>Approve</td>
+                <td>Paid Member</td>
                 </tr>
                     <tr runat="server" id="itemPlaceholder" >
-                    <th><td>id</td><td>name</td><td>active</td><td>approve</td></th>
+                    <th><td>id</td><td>Name</td><td>Active</td><td>Approve</td></th>
                 </tr>
                 
                 </table>
