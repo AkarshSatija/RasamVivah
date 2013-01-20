@@ -207,7 +207,6 @@ public partial class admin : System.Web.UI.Page
 
         c.cmd.ExecuteNonQuery();
 
-
         c.cn.Dispose();
         c.cn.Close();
 

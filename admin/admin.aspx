@@ -58,11 +58,11 @@
                 <td>
                 <asp:CheckBox ID="cbselect" CssClass="selectlist" runat="server" />
                 </td>
-                <td><a target="_blank" href="fullview.aspx?id=<%# Eval("id") %>">
+                <td><a target="_blank" href="viewuser.aspx?id=<%# Eval("id") %>">
                     <asp:Label ID="lbid" runat="server" Text='<%# Eval("id") %>' />
                     </a>
                </td>
-               <td><a target="_blank" href="fullview.aspx?id=<%# Eval("id") %>">
+               <td><a target="_blank" href="viewuser.aspx?id=<%# Eval("id") %>">
                     <asp:Label ID="lbname" runat="server" ></asp:Label>
                     </a>
                </td>
@@ -80,7 +80,7 @@
             </ItemTemplate>
             <LayoutTemplate>
            
-                <table id="itemPlaceholderContainer" runat="server" border=3 >
+                <table id="itemPlaceholderContainer" runat="server" border="3" >
                 
                 <tr><td><asp:CheckBox ID="cbselectall" runat="server" onClick="selectall(event)" /></td>
                 <td>id</td>
