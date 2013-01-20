@@ -406,6 +406,35 @@ public class profileFunc
         return 0;
     }
 
+    public bool isApproved(string id)
+    {
+        connect c = new connect();
+        c.cmd.CommandText = "select * from userinfo where approved='1' and id='" + id + "'";
+        c.dr = c.cmd.ExecuteReader();
+        if (c.dr.Read())
+        {
+            c.dr.Close();
+            c.cn.Close();
+            return true;
+        }
+        return false;
+    }
+
+
+    public bool isActive(string id)
+    {
+        connect c = new connect();
+        c.cmd.CommandText = "select * from userinfo where active='1' and id='" + id + "'";
+        c.dr = c.cmd.ExecuteReader();
+        if (c.dr.Read())
+        {
+            c.dr.Close();
+            c.cn.Close();
+            return true;
+        }
+        return false;
+    }
+
     public string descAboutMe(string id)
     {
 

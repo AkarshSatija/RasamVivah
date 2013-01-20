@@ -20,12 +20,16 @@ public partial class admin : System.Web.UI.Page
     protected void Page_Load(object sender, EventArgs e)
     {
 
-        if (Request.QueryString["type"] != null)
-            bindlvprofiles(Request.QueryString["type"].ToString());
-        else
-            bindlvprofiles("active");
 
 
+        if (!IsPostBack)
+        {
+            if (Request.QueryString["type"] != null)
+                bindlvprofiles(Request.QueryString["type"].ToString());
+            else
+                bindlvprofiles("newusers");
+        }
+      
     }
 
 
@@ -117,12 +121,97 @@ public partial class admin : System.Web.UI.Page
     protected void lvprofiles_ItemDataBound(object sender, ListViewItemEventArgs e)
     {
         Label lblID = e.Item.FindControl("lbid") as Label;
-
+        
 
         ((Label)e.Item.FindControl("lbname")).Text = p.getAboutMeString(lblID.Text, Server.MapPath("xml//").ToString(),2);
+
+        ((CheckBox)e.Item.FindControl("cbactive")).Checked = p.isActive(lblID.Text);
+        ((CheckBox)e.Item.FindControl("cbapproved")).Checked = p.isApproved(lblID.Text);
         
-        
+        bool paid;
+        if (p.isPaid(lblID.Text) == 1)
+            paid = true;
+        else
+            paid = false;
+
+        ((CheckBox)e.Item.FindControl("cbpaid")).Checked = paid;
     
     
+    }
+    protected void btnSave_Click(object sender, EventArgs e)
+    {
+        foreach (ListViewItem item in lvprofiles.Items)
+        {
+            if (item.ItemType == ListViewItemType.DataItem)
+            {
+                string transaction_id = ((Label)item.FindControl("lbid")).Text;
+                int active_status = ((CheckBox)item.FindControl("cbactive")).Checked ? 1 : 0;
+                int approved_status = ((CheckBox)item.FindControl("cbapproved")).Checked ? 1 : 0 ;
+
+
+
+                connect c = new connect();
+                //int app = ((CheckBox)item.FindControl("cbapproved")).Checked ? 1 : 0;
+                
+
+                c.cmd.CommandText = "update userinfo set approved='"+approved_status+"' where id='"+transaction_id+"'";
+                c.cmd.ExecuteNonQuery();
+
+                c.cmd.CommandText = "update userinfo set active='" + active_status + "' where id='" + transaction_id + "'";
+                c.cmd.ExecuteNonQuery();
+
+                c.cn.Dispose();
+                c.cn.Close();
+                
+                // Process changed data here...
+            }
+        }
+    }
+    protected void btngo_Click(object sender, EventArgs e)
+    {
+        string mycmd = "update userinfo set ";
+        string action_string="";
+        string users="id='1' ";
+        if (ddlactions.SelectedValue == "1")
+        {
+            action_string = "active='1' ";
+        }
+        else if (ddlactions.SelectedValue == "2")
+        {
+            action_string = "active='0' ";
+        }
+
+        //more actions
+
+        foreach (ListViewItem item in lvprofiles.Items)
+        {
+            if (item.ItemType == ListViewItemType.DataItem)
+            {
+
+                string transaction_id = ((Label)item.FindControl("lbid")).Text;
+                if (((CheckBox)item.FindControl("cbselect")).Checked)
+                {
+                    users += " or id='" + transaction_id + "'";
+                
+                }
+
+            }
+
+        }
+
+
+
+        connect c = new connect();
+
+        c.cmd.CommandText = mycmd + action_string+" where " + users;
+
+        c.cmd.ExecuteNonQuery();
+
+
+        c.cn.Dispose();
+        c.cn.Close();
+
+
+
     }
 }
