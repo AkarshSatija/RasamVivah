@@ -395,7 +395,7 @@ public class profileFunc
     public int isPaid(string id)
     {
         connect c = new connect();
-        c.cmd.CommandText = "select * from membership where id='"+id+"'";
+        c.cmd.CommandText = "select * from userinfo where sed > getdate() and id='" + id + "'";
         c.dr=c.cmd.ExecuteReader();
         if (c.dr.Read())
         {
@@ -403,6 +403,7 @@ public class profileFunc
             c.cn.Close();
             return 1;
         }
+        c.cn.Close();
         return 0;
     }
 

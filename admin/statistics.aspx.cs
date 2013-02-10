@@ -14,7 +14,7 @@ using System.Xml;
 using System.Data.SqlClient;
 using System.Collections.Generic;
 
-public partial class admin : System.Web.UI.Page
+public partial class statistics : System.Web.UI.Page
 {
     profileFunc p = new profileFunc();
     protected void Page_Load(object sender, EventArgs e)
@@ -24,118 +24,30 @@ public partial class admin : System.Web.UI.Page
 
         if (!IsPostBack)
         {
-            if (Request.QueryString["type"] != null)
-                bindlvprofiles(Request.QueryString["type"].ToString());
-            else
-                bindlvprofiles("newusers");
+            connect c = new connect();
+
+            DateTime dtstart = DateTime.ParseExact("15/02/2013", "dd/MM/yyyy", null);
+           
+
+            c.cmd.Parameters.Add("@start", SqlDbType.DateTime).Value = dtstart;
+           // c.cmd.Parameters.Add("@end", SqlDbType.DateTime).Value = dtend;
+
+            c.cmd.CommandText = "select * from logins where created_at>=@start";
+            c.adp.Fill(c.ds);
+            lvprofiles.DataSource = c.ds;
+            lvprofiles.DataBind();
+
+
+            c.cn.Close();
+            c.adp.Dispose();
+            c.ds.Dispose();
         }
       
     }
 
 
 
-    protected void bindlvprofiles(string type)
-    {
-        {
-            string command = "";
-            //work here!!!!!
-            if (type.ToLower().Equals("active"))
-            {
-
-                command = "select * from userinfo where active='1'";
-
-
-            }
-
-            else if (type.ToLower().Equals("deactive"))
-            {
-                command = "select * from userinfo where active='0'";
-
-            }
-            //select * from userinfo where last_login < DATEADD(day,-15,getdate()) order by last_login desc
-            else if (type.ToLower().Equals("inactive"))
-            {
-                command = "select * from userinfo where last_login < DATEADD(day,-15,getdate()) order by last_login desc";
-
-            }
-            
-            else if (type.ToLower().Equals("expiring"))
-            {
-                //expiring in next 15 days
-                command = "select * from userinfo where ((sed > getdate()) AND (sed < DATEADD(day,15,getdate()))) order by sed asc";
-
-            }
-
-            else if (type.ToLower().Equals("expired"))
-            {
-                //expirwed in last 30 days
-                command = "select * from userinfo where ((sed < DATEADD(day,0,getdate())) and (sed > DATEADD(day,-30,getdate()))) order by sed desc";
-
-            }
-            else if (type.ToLower().Equals("paid"))
-            {
-                command = "select * from userinfo where sed >= getdate()  order by sed asc";
-
-            }
-            else if (type.ToLower().Equals("free"))
-            {
-                command = "select * from userinfo where sed < getdate()  order by sed asc";
-
-            }
-            
-            
-            else if (type.ToLower().Equals("approved"))
-            {
-                command = "select * from userinfo where approved='1'";
-
-            }
-            else if (type.ToLower().Equals("unapproved"))
-            {
-                command = "select * from userinfo where approved='0'";
-
-            }
-            else if (type.ToLower().Equals("newusers"))
-            {
-                // new users in last 15 days
-                command = "select * from logins where created_at> DATEADD(day,-15,getdate()) order by created_at desc";
-
-
-            }
-            else if (type.ToLower().Equals("males"))
-            {
-
-                command = "select * from p_details where gender='1'";
-
-
-            }
-            else if (type.ToLower().Equals("females"))
-            {
-
-                command = "select * from p_details where gender='0'";
-
-
-            }
-            else
-            {
-                command = "select * from logins where created_at> DATEADD(day,-15,getdate()) order by created_at desc";
-
-            }
-            
-            
-            connect c = new connect();
-            //c.cmd.CommandText = "select * from logins";
-            c.cmd.CommandText = command;
-            c.adp.Fill(c.ds);
-            lvprofiles.DataSource = c.ds;
-            lvprofiles.DataBind();
-
-            
-            c.cn.Close();
-            c.adp.Dispose();
-            c.ds.Dispose();
-
-        }
-    }
+    
     protected void lvprofiles_ItemDataBound(object sender, ListViewItemEventArgs e)
     {
         Label lblID = e.Item.FindControl("lbid") as Label;
@@ -240,5 +152,35 @@ public partial class admin : System.Web.UI.Page
     protected void Button3_Click(object sender, EventArgs e)
     {
         Response.Redirect(HttpContext.Current.Request.Url.AbsoluteUri.ToString());
+    }
+    protected void btnsearch_Click(object sender, EventArgs e)
+    {
+        connect c = new connect();
+
+        DateTime dtstart=DateTime.ParseExact("15/02/2013", "dd/MM/yyyy", null);
+        DateTime dtend = DateTime.Now;
+
+        if (tbstartdt.Text != "")
+            dtstart = DateTime.ParseExact(tbstartdt.Text, "dd/MM/yyyy", null);
+
+        if (tbenddt.Text !="")
+        {
+             dtend = DateTime.ParseExact(tbenddt.Text, "dd/MM/yyyy", null);
+        }
+
+        
+
+        c.cmd.Parameters.Add("@start", SqlDbType.DateTime).Value = dtstart;
+        c.cmd.Parameters.Add("@end", SqlDbType.DateTime).Value = dtend;
+
+        c.cmd.CommandText = "select * from logins where created_at>=@start and created_at<=@end";
+        c.adp.Fill(c.ds);
+        lvprofiles.DataSource = c.ds;
+        lvprofiles.DataBind();
+
+
+        c.cn.Close();
+        c.adp.Dispose();
+        c.ds.Dispose();
     }
 }

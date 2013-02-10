@@ -1,4 +1,6 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="adminMaster.master" AutoEventWireup="true" CodeFile="admin.aspx.cs" Inherits="admin" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="adminMaster.master" AutoEventWireup="true" CodeFile="statistics.aspx.cs" Inherits="statistics" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
 <script type="text/javascript">
@@ -23,39 +25,39 @@
             
             <li><a href="admin.aspx?type=newusers">New Users</a>
             </li>
-            <li><a href="admin.aspx?type=active">Active</a>
-            </li>
-            <li><a href="admin.aspx?type=deactive">Deactive</a>
-            </li>
-            <li><a href="admin.aspx?type=inactive">Inactive</a>
-            </li>            
-            <li><a href="admin.aspx?type=expiring">Expiring</a>
-            </li>
-            <li><a href="admin.aspx?type=expired">Expired</a>
-            </li>
-            <li><a href="admin.aspx?type=paid">Paid</a>
-            </li>
-            <li><a href="admin.aspx?type=free">Free</a>
-            </li>
-            <li><a href="admin.aspx?type=approved">Approved</a>
-            </li>
-            <li><a href="admin.aspx?type=unapproved">Unapproved</a>
-            </li>
-            <li><a href="admin.aspx?type=males">Males</a>
-            </li>
-            <li><a href="admin.aspx?type=females">Females</a>
-            </li>
-            <li><a href="statistics.aspx">Statistics</a>
-            </li>
-            <li><a href="changepass.aspx">Settings</a>
-            </li>
+           
             
             
         </ul>
 
     </div>
     <div class="content" style="float: left;    padding-top: 18px; ">
-        <div class="adminlvout">
+
+    <div class="adminlvout">
+    <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+
+
+                                Select Start Date<asp:TextBox ID="tbstartdt" runat="server" Width="180px"></asp:TextBox>
+                                
+                                <%--<asp:CustomValidator ID="cvdob" runat="server" ErrorMessage="* Invalid Age(Should be in 18 to 65)"
+                                    ClientValidationFunction="Validate" ControlToValidate="txtdob" ValidateEmptyText="true"
+                                    ForeColor="Black"></asp:CustomValidator>--%>
+                                <cc1:CalendarExtender ID="CalendarExtender1" Format="dd/MM/yyyy" StartDate="01/01/2013"  runat="server" TargetControlID="tbstartdt">
+                                </cc1:CalendarExtender>
+
+
+                                 Select End Date<asp:TextBox ID="tbenddt" runat="server" Width="180px"></asp:TextBox>
+                                
+                                <%--<asp:CustomValidator ID="cvdob" runat="server" ErrorMessage="* Invalid Age(Should be in 18 to 65)"
+                                    ClientValidationFunction="Validate" ControlToValidate="txtdob" ValidateEmptyText="true"
+                                    ForeColor="Black"></asp:CustomValidator>--%>
+                                <cc1:CalendarExtender ID="CalendarExtender2" Format="dd/MM/yyyy" StartDate="01/01/2013" runat="server" TargetControlID="tbenddt">
+                                </cc1:CalendarExtender>
+                                <asp:Button ID="btnsearch" runat="server" Text="search" 
+            onclick="btnsearch_Click" />
+    
+    </div>
+        <%--<div class="adminlvout">
         <asp:DropDownList ID="DropDownList1" runat="server">
         <asp:ListItem Value="0">Action</asp:ListItem>
         <asp:ListItem Value="1">Activate</asp:ListItem>
@@ -67,7 +69,8 @@
             <asp:Button ID="Button3" runat="server" Text="Refresh" 
                 onclick="Button3_Click"  />
         <asp:Button runat="server" ID="Button2" Text="Save Changes" onclick="btnSave_Click" style="float:right"  />
-        </div>
+        </div>--%>
+
         <asp:ListView ID="lvprofiles" runat="server" 
             onitemdatabound="lvprofiles_ItemDataBound">
             <EmptyDataTemplate>
@@ -134,6 +137,7 @@
         <asp:ListItem Value="3">Approve</asp:ListItem>
         <asp:ListItem Value="4">Unpprove</asp:ListItem>
         </asp:DropDownList>
+        
         <asp:Button ID="btngo" runat="server" Text="Go" onclick="btngo_Click" />
         <asp:Button runat="server" ID="btnSave" Text="Save Changes" style="float:right" onclick="btnSave_Click"  />
         </div>

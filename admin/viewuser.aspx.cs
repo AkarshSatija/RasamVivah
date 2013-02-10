@@ -819,6 +819,10 @@ public partial class viewuser : System.Web.UI.Page
         {
             action_string = "approved='0' ";
         }
+        else if (ddlactions.SelectedValue == "5")
+        {
+            Response.Redirect("makepaid.aspx?whom="+user);
+        }
         //more actions
 
         

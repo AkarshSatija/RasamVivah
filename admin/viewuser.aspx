@@ -185,6 +185,7 @@
         <asp:ListItem Value="2">Deactivate</asp:ListItem>
         <asp:ListItem Value="3">Approve</asp:ListItem>
         <asp:ListItem Value="4">Unpprove</asp:ListItem>
+        <asp:ListItem Value="5">Make Paid</asp:ListItem>
         </asp:DropDownList>
         <asp:Button ID="btngo" runat="server" Text="Go" onclick="btngo_Click" /></li>
 

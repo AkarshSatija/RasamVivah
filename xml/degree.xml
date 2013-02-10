@@ -16,6 +16,7 @@
   <courses Text="CS" Value="14"></courses>
   <courses Text="ICWA" Value="15"></courses>
   <courses Text="BBA" Value="16"></courses>
+  <courses Text="MBA" Value="40"></courses>
   <courses Text="BHM" Value="17"></courses>
   <courses Text="BAMS" Value="18"></courses>
   <courses Text="BDS" Value="19"></courses>
@@ -40,13 +41,14 @@
   <courses Text="M.Ed" Value="32"></courses>
 
   <courses Text="M.Sc" Value="33"></courses>
-  <courses Text="M.Phil" Value=""></courses>
-
+  <courses Text="M.Phil" Value="39"></courses>
+  
   <courses Text="Ph. D" Value="34"></courses>
   <courses Text="High School" Value="35"></courses>
 
   <courses Text="Trade School" Value="36"></courses>
 
   <courses Text="Diploma" Value="37"></courses>
+  
   <courses Text="Other" Value="38"></courses>
 </eucation>

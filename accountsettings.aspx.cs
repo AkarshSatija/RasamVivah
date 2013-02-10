@@ -23,17 +23,7 @@ public partial class accountsettings : System.Web.UI.Page
 
         connect c = new connect();
 
-     //c.cmd.CommandText = "select emailid from logins where logins.id='" + s + "'";
-     //c.dr = c.cmd.ExecuteReader();
-     //if (!IsPostBack)
-     //{
-     //    if (c.dr.Read())
-     //    {
-     //        lboldemail.Text = c.dr["emailid"].ToString();
-     //       // lboldmobile.Text = c.dr["mobile"].ToString();
-     //    }
-     //}
-     //c.dr.Close();
+     
 
      c.cmd.CommandText = "select mobile from p_details where p_details.id='" + s + "'";
 
