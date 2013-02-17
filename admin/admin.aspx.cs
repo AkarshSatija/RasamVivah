@@ -13,10 +13,13 @@ using System.Xml.Linq;
 using System.Xml;
 using System.Data.SqlClient;
 using System.Collections.Generic;
+using System.Text;
+using System.IO;
 
 public partial class admin : System.Web.UI.Page
 {
     profileFunc p = new profileFunc();
+    string command = "";
     protected void Page_Load(object sender, EventArgs e)
     {
 
@@ -37,7 +40,7 @@ public partial class admin : System.Web.UI.Page
     protected void bindlvprofiles(string type)
     {
         {
-            string command = "";
+            
             //work here!!!!!
             if (type.ToLower().Equals("active"))
             {
@@ -108,6 +111,35 @@ public partial class admin : System.Web.UI.Page
 
 
             }
+            else if (type.ToLower().Equals("plana"))
+            {
+
+                command = "select user_id as id from membership where id in (select id from (select user_id, max(id) as id from membership group by user_id) a) and months_added='3'";
+
+
+            }
+            else if (type.ToLower().Equals("planb"))
+            {
+
+                command = "select user_id as id from membership where id in (select id from (select user_id, max(id) as id from membership group by user_id) a) and months_added='6'";
+
+
+            }
+            else if (type.ToLower().Equals("planc"))
+            {
+
+                command = "select user_id as id from membership where id in (select id from (select user_id, max(id) as id from membership group by user_id) a) and months_added='9'";
+
+
+            }
+            else if (type.ToLower().Equals("pland"))
+            {
+
+                command = "select user_id as id from membership where id in (select id from (select user_id, max(id) as id from membership group by user_id) a) and months_added='12'";
+
+
+            }
+            
             else if (type.ToLower().Equals("females"))
             {
 
@@ -124,6 +156,7 @@ public partial class admin : System.Web.UI.Page
             
             connect c = new connect();
             //c.cmd.CommandText = "select * from logins";
+            Session["query"] = command;
             c.cmd.CommandText = command;
             c.adp.Fill(c.ds);
             lvprofiles.DataSource = c.ds;
@@ -240,5 +273,73 @@ public partial class admin : System.Web.UI.Page
     protected void Button3_Click(object sender, EventArgs e)
     {
         Response.Redirect(HttpContext.Current.Request.Url.AbsoluteUri.ToString());
+    }
+
+
+
+
+    public void ExportIntoExcel(ListView lvExport, string Header, string FileName)
+    {
+        try
+        {
+            System.Web.HttpContext.Current.Response.Clear();
+            System.Web.HttpContext.Current.Response.ContentType = "application/vnd.ms-excel";
+            System.Web.HttpContext.Current.Response.AddHeader("content-disposition", "attachment;filename=" + FileName + ".xls");
+            System.Web.HttpContext.Current.Response.Charset = "";
+            System.Web.HttpContext.Current.Response.Cache.SetCacheability(HttpCacheability.NoCache);
+            StringWriter stringWrite = new StringWriter();
+            stringWrite.Write(Header);
+            stringWrite.WriteLine();
+            HtmlTextWriter htmlWrite = new HtmlTextWriter(stringWrite);
+            HtmlForm frm = new HtmlForm();
+            lvExport.Parent.Controls.Add(frm);
+            frm.Controls.Add(lvExport);
+            frm.RenderControl(htmlWrite);
+            System.Web.HttpContext.Current.Response.Write(stringWrite.ToString());
+
+        }
+        catch (Exception ex)
+        {
+        }
+        finally
+        {
+            System.Web.HttpContext.Current.Response.End();
+        }
+    }
+
+    protected void Button4_Click(object sender, EventArgs e)
+    {
+
+        ExportIntoExcel(lvprofiles, "", "fil");
+
+
+        //Response.Clear();
+        //Response.Buffer = true;
+        //Response.ContentType = "application/vnd.ms-excel";
+        //Response.Charset = "";
+        //this.EnableViewState = false;
+        //StringWriter stringWriter = new StringWriter();
+        //HtmlTextWriter htmlTextWriter = new HtmlTextWriter(stringWriter);
+        //this.lvprofiles.RenderControl(htmlTextWriter);
+        //Response.Write(stringWriter.ToString());
+        //Response.End();
+    }
+    protected void Button5_Click(object sender, EventArgs e)
+    {
+        if (Request.QueryString["type"] != null)
+            bindlvprofiles(Request.QueryString["type"].ToString());
+        else
+            bindlvprofiles("newusers");
+
+
+        System.Text.StringBuilder sb = new System.Text.StringBuilder();
+        sb.Append("<script>");
+
+        sb.Append("window.open(\"print_list.aspx?query="+command+" \");");
+
+        sb.Append("</script>");
+
+        Page.RegisterStartupScript("test", sb.ToString());
+
     }
 }

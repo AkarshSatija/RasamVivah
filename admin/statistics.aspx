@@ -19,18 +19,6 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 
-    <div class="leftpane">
-
-        <ul style="list-style: none outside none;">
-            
-            <li><a href="admin.aspx?type=newusers">New Users</a>
-            </li>
-           
-            
-            
-        </ul>
-
-    </div>
     <div class="content" style="float: left;    padding-top: 18px; ">
 
     <div class="adminlvout">

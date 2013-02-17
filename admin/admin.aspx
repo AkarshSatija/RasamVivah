@@ -17,43 +17,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 
-    <div class="leftpane">
-
-        <ul style="list-style: none outside none;">
-            
-            <li><a href="admin.aspx?type=newusers">New Users</a>
-            </li>
-            <li><a href="admin.aspx?type=active">Active</a>
-            </li>
-            <li><a href="admin.aspx?type=deactive">Deactive</a>
-            </li>
-            <li><a href="admin.aspx?type=inactive">Inactive</a>
-            </li>            
-            <li><a href="admin.aspx?type=expiring">Expiring</a>
-            </li>
-            <li><a href="admin.aspx?type=expired">Expired</a>
-            </li>
-            <li><a href="admin.aspx?type=paid">Paid</a>
-            </li>
-            <li><a href="admin.aspx?type=free">Free</a>
-            </li>
-            <li><a href="admin.aspx?type=approved">Approved</a>
-            </li>
-            <li><a href="admin.aspx?type=unapproved">Unapproved</a>
-            </li>
-            <li><a href="admin.aspx?type=males">Males</a>
-            </li>
-            <li><a href="admin.aspx?type=females">Females</a>
-            </li>
-            <li><a href="statistics.aspx">Statistics</a>
-            </li>
-            <li><a href="changepass.aspx">Settings</a>
-            </li>
-            
-            
-        </ul>
-
-    </div>
+    
     <div class="content" style="float: left;    padding-top: 18px; ">
         <div class="adminlvout">
         <asp:DropDownList ID="DropDownList1" runat="server">
@@ -68,6 +32,8 @@
                 onclick="Button3_Click"  />
         <asp:Button runat="server" ID="Button2" Text="Save Changes" onclick="btnSave_Click" style="float:right"  />
         </div>
+
+
         <asp:ListView ID="lvprofiles" runat="server" 
             onitemdatabound="lvprofiles_ItemDataBound">
             <EmptyDataTemplate>
@@ -135,7 +101,12 @@
         <asp:ListItem Value="4">Unpprove</asp:ListItem>
         </asp:DropDownList>
         <asp:Button ID="btngo" runat="server" Text="Go" onclick="btngo_Click" />
+               
+                 
+        
         <asp:Button runat="server" ID="btnSave" Text="Save Changes" style="float:right" onclick="btnSave_Click"  />
+        <asp:Button runat="server" ID="Button5" Text="Export" style="float:right" 
+                onclick="Button5_Click"   />
         </div>
     </div>
     

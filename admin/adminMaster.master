@@ -50,7 +50,51 @@
 
         
     <div class="container">
-        
+        <div class="leftpane">
+
+        <ul style="list-style: none outside none;">
+            
+            <li><a href="admin.aspx?type=newusers">New Users</a>
+            </li>
+            <li><a href="admin.aspx?type=active">Active</a>
+            </li>
+            <li><a href="admin.aspx?type=deactive">Deactive</a>
+            </li>
+            <li><a href="admin.aspx?type=inactive">Inactive</a>
+            </li>            
+            <li><a href="admin.aspx?type=expiring">Expiring</a>
+            </li>
+            <li><a href="admin.aspx?type=expired">Expired</a>
+            </li>
+            <li><a href="admin.aspx?type=paid">Paid</a>
+            </li>
+            <li><a href="admin.aspx?type=free">Free</a>
+            </li>
+            <li><a href="admin.aspx?type=approved">Approved</a>
+            </li>
+            <li><a href="admin.aspx?type=unapproved">Unapproved</a>
+            </li>
+            <li><a href="admin.aspx?type=males">Males</a>
+            </li>
+            <li><a href="admin.aspx?type=females">Females</a>
+            </li>
+            <li><a href="admin.aspx?type=planA">Plan A</a>
+            </li>
+            <li><a href="admin.aspx?type=planB">Plan B</a>
+            </li>
+            <li><a href="admin.aspx?type=planC">Plan C</a>
+            </li>
+            <li><a href="admin.aspx?type=planD">Plan D</a>
+            </li>
+            <li><a href="statistics.aspx">Statistics</a>
+            </li>
+            <li><a href="changepass.aspx">Settings</a>
+            </li>
+            
+            
+        </ul>
+
+    </div>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         </asp:ContentPlaceHolder>
         
