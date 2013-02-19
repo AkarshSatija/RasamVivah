@@ -275,55 +275,7 @@ public partial class admin : System.Web.UI.Page
         Response.Redirect(HttpContext.Current.Request.Url.AbsoluteUri.ToString());
     }
 
-
-
-
-    public void ExportIntoExcel(ListView lvExport, string Header, string FileName)
-    {
-        try
-        {
-            System.Web.HttpContext.Current.Response.Clear();
-            System.Web.HttpContext.Current.Response.ContentType = "application/vnd.ms-excel";
-            System.Web.HttpContext.Current.Response.AddHeader("content-disposition", "attachment;filename=" + FileName + ".xls");
-            System.Web.HttpContext.Current.Response.Charset = "";
-            System.Web.HttpContext.Current.Response.Cache.SetCacheability(HttpCacheability.NoCache);
-            StringWriter stringWrite = new StringWriter();
-            stringWrite.Write(Header);
-            stringWrite.WriteLine();
-            HtmlTextWriter htmlWrite = new HtmlTextWriter(stringWrite);
-            HtmlForm frm = new HtmlForm();
-            lvExport.Parent.Controls.Add(frm);
-            frm.Controls.Add(lvExport);
-            frm.RenderControl(htmlWrite);
-            System.Web.HttpContext.Current.Response.Write(stringWrite.ToString());
-
-        }
-        catch (Exception ex)
-        {
-        }
-        finally
-        {
-            System.Web.HttpContext.Current.Response.End();
-        }
-    }
-
-    protected void Button4_Click(object sender, EventArgs e)
-    {
-
-        ExportIntoExcel(lvprofiles, "", "fil");
-
-
-        //Response.Clear();
-        //Response.Buffer = true;
-        //Response.ContentType = "application/vnd.ms-excel";
-        //Response.Charset = "";
-        //this.EnableViewState = false;
-        //StringWriter stringWriter = new StringWriter();
-        //HtmlTextWriter htmlTextWriter = new HtmlTextWriter(stringWriter);
-        //this.lvprofiles.RenderControl(htmlTextWriter);
-        //Response.Write(stringWriter.ToString());
-        //Response.End();
-    }
+   
     protected void Button5_Click(object sender, EventArgs e)
     {
         if (Request.QueryString["type"] != null)

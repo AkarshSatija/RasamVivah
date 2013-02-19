@@ -18,7 +18,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 
     
-    <div class="content" style="float: left;    padding-top: 18px; ">
+    <div class="content" style="float: left; padding-top: 18px; ">
         <div class="adminlvout">
         <asp:DropDownList ID="DropDownList1" runat="server">
         <asp:ListItem Value="0">Action</asp:ListItem>

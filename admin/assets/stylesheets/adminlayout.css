@@ -4,6 +4,14 @@ body {
 	padding: 0px;
 	background-color: #FEF3E2;
 }
+
+th,tr,td
+{
+    text-align:left;
+    vertical-align:top;
+    
+    
+    }
 /*-----------header----------------*/
 
 .header {

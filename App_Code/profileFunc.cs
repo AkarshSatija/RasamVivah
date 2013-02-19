@@ -397,14 +397,34 @@ public class profileFunc
         connect c = new connect();
         c.cmd.CommandText = "select * from userinfo where sed > getdate() and id='" + id + "'";
         c.dr=c.cmd.ExecuteReader();
+
         if (c.dr.Read())
         {
             c.dr.Close();
             c.cn.Close();
             return 1;
         }
+
         c.cn.Close();
         return 0;
+    }
+
+    public string getSED(string id)
+    {
+        connect c = new connect();
+        c.cmd.CommandText = "select * from userinfo where sed > getdate() and id='" + id + "'";
+        c.dr = c.cmd.ExecuteReader();
+
+        if (c.dr.Read())
+        {
+            string sed = c.dr["sed"].ToString();
+            c.dr.Close();
+            c.cn.Close();
+            return sed;
+        }
+
+        c.cn.Close();
+        return "-N/A-";
     }
 
     public bool isApproved(string id)
@@ -420,7 +440,6 @@ public class profileFunc
         }
         return false;
     }
-
 
     public bool isActive(string id)
     {
@@ -492,6 +511,34 @@ public class profileFunc
             
         }
         return "";
+    }
+
+    public string paidplan(string id)
+    {
+        connect c = new connect();
+        c.cmd.CommandText = "select top 1 months_added as [plan] from membership where user_id='"+id+"' order by m_date desc";
+        c.dr = c.cmd.ExecuteReader();
+        if (c.dr.Read())
+        {
+
+            string plan = c.dr["plan"].ToString();
+            if (plan == "3")
+                return "Plan A";
+            if (plan == "6")
+                return "Plan B";
+            if (plan == "9")
+                return "Plan C";
+            if (plan == "12")
+                return "Plan D";
+
+
+            c.dr.Close();
+            c.cn.Close();
+           
+        }
+
+
+        return "-N/A-";
     }
 
 }
