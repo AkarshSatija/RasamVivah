@@ -20,10 +20,30 @@ public partial class admin_print_list : System.Web.UI.Page
     profileFunc p = new profileFunc();
     protected void Page_Load(object sender, EventArgs e)
     {
-        if(Request.QueryString["query"]!=null)
-        command = Request.QueryString["query"].ToString();
-        //Response.Write(Session["query"].ToString());
+        if (Request.QueryString["query"] != null)
+        {
+
+            command = Request.QueryString["tbl"].ToString();
+        
+        }
+        else if ((Request.QueryString["tbl"] != null) && (Request.QueryString["whr"] != null))
+        {
+            
+            if(Request.QueryString["typ"]==null)
+                command = getquery(Request.QueryString["tbl"].ToString(), Request.QueryString["whr"].ToString());
+            else
+                command = getquery(Request.QueryString["tbl"].ToString(), Request.QueryString["whr"].ToString(),2);
+
+
+        
+        
+        }
+        //Response.Write(command);
+        
         connect c = new connect();
+        
+        //Response.Write(Session["query"].ToString());
+        
         //c.cmd.CommandText = "select * from logins";
         //Session["query"] = command;
         
@@ -102,4 +122,21 @@ public partial class admin_print_list : System.Web.UI.Page
         Response.Write(stringWriter.ToString());
         Response.End();
     }
+
+    public string getquery(string table, string clause, int type = 1)
+    {
+        string query = "";
+        if (type == 1)
+            query = "select * from ";
+        
+        if(type==2)
+            query = "delete * from ";
+
+        query = query+ table+" where "+clause;
+
+        
+
+        return query;
+    }
+
 }

@@ -20,6 +20,8 @@ public partial class admin : System.Web.UI.Page
 {
     profileFunc p = new profileFunc();
     string command = "";
+    string tbl = "";
+    string clause = "";
     protected void Page_Load(object sender, EventArgs e)
     {
 
@@ -46,7 +48,7 @@ public partial class admin : System.Web.UI.Page
             {
 
                 command = "select * from userinfo where active='1'";
-
+                
 
             }
 

@@ -681,6 +681,7 @@ public partial class search : System.Web.UI.Page
 
    protected void prepare_search()
    {
+       string def = "select * from p_details where (id is not null) ";
 
        string q1 = null;
        string q2 = null;
@@ -742,7 +743,6 @@ public partial class search : System.Web.UI.Page
            q1 += "and (id in (select id from physical where height<@heightu)) ";
            c.cmd.Parameters.Add("@heightu", SqlDbType.Int).Value = heightu;
        }
-
        if (Request.QueryString["agel"] != null) // is type se
        {
            agel = Request.QueryString["agel"].ToString();
@@ -802,8 +802,7 @@ public partial class search : System.Web.UI.Page
        }
 
 
-//--------------------------------------------------------------------------------------------------
-       
+
        int i = 1;
        if (Request.QueryString["m_status" + i] != null)
        {
@@ -985,14 +984,7 @@ public partial class search : System.Web.UI.Page
                    q1 += ")) ";
        }
            
-  //---------------------------------------------------------------------------------------------------------------------------     
-
-     //  DataSet ds;
-       /////////////////////////////////////////////////////
-       /////////////////////////////////////////////////////
-
-
-       string def = "select * from p_details where (id is not null) ";
+       
        string defcount = "select count(*) as res_count from p_details where (id is not null) ";
        c.cmd.CommandText = def + q1;
        c.adp.Fill(c.ds);
@@ -1017,9 +1009,7 @@ public partial class search : System.Web.UI.Page
    {
        if (Session["Id"] != null)
        {
-          // string s = Session["Id"].ToString();
-
-          // string url = HttpContext.Current.Request.Url.AbsoluteUri;
+         
            string query=Request.QueryString.ToString();
            connect c = new connect();
            c.cmd.CommandText = "INSERT INTO saved_searches(user_id,search_link,search_name) VALUES (" + s + ", @query,@name)";
