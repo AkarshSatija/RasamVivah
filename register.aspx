@@ -217,7 +217,7 @@
                                 <asp:CustomValidator ID="cvdob" runat="server" ErrorMessage="* Invalid Age(Should be in 18 to 65)"
                                     ClientValidationFunction="Validate" ControlToValidate="txtdob" ValidateEmptyText="true"
                                     ForeColor="Black"></asp:CustomValidator>
-                                <cc1:CalendarExtender ID="CalendarExtender1" Format="dd/MM/yyyy" StartDate="01/01/1945"  SelectedDate="01/01/1990" runat="server" TargetControlID="txtdob">
+                                <cc1:CalendarExtender ID="CalendarExtender1" Format="dd/MM/yyyy" StartDate="01/01/1945"  runat="server" TargetControlID="txtdob">
                                 </cc1:CalendarExtender>
                             </td>
                         </tr>
