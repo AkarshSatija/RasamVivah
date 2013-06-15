@@ -23,7 +23,7 @@ public partial class admin_print_list : System.Web.UI.Page
         if (Request.QueryString["query"] != null)
         {
 
-            command = Request.QueryString["tbl"].ToString();
+            command = Request.QueryString["query"].ToString();
         
         }
         else if ((Request.QueryString["tbl"] != null) && (Request.QueryString["whr"] != null))

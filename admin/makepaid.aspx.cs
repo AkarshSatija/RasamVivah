@@ -44,13 +44,17 @@ public partial class admin_makepaid : System.Web.UI.Page
 
             txn.Commit();
             lbnotif.Text = "Action completed successfully!!";
+
             lbnotif.Visible = true;
+            divnotif.Visible = false;
             c.cn.Close();
         }
         catch(Exception ex)
         {
-            Response.Write(ex.ToString());
+            //Response.Write(ex.ToString());
             txn.Rollback();
+            lbnotif.Text = "Something went Wrong! Action not completed!!";
+            lbnotif.Visible = true;
         }
        
     }

@@ -7,7 +7,9 @@
 <asp:Label ID="lbnotif" runat="server" Visible="false"></asp:Label>
 
 <div >
+<div id="divnotif" runat="server">
 Are You sure You want to add plan to <%= p.getAboutMeString(user, Server.MapPath("xml//").ToString(),2) %> (RV<%=user %>) ???
+</div>
 <br />
 
 Select a plan
